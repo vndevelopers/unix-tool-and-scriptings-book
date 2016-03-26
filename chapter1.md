@@ -167,7 +167,7 @@ Chúng ta sẽ tập trung vào bash : do có cú pháp dễ hiểu và được
 
 *Note: Linux về chuyên môn mà nói chỉ là lõi (kernel) của những hệ điều hành, nếu không có những chương trình khác, nó thực sự có thể làm được gì*
 
-### Bước dịch chuyển của phần mềm miễn phí
+#### Bước dịch chuyển của phần mềm miễn phí
 
 **GNU = Gnu is Not Unix**
 
@@ -177,4 +177,106 @@ Chúng ta sẽ tập trung vào bash : do có cú pháp dễ hiểu và được
 
 > There really is a Linux, and these people are using it, but it is just a part of the system they use. Linux is the kernel: the program in the system that allocates the machines resources to the other programs that you run. Linux is normally used in combination with the GNU operating system: the whole system is basically GNU with Linux added, or GNU/Linux. - **Stallman**
 
+> Đó thật sự là một Linux, và mọi người đang sử dụng nó, nhưng nó chỉ là một phần của hệ thống họ đang dùng. Linux là một lõi: là một chương trình trong hệ thống sẽ cấp phát tài nguyên của máy tính cho các chương trình khác sử dụng. Linux thường được sử dụng kèm với hệ điều hành GNU: toàn hệ thống đơn giản là GNU với Linux đính kèm, hoặc gọi là GNU/Linux. - **Stallman**
 
+> Think of Richard Stallman as the great philosopher and think of me as the engineer - **Torvalds**
+
+> Hãy nghĩ như một triết lý gia giống Richard Stallman và hãy nghĩ như một kỹ sư giống như tôi - **Torvalds**
+
+#### Biến thể của GNU/Linux
+
+Cũng giống như BSD, GNU/Linux có rất nhiều biến thể. Những phiên bản này chung quy có một mục tiêu thiết kế khác nhau (bảo mật, tốc độ, thân thiện) và đóng gói một bộ công cụ độc quyền cùng với lõi để đạt được mục tiêu.
+
+Hàng trăm biến thể, như RedHat, Ubuntu, SuSE, Slackware, Gentoo, v.v..
+
+Lúc nào cũng gọi là "GNU/Linux" thì quá nhàm chán, nên cúng ta sẽ gọi toàn bộ hệ thống là "Linux".
+
+#### Ưu điểm / Nhược điểm của Linux
+
+**Ưu điểm**
+- Cộng đồng hỗ trợ lớn
+- Miễn phí (trừ khi bạn muốn được hỗ trợ chuyên nghiệp)
+- Phần mềm miễn phí để làm mọi thứ
+- "wine" (tên 1 chương trình) cho phép chạy mọi chương trình Windows trên Linux
+- Một số biến thể bảo vệ riêng tư rất tốt
+
+**Nhược điểm**
+- Thiếu nhiều phần mềm được sử dụng rộng rãi như (Office, Photoshop, v.v..)
+
+### Mac OS X
+
+Được xây dựng dựa trên nhân của BSD, đổi tên thành "Darwin"
+- Là bản có giao diện Desktop phổ biến nhất của UNIX
+- Đẹp, dễ sử dụng xây dựng trên các kết cấu hiệu quả.
+
+> What can the fully compliant UNIX technology in
+Leopard do? It can run any POSIX-compliant source
+code. Help you make the most of multicore systems.
+Put a new tabbed-interface Terminal at your
+fingertips. Introduce a whole host of new features
+that make life easier for every developer. Really, what
+cant it do? - **Steve Jobs**
+
+> Điều gì mà công nghệ UNIX có thể làm ở bản Leopard ? Nó có thể chạy mọi mã nguồn POSIX. Giúp bạn tạo nên hệ thống đa luồng. Đặt giao diện tab vào cửa sổ dòng lệnh vào trong tay bạn. Giới thiệu một nhóm những tính năng mới sẽ làm cho cuộc sống dễ dàng hơn cho lập trình viên. Thật đó, có cái gì mà nó không làm được nhỉ ? - **Steve Jobs**
+
+#### Ưu điểm / Nhược điểm của OSX
+
+**Ưu điểm**
+- Thân thiện người dùng & hoạt động tốt
+- Đầy đủ các GUI với cửa sổ dòng lệnh hiệu quả
+- Hỗ trợ mọi phần mềm mà những hệ điều hành khác thiếu
+
+**Nhược điểm**
+- Mã nguồn đóng, không linh hoạt như Linux
+- Chỉ có thể chạy trên phần cứng của Apple (nếu không muốn vi phạm luật)
+
+### Tại sao lại là Linux ?
+
+- MIỄN PHÍ !
+- Được sử dụng rộng rãi hơn BSD và Solaris
+- Dễ dàng tìm được hướng dẫn cho người bắt đầu nếu bạn cần
+- Công cụ đơn giản và hợp chuẩn
+
+### Chúng ta sẽ sống trên một cái cửa sổ dòng lệnh UNIX
+
+![Unix terminal](unix_terminal.png)
+
+- Chúng ta sẽ tương ta với một Unix Shell : một chương trình toàn là chữ.
+- Chuột, cửa sổ, và những cái nhấn chuột ở một thế giới khác!
+
+![Unix meme](unix_meme.png)
+Ảnh vui trên Internet : UNIX, ở đâu có shell, ở đó có con đường (giải pháp).
+
+### Cài đặt Linux vào máy tính của bạn
+
+Đây là cách thuận tiện để bạn có quyền superuser (tối cao) và có thể cài các chương trình thông qua các bộ quản lý đóng gói.
+
+- Khởi động song song (Dual boot) : bạn có thể chạy Windows và Linux trên cùng 1 máy. (không đồng thời)
+- Cài Linux :
+  1. Chọn một biến thể Linux và tải xuống file ISO
+    - www.debian.org (ổn định nhưng ít cập nhật)
+    - www.ubuntu.com (thân thiện người dùng nhưng có tí vấn đề riêng tư)
+    - www.gnewsense.org (chỉ có phần mềm miễn phí)
+    - www.opensuse.org
+    - www.fedoraproject.org
+  2. Ghi file ISO ra đĩa CD và khởi động từ đĩa đó.
+  3. Làm theo các bước chỉ dẫn và thưởng thức !
+
+### MS Windows
+
+Nếu bạn đang có một cái máy chạy Windows, đây là một trong các cách :
+- cygwin: một môi trường giống Linux cho Windows ([http://www.cygwin.com/](http://www.cygwin.com/))
+- Bất kìa đĩa Linux Live ([http://www.livecdlist.com](http://www.livecdlist.com))
+- Linux trên USB!
+- VMWare: môi trường Unix trên máy ảo chạy trên Windows
+
+### Apple
+
+- OSX: Cài đặt xcode và chương trình quản lý đóng gói Macports
+([www.macports.org](www.macports.org))
+- IPad hoặc IPhone: Tải app “SSH Term Pro” (thương mại)
+
+### Thời gian tiếp theo
+
+- Chúng ta sẽ bắt tay vào việc
+- *Nhắc nhở: bài tập về nhà (đúng hơn và một khảo sát) sẽ được đăng lên trang web khóa học. Nhớ làm nhé!*
