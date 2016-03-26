@@ -7,3 +7,8 @@ Do đây là bản dịch lại từ tiếng Anh sang tiếng Việt nên không
 *This book is a Vietnamese translated version from English and I didn't find any LICENSE in the original course. If anything wrong about license, please contact me at khanhicetea[at]gmail.com*
 
 Thank you very much !
+
+## Nhóm dịch & biên soạn
+
+- Nguyễn Duy Khanh : [khanhicetea](https://khanhicetea.com)
+- Trần Đức Vĩnh Toàn : [tdvtoan](https://github.com/tdvtoan)
