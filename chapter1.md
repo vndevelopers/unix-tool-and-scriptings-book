@@ -106,3 +106,75 @@ Có 2 biến thể Unix shell chính :
 - C shell (Berkley) csh ⇒ tcsh
 
 Chúng ta sẽ tập trung vào bash : do có cú pháp dễ hiểu và được cài mặc định trong nhiều hệ thống.
+
+### Biến thể UNIX
+
+- Berkeley Software Distribution (BSD)
+- GNU/Linux
+- Mac OS X
+- Sun’s Solaris
+- IBM AIX
+- HP-UX
+- Silicon Graphics IRIX
+
+### Berkeley Software Distribution
+
+- Được phát triển bởi sinh viên và khoa công nghệ tại đại học Berkeley
+- Rẽ nhánh từ phiên bản độc quyền những năm 1980 và từ đó chia ra một số biến thể, như NetBSD, OpenBSD, FreeBSD
+- Tạo ra một giấy phép mã nguồn mở phổ biến. (the BSD License)
+- Là đối thủ cạnh tranh lớn nhất với Linux trong phân khúc hệ điều hành miễn phí.
+
+#### Ưu điểm / Nhược điểm của BSD
+
+**Ưu điểm**
+
+- Đáng tin cậy và rất bảo mật
+- Mã nguồn tinh gọn
+- Sử dụng trên hầu hết mọi thứ sài điện
+- Giấy phép linh động
+- Miễn phí !
+
+**Nhược điểm**
+
+- Bảo thủ : chậm tiến trình
+- Thiếu cộng đồng hỗ trợ chuyên nghiệp
+- Bạn nghĩ Linux chỉ dành cho những tay gà mờ.
+
+### SUN Solaris
+
+- Phiên bản thương mại hóa của BSD
+- Được thiết kế để chạy trên những máy chú SPARC của Sun, từ khi chuyển sang x86
+- Đa phần mã nguồn gần đây được xuất bản cho dự án OpenSolaris
+
+#### Ưu điểm / Nhược điểm của SUN Solaris
+
+**Ưu điểm**
+
+- Được xây dựng cho phần cứng có thể mở rộng rất tốt về mặt độ lớn và tải.
+- Rất nhiều hỗ trợ từ Sun cũng như cộng đồng.
+
+**Nhược điểm**
+
+- Bạn phải trả cho Sun nếu muốn được hỗ trợ và tất nhiên là phải mua luôn phần cứng.
+- Chủ yếu phục vụ cho máy chủ chứ không thân thiết với máy để bàn.
+
+### Linux!
+
+- Chắp nối lại với nhau bởi một người Phần Lan tên là Linus Torvards
+- Bắt đầu từ 1991
+- Xây dựng trên nền Internet sử dụng những message boards (Usenet)
+- Thiết kế theo chuẩn UNIX, nhưng không phải là con của UNIX.
+
+*Note: Linux về chuyên môn mà nói chỉ là lõi (kernel) của những hệ điều hành, nếu không có những chương trình khác, nó thực sự có thể làm được gì*
+
+### Bước dịch chuyển của phần mềm miễn phí
+
+**GNU = Gnu is Not Unix**
+
+- Bắt đầu từ thập niên 80s trong việc xây dựng một hệ điều hành miễn phí.
+- Được tạo ra bởi nhiều công cụ phổ biến.
+- Theo chuẩn UNIX, những chẳng có dòng mã nào của UNIX
+
+> There really is a Linux, and these people are using it, but it is just a part of the system they use. Linux is the kernel: the program in the system that allocates the machines resources to the other programs that you run. Linux is normally used in combination with the GNU operating system: the whole system is basically GNU with Linux added, or GNU/Linux. - **Stallman**
+
+
