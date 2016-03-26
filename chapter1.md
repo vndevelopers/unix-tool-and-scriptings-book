@@ -50,3 +50,26 @@ user now, just wait. You don’t know what real power is. - **William E. Shotts,
 - Phần thưởng : Có được kỹ năng máy tính cực kỳ tốt sau vài năm nữa từ bây giờ.
 - Không giới hạn việc tinh chỉnh cài đặt trên máy tính cá nhân. Unix là một bộ công cụ được trang bị đầy đủ chứ không phải một con dao Thụy Sĩ lớn có thể giải quyết mọi vấn đề. (Thuật ngữ Swiss Army Knife để chỉ cái gì đó rất tốt để làm dường như mọi thứ)
 - Đơn giản là nó vui & thú vị !
+
+### Câu hỏi phỏng vấn quen thuộc kỹ sư phần mềm
+
+Hãy viết một câu lệnh Unix để lấy ra danh sách những chương trình bạn hay sử dụng nhất.
+
+Câu trả lời :
+```shell
+history | awk ’{print $2}’ | sort | uniq -c | sort -nr |head
+```
+
+Kết quả mẫu :
+```
+229 screen
+146 exit
+136 ls
+81 vi
+64 w
+47 math
+43 cp
+33 cd
+25 who
+23 history
+```
