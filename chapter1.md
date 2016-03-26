@@ -57,7 +57,7 @@ Hãy viết một câu lệnh Unix để lấy ra danh sách những chương tr
 
 Câu trả lời :
 ```shell
-history | awk ’{print $2}’ | sort | uniq -c | sort -nr |head
+history | awk ’{print $2}’ | sort | uniq -c | sort -nr | head
 ```
 
 Kết quả mẫu :
@@ -73,3 +73,18 @@ Kết quả mẫu :
 25 who
 23 history
 ```
+
+## UNIX là gì ?
+
+- Một trong những hệ điều hành đầu tiên được sử dụng rộng rãi.
+- Nền tảng cho rất nhiều hệ điều hành hiện đại.
+- Hỗ trợ việc định nghĩa các chuẩn cho hệ thống xử lý đa nhiệm và đa người dùng.
+
+### Tiểu sử ngắn của UNIX
+
+- Thập niên 1960 : dự án đầy tham vọng MULTICS (Multiplexed Information and Computing System) thất bại, nhưng một số ý tưởng hạt giống (như kỹ thuật đường ống và shell) được đề xuất.
+- Thập niên 1969 : Ken Thompson, Dennis Ritchie (et al.) bắt đầu làm việc trên một hệ thống file, và đặt tên là UNICS, sau này đổi thành UNIX. UNIX lúc đó là "nhỏ, đơn giản & tinh gọn", và được phân phối miễn phí cho nhiều trường đại học thời bấy giờ, nơi mà nó trở nên phổ biến.
+- Thập niên 1973 : Thompson and Ritchie viết lại UNIX bằng C (trong khi hầu hết hệ điều hành bấy giờ toàn viết bằng hợp ngữ)
+- Thập niên 1981 : Berkley UNIX 4.1 BSD xuất bản với : vi, C shell, virtual memory.
+- Thập niên 1991 : Linux, GNU, and một số khác: tương tự với UNIX, nhưng mã nguồn được viết lại, rất phổ biến và sử dụng rộng rãi, miến phí. Rất nhiều phiên bản đóng gói Linux ra đời như : Ubuntu, Fedora, Debian, ...
+- Hiện tại, X/Open chịu trách nhiệm phát triển UNIX.
