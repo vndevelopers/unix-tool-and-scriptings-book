@@ -91,7 +91,7 @@ Kết quả mẫu :
 
 ### Kiến trúc UNIX
 
-![UNIX Architecture](unix_architecture.jpg)
+![UNIX Architecture](images/chap1/unix_architecture.jpg)
 
 ### UNIX Shells
 
@@ -239,12 +239,12 @@ cant it do? - **Steve Jobs**
 
 ### Chúng ta sẽ sống trên một cái cửa sổ dòng lệnh UNIX
 
-![Unix terminal](unix_terminal.png)
+![Unix terminal](images/chap1/unix_terminal.png)
 
 - Chúng ta sẽ tương ta với một Unix Shell : một chương trình toàn là chữ.
 - Chuột, cửa sổ, và những cái nhấn chuột ở một thế giới khác!
 
-![Unix meme](unix_meme.png)
+![Unix meme](images/chap1/unix_meme.png)
 Ảnh vui trên Internet : UNIX, ở đâu có shell, ở đó có con đường (giải pháp).
 
 ### Cài đặt Linux vào máy tính của bạn
