@@ -2,7 +2,7 @@
 
 ## Mục tiêu khóa học
 
-**Huấn luyện chuyên sâu từ cơ bản đến nâng cao các công cụ và ngôn ngữ kịch bản của UNIX** : chúng ta sẽ học cách gắn kết các chương trình đơn giản lại với nhau để thực thi những tác vụ cực kỳ hiệu quả.
+**Đào tạo chuyên sâu từ cơ bản đến nâng cao các công cụ và ngôn ngữ kịch bản của UNIX** : chúng ta sẽ học cách gắn kết các chương trình đơn giản lại với nhau để thực thi những tác vụ cực kỳ hiệu quả.
 
 **Một số chủ đề bao gồm :**
 - Shell, hệ thống file Unix và các công cụ đơn giản.
@@ -13,3 +13,8 @@
 - Kịch bản xử lý (scripting)
 - Ngôn ngữ kịch bản
 - Ngôn ngữ Python
+
+
+## Script là gì ?
+Là những chương
+
