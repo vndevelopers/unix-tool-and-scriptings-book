@@ -2,5 +2,9 @@
     "plugins": [
         "google_analytics"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+      "google_analytics": {
+        "token": "UA-75639850-1"
+      }
+    }
 }
