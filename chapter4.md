@@ -251,7 +251,20 @@ Tuy nhiên, tar có thêm những tùy chọn (options) để thuận tiện hơ
 **Nén thư mục (directory)**
 - `tar -czf cs2042.tgz cs2042/*`: tạo ra file nén gồm có một thư mục và chứa tất cả nội dụng của thư mục 2042
 
+## Sao lưu (backup) dữ liệu với script
 
+Chúng ta có một đoạn script đơn giản để hiện thực hóa việc sao lưu dữ liệu trong thư mục ~/Document:
+
+**backup.sh**
+`#!/bin/bash`
+`tar -czf ~/backup/cs2042.backup.tar.gz ~/Documents/cs2042/`
+
+**Nén và giải nén với tarballs**
+`tar -c(z/j)f <file_đích(dest_archive)> <file_nguồn(source)>`
+`tar -x(z/j)f <file_nén(compressed_file)>`
+- **`-c`**: tạo ra file nén từ file nguồn
+- **`-x`**: giải nén file được đóng gói
+- Chọn `z` hoặc `j` cho loại file .tar.gz hoặc .tar.bz2
 
 
 
