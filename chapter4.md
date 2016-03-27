@@ -191,8 +191,12 @@ Chúng ta sẽ tiếp tục với các kí tự đặc biệt còn lại trong k
 Toán tử mở rộng `{}` phải có một danh sách các mẫu (patterns) bên trong nó để shell có thể chọn ra từ danh sách này. Ít nhất phải là hai mẫu.
 
 
+### Kết hợp các toán tử mở rộng
 
-
+| Biểu thức | Khớp | Không khớp |
+| -- | -- | -- |
+| `*i[a-z]e*` | gift_ideas profile.doc | DriVer.exe |
+| `[bf][ao][ro].mp?` | bar.mp3 foo.mpg | foo.mpeg |
 
 
 
