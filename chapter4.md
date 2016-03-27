@@ -97,7 +97,8 @@ Sử dụng **Bash** càng nhiều, bạn sẽ thấy nó có rất nhiều tùy
 Alias:
 - `alias tên_mong_muốn=câu_lệnh` (`alias name=command`)
 - Lệnh giả lặp cho phép bạn đổi tên hoặc đơn giản nó thay vì phải gõ một câu lệnh dài.
-- Bạn có thể thiết lập lệnh giả lập cho phiên làm việc hiện 
+- Bạn có thể thiết lập lệnh giả lập cho phiên làm việc hiện tại ở màn hình nhận lệnh (command promt)
+- Để thiết lâp một lệnh giả lập một cách lâu dài và cố định (sử dụng cho các phiên làm việc khác), thêm lệnh giả lặp vào file `.bashrc` hoặc là `.bash_profile` ở thư mục `/home` (home directory).
 
 
 
