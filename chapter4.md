@@ -233,8 +233,8 @@ Toán tử mở rộng `{}` phải có một danh sách các mẫu (patterns) b�
 
 Để nén nhiều file với nhau, ta có thể sử dụng chức năng **`tar`** (Tape Archive).
 **`tar`** đóng gói nhiều file thành một file, nhưng file được nén không thay thế cho file gốc
-- `tar -cf archive.tar foo bar`: tạo ra file archive.tar từ hai file foo và bar.
-- `tar -xf archive.tar`: giải nén các file từ file archive.tar
+- `tar -cf archive.tar foo bar` : tạo ra file archive.tar từ hai file foo và bar.
+- `tar -xf archive.tar` : giải nén các file từ file archive.tar
 
 ## Nén file Tarballs
 
@@ -242,29 +242,32 @@ Toán tử mở rộng `{}` phải có một danh sách các mẫu (patterns) b�
 Tuy nhiên, tar có thêm những tùy chọn (options) để thuận tiện hơn cho người dùng:
 - `-z`: nén bằng gzip
 - `-j`: nén bằng bzip2
-- `tar -czf archive.tar.gz bar foo`: tạo ra file nén archive.tar.gz từ hai file bar và foo
+- `tar -czf archive.tar.gz bar foo` : tạo ra file nén archive.tar.gz từ hai file bar và foo
 
 **Qui ước đặt tên:**
-- archive.tar.gz hoặc archive.tgz: loại file nén gzip tarballs
-- archive.tar.bz2 hoặc archive.tbz: loại file nén bzip2 tarballs
+- archive.tar.gz hoặc archive.tgz : loại file nén gzip tarballs
+- archive.tar.bz2 hoặc archive.tbz : loại file nén bzip2 tarballs
 
 **Nén thư mục (directory)**
-- `tar -czf cs2042.tgz cs2042/*`: tạo ra file nén gồm có một thư mục và chứa tất cả nội dụng của thư mục 2042
+- `tar -czf cs2042.tgz cs2042/*`: tạo ra file nén gồm có một thư mục và chứa tất cả nội dụng của thư mục `2042`
 
 ## Sao lưu (backup) dữ liệu với script
 
-Chúng ta có một đoạn script đơn giản để hiện thực hóa việc sao lưu dữ liệu trong thư mục ~/Document:
+Chúng ta có một đoạn script đơn giản để hiện thực hóa việc sao lưu dữ liệu trong thư mục `~/Document`:
 
 **backup.sh**
-`#!/bin/bash`
-`tar -czf ~/backup/cs2042.backup.tar.gz ~/Documents/cs2042/`
+```shell
+#!/bin/bash
+tar -czf ~/backup/cs2042.backup.tar.gz ~/Documents/cs2042/
+```
 
 **Nén và giải nén với tarballs**
-`tar -c(z/j)f <file_đích(dest_archive)> <file_nguồn(source)>`
-`tar -x(z/j)f <file_nén(compressed_file)>`
-- **`-c`**: tạo ra file nén từ file nguồn
-- **`-x`**: giải nén file được đóng gói
-- Chọn `z` hoặc `j` cho loại file .tar.gz hoặc .tar.bz2
+
+- `tar -c(z/j)f <file_đích(dest_archive)> <file_nguồn(source)>`
+- `tar -x(z/j)f <file_nén(compressed_file)>`
+  - **`-c`**: tạo ra file nén từ file nguồn
+  - **`-x`**: giải nén file được đóng gói
+  - Chọn `z` hoặc `j` cho loại file .tar.gz hoặc .tar.bz2
 
 
 
