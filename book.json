@@ -6,6 +6,10 @@
     "pluginsConfig": {
         "google_analytics": {
             "token": "UA-75639850-1"
+        },
+        "ga": {
+            "token": "UA-75639850-1",
+            "configuration": "auto"
         }
     }
 }
