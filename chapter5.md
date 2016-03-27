@@ -82,6 +82,31 @@ $ sort numbers.txt -n
 - Danh sách ký tự là một chuỗi các ký tự
 - Mặc định, tìm kiếm ký tự ở **danh sách ký tự 1** và thay thế bằng ký tự có vị trí tương ứng ở **danh sách ký tự 2**
 
-Ví dụ:
+**Ví dụ:**
 
 `tr 'AEUIOU' 'aeiou'` - thay thế các nguyên âm viết hoa thành nguyên âm viết thường
+
+## Kỹ thuật đường ống và chuyển hướng (pipes and redirection)
+
+- `tr` chỉ nhận đầu vào (input) chuẩn (stdin)
+    - ví dụ: đầu vào từ bàn phím
+- Thế nếu chúng ta muốn làm việc với file thì sao ?
+    1. Kỹ thuật đường ống (piping) : `cat somefile | tr 'AEUIOU' 'aeiou'`
+    2. Chuyển hướng đầu vào : `tr 'AEUIOU' 'aeiou' < somefile`
+
+> Kỹ thuật đường ống và chuyển hướng đầu vào / ra rất là quan trọng và hữu ích trong suốt UNIX
+
+## Ôn lại về chuyển hướng
+
+**Ứng dụng trong UNIX được giao tiếp với luồng đầu vào / ra (Input / Output) :**
+- #0 : luồng đầu vào chuẩn; STDIN (thường là bàn phím)
+- #1 : luồng đầu ra chuẩn; STDOUT (thường là cửa sổ dòng lệnh)
+- #2 : luồng báo lỗi chuẩn; STDERR (phụ thuộc theo cấu hình hệ thống, nhưng thường là cửa sổ dòng lệnh)
+
+**Triết lý UNIX**
+
+Trong UNIX, bạn sẽ tìm ra nhiều công cụ đặc trưng trong 1, 2 thứ, và chúng làm nó rất tốt! Để làm những chức năng phức tạp hơn bằng cách ghép nối từng công cụ một bằng kỹ thuật đường ống hoặc chuyển hướng vào/ra
+
+## Luồng dữ liệu chuẩn
+
+![Standard Stream](images/chap5/standard_streams.png)
