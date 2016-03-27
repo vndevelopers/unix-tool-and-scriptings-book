@@ -141,9 +141,9 @@ Chúng ta sẽ tiếp tục với các kí tự đặc biệt còn lại trong k
 
 - `*` tất cả các kí tự đều thỏa, kể cả chuỗi rỗng (null string).
 Ví dụ:
-| 0:0abc | 1:0 | 2:0 |
-| -- | -- | -- |
-| 0:2 | 1:2 | 2:2 |
+| abc | def | ghi |
+| abc | def | ghi |
+| abc | def | ghi |
 
 
 
