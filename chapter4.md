@@ -190,8 +190,8 @@ Chúng ta sẽ tiếp tục với các kí tự đặc biệt còn lại trong k
 | -- | -- |
 | `{Hello,Goodbye}` | Hello World Goodbye World |
 
-### **Lưu ý**
-Toán tử mở rộng `{}` phải có một danh sách các mẫu (patterns) bên trong nó để shell có thể chọn ra từ danh sách này. Ít nhất phải là hai mẫu.
+### Lưu ý
+Toán tử mở rộng `{}` phải có một danh sách các mẫu (patterns) bên trong nó để shell có thể chọn ra từ danh sách này. Ít nhất phải là **2 mẫu**.
 
 
 ### Kết hợp các toán tử mở rộng
@@ -265,8 +265,8 @@ tar -czf ~/backup/cs2042.backup.tar.gz ~/Documents/cs2042/
 
 - `tar -c(z/j)f <file_đích(dest_archive)> <file_nguồn(source)>`
 - `tar -x(z/j)f <file_nén(compressed_file)>`
-  - **`-c`**: tạo ra file nén từ file nguồn
-  - **`-x`**: giải nén file được đóng gói
+  - `-c`: tạo ra file nén từ file nguồn
+  - `-x`: giải nén file được đóng gói
   - Chọn `z` hoặc `j` cho loại file .tar.gz hoặc .tar.bz2
 
 
