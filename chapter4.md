@@ -138,19 +138,14 @@ Chúng ta sẽ tiếp tục với các kí tự đặc biệt còn lại trong k
 - Chỉ kí tự đơn lẻ.
 - Một nhóm tự hoặc cụm từ.
 - Chỉ giới hạn trong tập kí tự cho trước.
-
 - `*` tất cả các kí tự đều thỏa, kể cả chuỗi rỗng (null string).
+
 Ví dụ:
-| Input | Match | Not match |
-| ----- | ----- | --------- |
-| `Lec*` | Tecture1.pdf | ALecBaldwin/ |
-| 0:3 | 1:3 | 2:3 |
-| 0:4 | 1:4 | 2:4 |
 - Đầu vào (input)	Thỏa (matched)	                      Không thỏa (not matched)
 - `Lec*`	        Lecture1.pdf      Lec.avi	          ALecBaldwin/
 - `L*ure*`	        Lecture2.pdf      Lectures/	          sure.txt
 - `*.tex`	        Lecture1.tex      Presentation.tex	  tex/
-
+![](Screenshot1.jpg)
 
 
 
