@@ -198,9 +198,13 @@ Toán tử mở rộng `{}` phải có một danh sách các mẫu (patterns) b�
 | `*i[a-z]e*` | gift_ideas profile.doc | DriVer.exe |
 | `[bf][ao][ro].mp?` | bar.mp3 foo.mpg | foo.mpeg |
 
+## Nén và lưu trữ (compression and archiving)
 
+### Lệnh zip và unzip
 
-
+- Nén và lưu trữ (đóng gói) nhiều file thành một file.
+- Tạo ra file nén .zip và những file gốc không bị thay đổi.
+- Cú pháp: `zip <tên_file_tạo_ra(zipped_file_name)> <tên_files_được_nén(files_to_compress)>`
 
 
 
