@@ -140,27 +140,41 @@ Chúng ta sẽ tiếp tục với các kí tự đặc biệt còn lại trong k
 - Chỉ giới hạn trong tập kí tự cho trước.
 
 
-#####`*` tất cả các kí tự đều thỏa, kể cả chuỗi rỗng (null string).
-####Ví dụ:
-- ![](Screenshot1.jpg)
+### `*` tất cả các kí tự đều thỏa, kể cả chuỗi rỗng (null string).
 
+**Ví dụ:**
 
-#####`?` chỉ lấy kí tự đơn lẻ
-####Ví dụ:
-- ![](Screenshot2.jpg)
+| Biểu thức | Khớp | Không khớp |
+| -- | -- | -- |
+| Lec* | Lecture1.pdf Lec.avi | ALecBaldwin/ |
+| L*ure* | Lecture2.pdf Lectures/ | sure.txt |
+| *.tex | Lecture1.tex Presentation.tex | tex/ |
 
+### `?` chỉ lấy kí tự đơn lẻ
 
-#####`[...]` thỏa tất cả các kí tự trong cặp ngoặc vuông
-####Ví dụ:
-- ![](Screenshot3.jpg)
+**Ví dụ:**
 
+| Biểu thức | Khớp | Không khớp |
+| -- | -- | -- |
+| Lecture?.pdf | Lecture1.pdf Lecture2.pdf | Lecture11.pdf |
+| ca? | cat can cap | ca cake |
 
-#####`[^...]` thỏa tất cả các kí tự không nằm trong cặp ngoặc vuông
-####Ví dụ:
-- ![](Screenshot4.jpg)
+### `[...]` thỏa tất cả các kí tự trong cặp ngoặc vuông
 
+**Ví dụ:**
 
+| Biểu thức | Khớp | Không khớp |
+| -- | -- | -- |
+| [SL]ec* | Lecture Section | Vector.tex |
+| Day[1-4].pdf | Day1.pdf Day2.pdf | Day5.pdf |
+| [A-Z,a-z][0-9].mp3 | A9.mp3 z4.mp3 | Bz2.mp3 9a.mp3 |
 
+### `[^...]` thỏa tất cả các kí tự không nằm trong cặp ngoặc vuông
 
+**Ví dụ:**
 
+| Biểu thức | Khớp | Không khớp |
+| -- | -- | -- |
+| \[^A-P\]ec* | Section.pdf | Lecture.pdf |
+| \[^A-Za-z\]* | 9Days.avi .bash_profile | vacation.jpg |
 
