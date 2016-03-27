@@ -124,11 +124,26 @@ Shell mở rộng toán tử `*` liệt kê tất cả các file tại thư mụ
 ## Ngữ nghĩa của các kí tự đặc biệt
 
 Shell có những kí tự đặc dưới đây:
-- $ * < > & ? { } [ ]
-- Mặc định, shell sẽ hiểu chúng là kí tự đặc biệt trừ khi ta bỏ qua (escape) chúng hoặc để chúng trong trích dẫn (quote). Ví dụ, `\$`, `\&` hoặc "$", "?".
+- `$ * < > & ? { } [ ]`
+- Mặc định, shell sẽ hiểu chúng là kí tự đặc biệt trừ khi ta bỏ qua (escape) chúng hoặc để chúng trong trích dẫn (quote). Ví dụ, `\$`, `\&` hoặc `"$"`, `"*"`.
 - Khi chúng ta gọi một câu lệnh, việc đầu tiên là shell sẽ chuyển chuỗi các kí tự ta đã nhập vào sang câu lệnh UNIX mà hệ thống có thể hiểu được.
 - Khả năng hiểu được (hay con gọi là thông dịch) (interpret) và mở rộng câu lệnh là một trong những sức mạnh vô cùng to lớn của shell scripting.
 
+Chúng ta sẽ tiếp tục với các kí tự đặc biệt còn lại trong khóa học này.
+
+## Mở rộng (expansion) về shell (tiếp theo)
+
+`* ^ ? { } [ ]` được gọi là các kí tự đại diện (wildcard)  mà shell sử dụng để tìm kiếm chuỗi (string) hoặc mẫu (pattern) thỏa mản các điều kiện cho trước:
+- Bất kì chuỗi nào cũng được chấp nhận.
+- Chỉ kí tự đơn lẻ.
+- Một nhóm tự hoặc cụm từ.
+- Chỉ giới hạn trong tập kí tự cho trước.
+
+- `*` tất cả các kí tự đều thỏa, kể cả chuỗi rỗng (null string).
+Ví dụ:
+| 0:0abc | 1:0 | 2:0 |
+| -- | -- | -- |
+| 0:2 | 1:2 | 2:2 |
 
 
 
