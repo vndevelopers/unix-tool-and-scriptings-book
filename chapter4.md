@@ -88,7 +88,7 @@ Bạn có thể tìm kiếm một câu lệnh thông qua lịch sử sử dụng
 - Nhấn **Ctrl + G** để thoát khỏi việc tìm kiếm và quay lại giao diện ban đầu
 
 Ví dụ:
-`(reverse-i-search)'c': chmod 777 hello_world.sh` 
+- `(reverse-i-search)'c': chmod 777 hello_world.sh` 
 
 
 
