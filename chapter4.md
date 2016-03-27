@@ -75,7 +75,7 @@ Sử dụng toán tử "Bang" (!) để gọi lại câu lệnh từ lịch sử
 Ví dụ:
 - `chmod 777 hello_world.sh`
 - `!c`
---> `chmod 777 hello_world.sh`
+-> `chmod 777 hello_world.sh`
 - Sử dụng toán tử `!` có thể giảm bớt số lần gõ phím khi phải thực hiện cùng một việc
 
 ## Tái sử dụng lịch sử: tìm kiếm
