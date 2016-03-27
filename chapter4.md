@@ -187,6 +187,9 @@ Chúng ta sẽ tiếp tục với các kí tự đặc biệt còn lại trong k
 | -- | -- |
 | `{Hello,Goodbye}` | Hello World Goodbye World |
 
+### **Lưu ý**
+Toán tử mở rộng `{}` phải có một danh sách các mẫu (patterns) bên trong nó để shell có thể chọn ra từ danh sách này. Ít nhất phải là hai mẫu.
+
 
 
 
