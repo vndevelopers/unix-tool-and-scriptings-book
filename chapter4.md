@@ -17,7 +17,7 @@ Khi bạn tìm thấy từ khóa search_term lần đầu, nhấn phím **n** đ
 ## Tools - Lời khuyên hữu ích
 
 **Liệt kê danh sách file:**
-Tùy chọn dưới góc nhìn khách quan con người:
+Tùy chọn dưới góc nhìn khách quan người dùng:
 - `ls -lh`
 
 Liệt kê mỗi file trên một dòng:
