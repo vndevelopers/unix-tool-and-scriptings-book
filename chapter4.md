@@ -80,7 +80,12 @@ Ví dụ:
 
 ## Tái sử dụng lịch sử: tìm kiếm
 
-
+Bạn có thể tìm kiếm một câu lệnh thông qua lịch sử sử dụng bằng tổ hợp phím **Ctrl + R**:
+- Nhấn **Ctrl + R** và gõ vào câu lệnh muốn tìm, kết quả giống với lịch sử sẽ được hiển thị
+- Nhấn tiếp **Ctrl + R** để xem tiếp các kết quả giống nhau khác
+- Nếu đã giống với kết quả mong muốn, nhấn **Enter** để thực hiện lại (re-executed) câu lệnh đó
+- Nhấn **ESC** để sao chép (copy) câu lệnh đó mà không thực hiện nó
+- Nhấn **Ctrl + G** để thoát khỏi việc tìm kiếm và quay lại giao diện ban đầu
 
 
 
