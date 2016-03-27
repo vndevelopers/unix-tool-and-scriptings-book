@@ -6,22 +6,22 @@
 **Tìm kiếm và thay thế:**
 Tìm kiếm với từ khóa search_term:
 
-- /search_term
+- `/search_term`
 
 Thay thế một từ khóa hoặc mẫu (pattern) cho bằng chuỗi (string) với tùy chọn (options):
 
-- :%s/pattern/string/[option]
+- `:%s/pattern/string/[option]`
 
-Khi bạn tìm thấy từ khóa search_term lần đầu, nhấn **n** để đến vị trí xuất hiện tiếp theo. Phím **N** để lùi lại vị trí trước đó.
+Khi bạn tìm thấy từ khóa search_term lần đầu, nhấn phím **n** để đến vị trí xuất hiện tiếp theo. Phím **N** để lùi lại vị trí trước đó.
 
 ## Tools - Lời khuyên hữu ích
 
 **Liệt kê danh sách file:**
 Tùy chọn dưới góc nhìn khách quan con người:
-- ls -lh
+- `ls -lh`
 
 Liệt kê mỗi file trên một dòng:
-- ls -1
+- `ls -1`
 
 ## Shell (tiếp theo)
 
@@ -38,20 +38,20 @@ Trong khóa học này, chúng ta chọn bash shell vì nó có đầy đủ cá
 
 ## Nếu Bash shell không được để mặc định trong máy tính
 
-- Nếu bạn đã đăng nhập vào máy chủ (server), chỉ cần gõ bash.
-- Bạn muốn hệ thống tự động chạy bash shell khi ta đăng nhập, có một cách để thực hiện là chỉnh sửa file ./login - nó sẽ chạy bash khi bạn đăng nhập vào máy chủ.
+- Nếu bạn đã đăng nhập vào máy chủ (server), chỉ cần gõ `bash`.
+- Bạn muốn hệ thống tự động chạy bash shell khi ta đăng nhập, có một cách để thực hiện là chỉnh sửa file `./login` - nó sẽ chạy bash khi bạn đăng nhập vào máy chủ.
 
-Để chạy bash tự động, thêm dòng dưới đây vào cuối file ./login:
-- if ( -f /bin/bash ) exec /bin/bash --login
+Để chạy bash tự động, thêm dòng dưới đây vào cuối file `./login`:
+- `if ( -f /bin/bash ) exec /bin/bash --login`
 
-Nếu bạn có quyền root, chỉ cần chỉnh sửa /etc/passwd và tìm dòng tương ứng với người dùng hiện thời.
+Nếu bạn có quyền root, chỉ cần chỉnh sửa `/etc/passwd` và tìm dòng tương ứng với người dùng hiện thời.
 
 ## Sử dụng Bash một cách hiệu quả
 
 Bài học này bao gồm:
 - Phím tắt của shell
 - Tái sử dụng lịch sử
-- Lệnh giả lặp (aliasing)
+- Lệnh giả lập (aliasing)
 - Những kí tự mở rộng
 - Nén file
 
@@ -59,12 +59,12 @@ Bài học này bao gồm:
 
 Cách đưa câu lệnh vào nhanh và dễ hơn:
 - Sử dụng phím **tab** để hoàn tất phần còn lại của câu lệnh. Ví dụ, bạn muốn có câu lệnh **chmod**, gõ **chm** sau đó nhấn **tab** bạn sẽ được **chmod**.
-- Up-Down arrow: duyệt lại lịch sử các câu lệnh đã dùng. Do đó bạn không cần phải gõ lại bất kì câu lệnh nào
-- Ctrl + e: nhảy đến vị trí cuối dòng
-- Ctrl + a: nhảy đến vị trí đầu dòng
-- Ctrl + u: xóa mọi thứ từ vị trí đang đứng đến đầu dòng
-- Ctrl + k: xóa mọi thứ từ vị trí đang đứng đến cuối dòng
-- Ctrl + l: làm sạch màn hình
+- Phím **Up-Down** : duyệt lại lịch sử các câu lệnh đã dùng. Do đó bạn không cần phải gõ lại bất kì câu lệnh nào
+- **Ctrl + e**: nhảy đến vị trí cuối dòng
+- **Ctrl + a**: nhảy đến vị trí đầu dòng
+- **Ctrl + u**: xóa mọi thứ từ vị trí đang đứng đến đầu dòng
+- **Ctrl + k**: xóa mọi thứ từ vị trí đang đứng đến cuối dòng
+- **Ctrl + l**: làm sạch màn hình
 
 Những phím tắt khác:
 - http://www.aboutlinux.info/2005/08/bash-shell-shortcuts.html
