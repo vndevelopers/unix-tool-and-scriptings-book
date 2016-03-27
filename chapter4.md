@@ -225,8 +225,8 @@ Toán tử mở rộng `{}` phải có một danh sách các mẫu (patterns) b�
 - https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform
 - https://en.wikipedia.org/wiki/Huffman_coding
 
-- Thuật toán này hiệu quả hơn so với gzip, nhưng tốc độ chậm hơn (không đáng kể).
-- Cũng như thuật toán gzip, file nén sẽ thay thế cho file gốc.
+- Thuật toán này hiệu quả hơn so với gzip, nhưng tốc độ chậm hơn (không đáng kể)
+- Cũng như thuật toán gzip, file nén sẽ thay thế cho file gốc
 - Câu lệnh nén: `bzip2 tên_files_được_nén(files_to_compress)`
 - Câu lệnh giải nén: `bunzip2 <file_nén(compressed_file)>`
 
