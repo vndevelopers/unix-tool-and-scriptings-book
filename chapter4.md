@@ -125,8 +125,9 @@ Shell mở rộng toán tử `*` liệt kê tất cả các file tại thư mụ
 
 Shell có những kí tự đặc dưới đây:
 - $ * < > & ? { } [ ]
-- Mặc định, shell sẽ hiểu chúng là kí tự đặc biệt trừ khi ta bỏ qua (escape) chúng hoặc để chúng trong trích dẫn (quote). Ví dụ, `\$`, `\&` hoặc "$", "*".
-- 
+- Mặc định, shell sẽ hiểu chúng là kí tự đặc biệt trừ khi ta bỏ qua (escape) chúng hoặc để chúng trong trích dẫn (quote). Ví dụ, `\$`, `\&` hoặc "$", "?".
+- Khi chúng ta gọi một câu lệnh, việc đầu tiên là shell sẽ chuyển chuỗi các kí tự ta đã nhập vào sang câu lệnh UNIX mà hệ thống có thể hiểu được.
+- Khả năng hiểu được (hay con gọi là thông dịch) (interpret) và mở rộng câu lệnh là một trong những sức mạnh vô cùng to lớn của shell scripting.
 
 
 
