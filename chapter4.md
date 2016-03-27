@@ -141,7 +141,7 @@ Chúng ta sẽ tiếp tục với các kí tự đặc biệt còn lại trong k
 - `*` tất cả các kí tự đều thỏa, kể cả chuỗi rỗng (null string).
 
 Ví dụ:
-![](Screenshot1.jpg)
+- ![](Screenshot1.jpg)
 
 
 
