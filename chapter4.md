@@ -8,7 +8,7 @@ Tìm kiếm với từ khóa search_term:
 
 - `/search_term`
 
-Thay thế một từ khóa hoặc mẫu (pattern) cho bằng chuỗi (string) với tùy chọn (options):
+Thay thế một từ khóa hoặc mẫu (pattern) cho trước bằng chuỗi (string) với tùy chọn (options):
 
 - `:%s/pattern/string/[option]`
 
