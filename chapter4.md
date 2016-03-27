@@ -101,9 +101,13 @@ Alias:
 - Để thiết lâp một lệnh giả lập một cách lâu dài và cố định (sử dụng cho các phiên làm việc khác), thêm lệnh giả lặp vào file `.bashrc` hoặc là `.bash_profile` ở thư mục `/home` (home directory).
 
 ## Ví dụ về lệnh giả lặp (Alias)
+
 - `alias ls='ls --color=auto'`
 - `alias dc=cd`
 - `alias ll='ls -l'`
+
+- Cần phải trích dẫn (quote) nếu lệnh giả lặp nhiều hơn một từ, đó là cặp kí tự `'`
+- Chú ý: nếu bạn tác động (poking) vào `.bashrc`, bạn nên biết rằng bất kì dòng nào bắt đầu bởi `#` là chú thích (comment out) và sẽ không được thực hiện (executed).
 
 
 
