@@ -207,9 +207,28 @@ Toán tử mở rộng `{}` phải có một danh sách các mẫu (patterns) b�
 
 - Nén và lưu trữ (đóng gói) nhiều file thành một file.
 - Tạo ra file nén .zip và những file gốc không bị thay đổi.
-- Câu lệnh: `zip <tên_file_tạo_ra(zipped_file_name)> <tên_files_được_nén(files_to_compress)>`
-- Câu lệnh: `unzip <tên_file_giải_nén(zipped_file_name)>`
+- Câu lệnh nén: `zip <tên_file_tạo_ra(zipped_file_name)> <tên_files_được_nén(files_to_compress)>`
+- Câu lệnh giải nén: `unzip <tên_file_giải_nén(zipped_file_name)>`
 - Có thêm rất nhiều tùy chọn, chẳng hạn thêm một file vào file nén đã có hoặc mã hóa dữ liệu theo mật khẩu (password) cho trước.
+
+
+### Lệnh gzip
+
+- Kĩ thuật nén files theo thuật toán của Lempel-Ziv.
+- Không đóng gói (bundle) files, những file được nén sẽ thay thế cho các file gốc.
+- Câu lệnh nén: `gzip <tên_files_được_nén(files_to_compress)>`
+- Câu lệnh giải nén: `gunzip <file_nén(compressed_file)>`
+
+### Lệnh bzip2
+
+- Sử dụng thuật toán nén sắp xếp văn bản thành từng khối (block) các kí tự của Burrows–Wheeler và mã hóa Huffman. Tham khảo thêm tại Wikipedia:
+- https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform
+- https://en.wikipedia.org/wiki/Huffman_coding
+
+- Thuật toán này hiệu quả hơn so với gzip, nhưng tốc độ chậm hơn (không đáng kể).
+- Cũng như thuật toán gzip, file nén sẽ thay thế cho file gốc.
+- Câu lệnh nén: `bzip2 tên_files_được_nén(files_to_compress)`
+- Câu lệnh giải nén: `bunzip2 <file_nén(compressed_file)>`
 
 
 
