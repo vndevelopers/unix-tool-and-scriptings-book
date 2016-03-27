@@ -87,6 +87,8 @@ Bạn có thể tìm kiếm một câu lệnh thông qua lịch sử sử dụng
 - Nhấn **ESC** để sao chép (copy) câu lệnh đó mà không thực hiện nó
 - Nhấn **Ctrl + G** để thoát khỏi việc tìm kiếm và quay lại giao diện ban đầu
 
+Ví dụ:
+`(reverse-i-search)'c': chmod 777 hello_world.sh` 
 
 
 
