@@ -121,7 +121,7 @@ Nhưng nếu ta nhập vào:
 Điều gì đã xảy ra?
 Shell mở rộng toán tử `*` liệt kê tất cả các file tại thư mục bạn đang đứng. Đó là một ví dụ về mở rộng đường dẫn (path expansion), một loại mở rộng của shell.
 
-Trước khi chúng ta đi vào trọng tâm của phần toán tử mở rộng, các bạn nên tham khảo sơ lược về biểu thức chính qui (Regular Expression) ở Wikipedia:
+**Trước khi chúng ta đi vào trọng tâm của phần toán tử mở rộng, các bạn nên tham khảo sơ lược về biểu thức chính qui (Regular Expression) ở Wikipedia:**
 - https://en.wikipedia.org/wiki/Regular_expression
 
 ## Ngữ nghĩa của các kí tự đặc biệt
