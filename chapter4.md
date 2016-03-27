@@ -69,8 +69,13 @@ Cách đưa câu lệnh vào nhanh và dễ hơn:
 Những phím tắt khác:
 - http://www.aboutlinux.info/2005/08/bash-shell-shortcuts.html
 
+## Tái sử dụng lịch sử: toán tử "Bang" (!)
 
-
+Sử dụng toán tử "Bang" (!) để gọi lại câu lệnh từ lịch sử chỉ với một hoặc vài kí tự đi kèm.
+Ví dụ:
+- `chmod 777 hello_world.sh`
+- `!c`
+-> `chmod 777 hello_world.sh`
 
 
 
