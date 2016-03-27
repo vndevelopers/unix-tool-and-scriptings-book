@@ -46,6 +46,15 @@ Trong khóa học này, chúng ta chọn bash shell vì nó có đầy đủ cá
 
 Nếu bạn có quyền root, chỉ cần chỉnh sửa /etc/passwd và tìm dòng tương ứng với người dùng hiện thời.
 
+## Sử dụng Bash một cách hiệu quả
+
+Bài học này bao gồm:
+- Phím tắt của shell
+- Tái sử dụng lịch sử
+- Lệnh giả lặp (aliasing)
+- Những kí tự mở rộng
+- Nén file
+
 
 
 
