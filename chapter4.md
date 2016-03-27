@@ -100,6 +100,11 @@ Alias:
 - Bạn có thể thiết lập lệnh giả lập cho phiên làm việc hiện tại ở màn hình nhận lệnh (command promt)
 - Để thiết lâp một lệnh giả lập một cách lâu dài và cố định (sử dụng cho các phiên làm việc khác), thêm lệnh giả lặp vào file `.bashrc` hoặc là `.bash_profile` ở thư mục `/home` (home directory).
 
+## Ví dụ về lệnh giả lặp (Alias)
+- `alias ls='ls --color=auto'`
+- `alias dc=cd`
+- `alias ll='ls -l'`
+
 
 
 
