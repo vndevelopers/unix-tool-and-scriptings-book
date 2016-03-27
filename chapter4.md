@@ -229,6 +229,29 @@ Toán tử mở rộng `{}` phải có một danh sách các mẫu (patterns) b�
 - Câu lệnh nén: `bzip2 tên_files_được_nén(files_to_compress)`
 - Câu lệnh giải nén: `bunzip2 <file_nén(compressed_file)>`
 
+## Tarballs (Đóng gói dữ liệu)
+
+Để nén nhiều file với nhau, ta có thể sử dụng chức năng **`tar`** (Tape Archive).
+**`tar`** đóng gói nhiều file thành một file, nhưng file được nén không thay thế cho file gốc
+- `tar -cf archive.tar foo bar`: tạo ra file archive.tar từ hai file foo và bar.
+- `tar -xf archive.tar`: giải nén các file từ file archive.tar
+
+## Nén file Tarballs
+
+Để nén một file tarballs ta có thể chuyển kết quả của tarballs đến gzip hoặc bzip2 để nén tiếp.
+Tuy nhiên, tar có thêm những tùy chọn (options) để thuận tiện hơn cho người dùng:
+- `-z`: nén bằng gzip
+- `-j`: nén bằng bzip2
+- `tar -czf archive.tar.gz bar foo`: tạo ra file nén archive.tar.gz từ hai file bar và foo
+
+**Qui ước đặt tên:**
+- archive.tar.gz hoặc archive.tgz: loại file nén gzip tarballs
+- archive.tar.bz2 hoặc archive.tbz: loại file nén bzip2 tarballs
+
+**Nén thư mục (directory)**
+- `tar -czf cs2042.tgz cs2042/*`: tạo ra file nén gồm có một thư mục và chứa tất cả nội dụng của thư mục 2042
+
+
 
 
 
