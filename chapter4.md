@@ -141,7 +141,7 @@ Chúng ta sẽ tiếp tục với các kí tự đặc biệt còn lại trong k
 
 - `*` tất cả các kí tự đều thỏa, kể cả chuỗi rỗng (null string).
 Ví dụ:
-- Đầu vào (input)	Thỏa (matched)	                      Không thỏa ()
+- Đầu vào (input)	Thỏa (matched)	                      Không thỏa (not matched)
 - `Lec*`	        Lecture1.pdf      Lec.avi	          ALecBaldwin/
 - `L*ure*`	        Lecture2.pdf      Lectures/	          sure.txt
 - `*.tex`	        Lecture1.tex      Presentation.tex	  tex/
