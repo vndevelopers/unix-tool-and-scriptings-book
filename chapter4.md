@@ -34,7 +34,7 @@ Có nhiều loại shell cho hệ thống UNIX và họ nhà UNIX:
 Trong khóa học này, chúng ta chọn bash shell vì nó có đầy đủ các tiện ích, chức năng và là tiêu chuẩn tốt nhất với các shell còn lại
 
 Để tìm hiểu thêm, ta có thể tham khảo tại Wikipedia:
-[(https://en.wikipedia.org/wiki/Comparison_of_command_shells)]
+- [(https://en.wikipedia.org/wiki/Comparison_of_command_shells)]
 
 ## Nếu Bash shell không được để mặc định trong máy tính
 
