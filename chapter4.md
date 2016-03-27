@@ -140,22 +140,22 @@ Chúng ta sẽ tiếp tục với các kí tự đặc biệt còn lại trong k
 - Chỉ giới hạn trong tập kí tự cho trước.
 
 
-- `*` tất cả các kí tự đều thỏa, kể cả chuỗi rỗng (null string).
+#####`*` tất cả các kí tự đều thỏa, kể cả chuỗi rỗng (null string).
 ####Ví dụ:
 - ![](Screenshot1.jpg)
 
 
-- `?` chỉ lấy kí tự đơn lẻ
+#####`?` chỉ lấy kí tự đơn lẻ
 ####Ví dụ:
 - ![](Screenshot2.jpg)
 
 
-- `[...]` thỏa tất cả các kí tự trong cặp ngoặc vuông
+#####`[...]` thỏa tất cả các kí tự trong cặp ngoặc vuông
 ####Ví dụ:
 - ![](Screenshot3.jpg)
 
 
-- `[^...]` thỏa tất cả các kí tự không nằm trong cặp ngoặc vuông
+#####`[^...]` thỏa tất cả các kí tự không nằm trong cặp ngoặc vuông
 ####Ví dụ:
 - ![](Screenshot4.jpg)
 
