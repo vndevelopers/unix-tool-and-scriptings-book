@@ -145,7 +145,6 @@ Ví dụ:
 - `Lec*`	        Lecture1.pdf      Lec.avi	          ALecBaldwin/
 - `L*ure*`	        Lecture2.pdf      Lectures/	          sure.txt
 - `*.tex`	        Lecture1.tex      Presentation.tex	  tex/
-![](Screenshot1.jpg)
 
 
 
