@@ -40,4 +40,31 @@ Trong khóa học này, chúng ta chọn bash shell vì nó có đầy đủ cá
 
 - Nếu bạn đã đăng nhập vào máy chủ (server), chỉ cần gõ bash.
 - Bạn muốn hệ thống tự động chạy bash shell khi ta đăng nhập, có một cách để thực hiện là chỉnh sửa file ./login - nó sẽ chạy bash khi bạn đăng nhập vào máy chủ.
-- 
+
+Để chạy bash tự động, thêm dòng dưới đây vào cuối file ./login:
+- if ( -f /bin/bash ) exec /bin/bash --login
+
+Nếu bạn có quyền root, chỉ cần chỉnh sửa /etc/passwd và tìm dòng tương ứng với người dùng hiện thời.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
