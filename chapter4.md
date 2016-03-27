@@ -206,6 +206,7 @@ Toán tử mở rộng `{}` phải có một danh sách các mẫu (patterns) b�
 - Tạo ra file nén .zip và những file gốc không bị thay đổi.
 - Câu lệnh: `zip <tên_file_tạo_ra(zipped_file_name)> <tên_files_được_nén(files_to_compress)>`
 - Câu lệnh: `unzip <tên_file_giải_nén(zipped_file_name)>`
+- Có thêm rất nhiều tùy chọn, chẳng hạn thêm một file vào file nén đã có hoặc mã hóa dữ liệu theo mật khẩu (password) cho trước.
 
 
 
