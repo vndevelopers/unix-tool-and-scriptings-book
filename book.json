@@ -1,10 +1,11 @@
 {
     "plugins": [
-        "google_analytics"
+        "google_analytics",
+        "ga"
     ],
     "pluginsConfig": {
-      "google_analytics": {
-        "token": "UA-75639850-1"
-      }
+        "google_analytics": {
+            "token": "UA-75639850-1"
+        }
     }
 }
