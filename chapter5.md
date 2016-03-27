@@ -105,7 +105,7 @@ $ sort numbers.txt -n
 
 **Triết lý UNIX**
 
-Trong UNIX, bạn sẽ tìm ra nhiều công cụ đặc trưng trong 1, 2 thứ, và chúng làm nó rất tốt! Để làm những chức năng phức tạp hơn bằng cách ghép nối từng công cụ một bằng kỹ thuật đường ống hoặc chuyển hướng vào/ra
+> Trong UNIX, bạn sẽ tìm ra nhiều công cụ đặc trưng trong 1, 2 thứ, và chúng làm nó rất tốt! Để làm những chức năng phức tạp hơn bằng cách ghép nối từng công cụ một bằng kỹ thuật đường ống hoặc chuyển hướng vào/ra
 
 ## Luồng dữ liệu chuẩn
 
