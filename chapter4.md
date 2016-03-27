@@ -204,8 +204,8 @@ Toán tử mở rộng `{}` phải có một danh sách các mẫu (patterns) b�
 
 - Nén và lưu trữ (đóng gói) nhiều file thành một file.
 - Tạo ra file nén .zip và những file gốc không bị thay đổi.
-- Cú pháp: `zip <tên_file_tạo_ra(zipped_file_name)> <tên_files_được_nén(files_to_compress)>`
-
+- Câu lệnh: `zip <tên_file_tạo_ra(zipped_file_name)> <tên_files_được_nén(files_to_compress)>`
+- Câu lệnh: `unzip <tên_file_giải_nén(zipped_file_name)>`
 
 
 
