@@ -178,3 +178,21 @@ Chúng ta sẽ tiếp tục với các kí tự đặc biệt còn lại trong k
 | \[^A-P\]ec* | Section.pdf | Lecture.pdf |
 | \[^A-Za-z\]* | 9Days.avi .bash_profile | vacation.jpg |
 
+
+### `{...,...}` thỏa tất cả các cụm từ được ngăn cách bởi dấu `,` trong `{ }`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
