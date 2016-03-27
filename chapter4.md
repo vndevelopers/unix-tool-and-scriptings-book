@@ -60,7 +60,11 @@ Bài học này bao gồm:
 Cách đưa câu lệnh vào nhanh và dễ hơn:
 - Sử dụng phím **tab** để hoàn tất phần còn lại của câu lệnh. Ví dụ, bạn muốn có câu lệnh **chmod**, gõ **chm** sau đó nhấn **tab** bạn sẽ được **chmod**.
 - Up-Down arrow: duyệt lại lịch sử các câu lệnh đã dùng. Do đó bạn không cần phải gõ lại bất kì câu lệnh nào
-- 
+- Ctrl + e: nhảy đến vị trí cuối dòng
+- Ctrl + a: nhảy đến vị trí đầu dòng
+- Ctrl + u: xóa mọi thứ từ vị trí đang đứng đến đầu dòng
+- Ctrl + k: xóa mọi thứ từ vị trí đang đứng đến cuối dòng
+- Ctrl + l: làm sạch màn hình
 
 
 
