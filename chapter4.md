@@ -6,11 +6,11 @@
 **Tìm kiếm và thay thế:**
 Tìm kiếm với từ khóa search_term:
 
-/search_term
+- /search_term
 
 Thay thế một từ khóa hoặc mẫu (pattern) cho bằng chuỗi (string) với tùy chọn (options):
 
-:%s/pattern/string/[option]
+- :%s/pattern/string/[option]
 
 Khi bạn tìm thấy từ khóa search_term lần đầu, nhấn **n** để đến vị trí xuất hiện tiếp theo. Phím **N** để lùi lại vị trí trước đó.
 
@@ -18,12 +18,10 @@ Khi bạn tìm thấy từ khóa search_term lần đầu, nhấn **n** để đ
 
 **Liệt kê danh sách file:**
 Tùy chọn dưới góc nhìn khách quan con người:
-
-ls -lh
+- ls -lh
 
 Liệt kê mỗi file trên một dòng:
-
-ls -1
+- ls -1
 
 ## Shell (tiếp theo)
 
