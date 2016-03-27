@@ -66,6 +66,9 @@ Cách đưa câu lệnh vào nhanh và dễ hơn:
 - Ctrl + k: xóa mọi thứ từ vị trí đang đứng đến cuối dòng
 - Ctrl + l: làm sạch màn hình
 
+Những phím tắt khác:
+- http://www.aboutlinux.info/2005/08/bash-shell-shortcuts.html
+
 
 
 
