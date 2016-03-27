@@ -90,9 +90,14 @@ Bạn có thể tìm kiếm một câu lệnh thông qua lịch sử sử dụng
 Ví dụ:
 - `(reverse-i-search)'c': chmod 777 hello_world.sh` 
 
+## Lệnh giả lặp (Aliases)
 
+Sử dụng **Bash** càng nhiều, bạn sẽ thấy nó có rất nhiều tùy chọn và tiện ích cho phù hợp với công việc của bạn. Một ví dụ điển hình `ls -l` để xem quyền của người dùng (user) đối với file hoặc thư mục (directory), hoặc là `rm -i` để chắc chắn rằng bạn không xóa nhầm file một cách ngẫu nhiên hay vô ý. Sẽ tốt hơn nếu ta tạo ra những phím tắt (shortcuts) cho chúng bằng những từ khóa mang ý nghĩa rõ ràng hơn?
 
-
+Alias:
+- `alias tên_mong_muốn=câu_lệnh` (`alias name=command`)
+- Lệnh giả lặp cho phép bạn đổi tên hoặc đơn giản nó thay vì phải gõ một câu lệnh dài.
+- Bạn có thể thiết lập lệnh giả lập cho phiên làm việc hiện 
 
 
 
