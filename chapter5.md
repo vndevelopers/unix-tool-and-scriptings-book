@@ -99,9 +99,9 @@ $ sort numbers.txt -n
 ## Ôn lại về chuyển hướng
 
 **Ứng dụng trong UNIX được giao tiếp với luồng đầu vào / ra (Input / Output) :**
-- #0 : luồng đầu vào chuẩn; STDIN (thường là bàn phím)
-- #1 : luồng đầu ra chuẩn; STDOUT (thường là cửa sổ dòng lệnh)
-- #2 : luồng báo lỗi chuẩn; STDERR (phụ thuộc theo cấu hình hệ thống, nhưng thường là cửa sổ dòng lệnh)
+- \#0 : luồng đầu vào chuẩn; STDIN (thường là bàn phím)
+- \#1 : luồng đầu ra chuẩn; STDOUT (thường là cửa sổ dòng lệnh)
+- \#2 : luồng báo lỗi chuẩn; STDERR (phụ thuộc theo cấu hình hệ thống, nhưng thường là cửa sổ dòng lệnh)
 
 **Triết lý UNIX**
 
