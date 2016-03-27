@@ -109,6 +109,24 @@ Alias:
 - Cần phải trích dẫn (quote) nếu lệnh giả lặp nhiều hơn một từ, đó là cặp kí tự `'`
 - Chú ý: nếu bạn tác động (poking) vào `.bashrc`, bạn nên biết rằng bất kì dòng nào bắt đầu bởi `#` là chú thích (comment out) và sẽ không được thực hiện (executed).
 
+## Mở rộng (expansion) về shell
+
+Trong Bash shell, nếu ta đưa vào câu lệnh:
+- `echo Hello Vietnam`
+- -> Hello Vietnam
+Nhưng nếu ta nhập vào:
+- `echo *`
+- -> hello_world.sh Lect1.pdf Lect2.pdf
+
+Điều gì đã xảy ra?
+Shell mở rộng toán tử `*` liệt kê tất cả các file tại thư mục bạn đang đứng. Đó là một ví dụ về mở rộng đường dẫn (path expansion), một loại mở rộng của shell.
+
+## Ngữ nghĩa của các kí tự đặc biệt
+
+Shell có những kí tự đặc dưới đây:
+- $ * < > & ? { } [ ]
+- Mặc định, shell sẽ hiểu chúng là kí tự đặc biệt trừ khi ta bỏ qua (escape) chúng hoặc để chúng trong trích dẫn (quote). Ví dụ, `\$`, `\&` hoặc "$", "*".
+- 
 
 
 
