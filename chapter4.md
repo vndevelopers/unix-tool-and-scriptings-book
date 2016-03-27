@@ -55,7 +55,12 @@ Bài học này bao gồm:
 - Những kí tự mở rộng
 - Nén file
 
+## Phím tắt của shell
 
+Cách đưa câu lệnh vào nhanh và dễ hơn:
+- Sử dụng phím **tab** để hoàn tất phần còn lại của câu lệnh. Ví dụ, bạn muốn có câu lệnh **chmod**, gõ **chm** sau đó nhấn **tab** bạn sẽ được **chmod**.
+- Up-Down arrow: duyệt lại lịch sử các câu lệnh đã dùng. Do đó bạn không cần phải gõ lại bất kì câu lệnh nào
+- 
 
 
 
