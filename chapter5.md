@@ -245,12 +245,13 @@ tr -cd 'a-zA-Z' < somefile
 **Ví dụ**
 
 Lệnh `whoami` in ra tên của người dùng hiện tại
-- `echo \`whoami\``
-- `ssh \`whoami\`@csug01.csuglab.cornell.edu`
+- ``echo `whoami` ``
+- ``ssh `whoami`@csug01.csuglab.cornell.edu``
 
 ## Thay thế Cypher
 
 **Đây là cách mà thông điệp bí ẩn từ bài tập về nhà 1.**
+
 Chúng ta có thể sử dụng `tr` để thay thế cypher. Tạo một file chuỗi gọi là `cypher` với sắp xếp lại theo alphabet. Sau đó để mã móa, chúng ta có thể làm như sau:
 
 `tr 'a-z' 'cat cypher' < file > exclodedfile`
