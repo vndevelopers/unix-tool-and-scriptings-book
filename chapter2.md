@@ -33,18 +33,18 @@ File ẩn được bắt đầu bởi dấu "." : .gimp
 
 ## Những thư mục đó là gì?
 
-`/dev`: có thể  truy cập các thiết bị phần cứng tại đây - thông thường bạn không cần đụng đến đống hỗn độn này.
-`/lib`: chứa các thư viện, cùng với `/usr/lib`, `/usr/local/lib`, ...
-`/mnt`: dùng để kết nối thêm các thiết bị lưu trữ khác vào hệ thống.
-`/usr`: lưu trữ các chương trình được cài đặt bởi người dùng và các file liên quan.
-`/etc`: cài đặt cho tầng hệ thống.
+- `/dev`: có thể  truy cập các thiết bị phần cứng tại đây - thông thường bạn không cần đụng đến đống hỗn độn này.
+- `/lib`: chứa các thư viện, cùng với `/usr/lib`, `/usr/local/lib`, ...
+- `/mnt`: dùng để kết nối thêm các thiết bị lưu trữ khác vào hệ thống.
+- `/usr`: lưu trữ các chương trình được cài đặt bởi người dùng và các file liên quan.
+- `/etc`: cài đặt cho tầng hệ thống.
 
 ## Vậy thì những chương trình được cài đặt ở đâu?
 
 Thông thường là ở các thư mục "nhị phân" (binary):
-`/bin`: các chương trình ở tầng hệ thống.
-`/usr/bin`: các chương trình ở mức người sử dụng.
-`/usr/local/bin`: một vài chương trình ở mức người sử dụng.
+- `/bin`: các chương trình ở tầng hệ thống.
+- `/usr/bin`: các chương trình ở mức người sử dụng.
+- `/usr/local/bin`: một vài chương trình ở mức người sử dụng.
 
 ## Thế tư liệu của tôi đâu?
 
@@ -83,7 +83,8 @@ Trước khi ta định đến một nơi nào đó, hãy xem xung quanh ta có 
 - di chuyển từ thư mục hiện tại đến `[tên_thư_mục]`
 - nếu không đưa ra một thư mục cụ thể, mặc dịnh sẽ quay lại thư mục `/home`
 - chấp nhận cả đường dẫn tuyệt đối (`cd /home/user1/cs2043`) và tương đối (`cd cs2043`)
-- 
+
+
 
 
 
