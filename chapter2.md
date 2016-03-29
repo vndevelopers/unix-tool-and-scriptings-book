@@ -59,7 +59,7 @@ Những điều này có vẻ thú vị thật, nhưng làm sao để  biết �
 
 Mặc định thì shell sẽ dùng đường dẫn hiện tại ở cửa sổ dòng lệnh. Nếu không bạn hãy thử:
 - **Print Working Directory**
-- `pwd`
+  - `pwd`
   - in ra đầy đủ đường dẫn của thư mục hiện thời.
   - rất thuận tiện khi bạn đi lạc đâu đó.
   - một biến môi trường rất quan trọng trong scritps.
