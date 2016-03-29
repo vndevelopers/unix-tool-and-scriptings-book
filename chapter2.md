@@ -4,7 +4,6 @@
 
 ### Hôm nay sẽ đi chi tiết. Hãy xoắn tay áo của bạn lên và nhúng tay vào để trải nghiệm, đừng ngại bẩn nhé.
 
-
 ## Lưu ý nhỏ
 
 Những câu lệnh trong bài học sẽ có kiểu chữ như sau: `câu lệnh`
@@ -21,7 +20,7 @@ Thư mục gốc (root) được kí hiệu bởi kí tự đơn / (bất kể b
 File và thư mục (directories) là một trường hợp đặc biệt:
 - `hello.txt != Hello.txt`
 
-Khác với Window, các thư mục trong UNIX được ngăn ra bởi kí tự /
+Khác với Window, các thư mục trong UNIX được ngăn ra bởi kí tự `/`
 - UNIX: `/home/user1/Documents/cs2043/2014/Lecture2/`
 - Window: `D:\Documents\cs2043\2014\Lecture2\`
 
