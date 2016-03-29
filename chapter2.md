@@ -37,7 +37,21 @@ File ẩn được bắt đầu bởi dấu "." : .gimp
 `/lib`: chứa các thư viện, cùng với `/usr/lib`, `/usr/local/lib`, ...
 `/mnt`: dùng để kết nối thêm các thiết bị lưu trữ khác vào hệ thống.
 `/usr`: lưu trữ các chương trình được cài đặt bởi người dùng và các file liên quan.
-`/etc`: 
+`/etc`: cài đặt cho tầng hệ thống.
+
+## Vậy thì những chương trình được cài đặt ở đâu?
+
+Thông thường là ở các thư mục "nhị phân" (binary):
+`/bin`: các chương trình ở tầng hệ thống.
+`/usr/bin`: các chương trình ở mức người sử dụng.
+`/usr/local/bin`: một vài chương trình ở mức người sử dụng.
+
+## Thế tư liệu của tôi đâu?
+
+File của bạn sẽ được tìm thấy trong thư mục `home`, thường ở:
+- `/home/tên_người_dùng`
+
+Bạn cũng có thể truy cập thư mục `home` thông qua một kí tự đặt biệt: `~`
 
 
 
