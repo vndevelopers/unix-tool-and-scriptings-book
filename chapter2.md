@@ -53,9 +53,11 @@ File của bạn sẽ được tìm thấy trong thư mục `home`, thường �
 
 Bạn cũng có thể truy cập thư mục `home` thông qua một kí tự đặt biệt: `~`
 
-Những điều này có vẻ thú vị thật, nhưng làm sao để  biết ở đây nó có cái gì và đi đến như thế  nào? Haiz...a...
+Những điều này có vẻ thú vị thật, nhưng làm sao để  biết ở đây nó có gì và đi đến như thế  nào? Haiz...a...
 
 ## Tôi đang ở đâu?
+
+Mặc định thì shell sẽ dùng đường dẫn hiện tai
 
 
 
