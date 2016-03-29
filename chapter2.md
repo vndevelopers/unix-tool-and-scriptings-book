@@ -58,7 +58,7 @@ Những điều này có vẻ thú vị thật, nhưng làm sao để  biết �
 ## Tôi đang đứng ở ?
 
 Mặc định thì shell sẽ dùng đường dẫn hiện tại ở cửa sổ dòng lệnh. Nếu không bạn hãy thử:
-**`P`rint `W`orking `D`irectory**
+**Print Working Directory**
 `pwd`
 - in ra đầy đủ đường dẫn của thư mục hiện thời.
 - rất thuận tiện khi bạn đi lạc đâu đó.
@@ -67,7 +67,7 @@ Mặc định thì shell sẽ dùng đường dẫn hiện tại ở cửa sổ 
 ## Xung quanh tôi có gì?
 
 Trước khi ta định đến một nơi nào đó, hãy xem xung quanh ta có những gì.
-**The `l`i`s`t command**
+**The list command**
 `ls [cờ (flags)] [file]`
 - In ra nội dung của thư mục (bao gồm cả thư mục con).
 - Hành vi tương tự như lệnh `dir` của DOS.
@@ -78,7 +78,7 @@ Trước khi ta định đến một nơi nào đó, hãy xem xung quanh ta có 
  
 ## Sẵn sàng đi thôi
 
-**`c`hange `d`irectory**
+**change directory**
 `cd [tên_thư_mục]`
 - di chuyển từ thư mục hiện tại đến `[tên_thư_mục]`
 - nếu không đưa ra một thư mục cụ thể, mặc dịnh sẽ quay lại thư mục `/home`
