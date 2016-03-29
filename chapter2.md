@@ -80,7 +80,10 @@ Trước khi ta định đến một nơi nào đó, hãy xem xung quanh ta có 
 
 **`c`hange `d`irectory**
 `cd [tên_thư_mục]`
-- đi chuyển từ thư mục hiện tại đến [tên_thư_mục]
+- di chuyển từ thư mục hiện tại đến `[tên_thư_mục]`
+- nếu không đưa ra một thư mục cụ thể, mặc dịnh sẽ quay lại thư mục `/home`
+- chấp nhận cả đường dẫn tuyệt đối (`cd /home/user1/cs2043`) và tương đối (`cd cs2043`)
+- 
 
 
 
