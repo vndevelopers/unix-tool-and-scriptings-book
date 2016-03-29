@@ -1,3 +1,10 @@
 # Hệ thống file UNIX
 
-Đang dịch ... Vui lòng đợi trong vài ngày tới :) bạn có thể xem trước chương 4, 5 đã được dịch xong.
+### Ở bài học trước, chúng ta đã tìm hiểu sơ lược về hệ thống UNIX và những phiên bản của nó
+
+### Hôm nay sẽ đi chi tiết. Hãy xoắn tay áo của bạn lên và trải nghiệm, đừng ngại bẩn tay nhé.
+
+
+## Lưu ý nhỏ
+
+Những câu lệnh trong bài học sẽ có kiểu chữ như sau: `câu lệnh`
