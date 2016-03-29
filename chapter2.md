@@ -1,8 +1,8 @@
 # Hệ thống file UNIX
 
-### Ở bài học trước, chúng ta đã tìm hiểu sơ lược về hệ thống UNIX và những phiên bản của nó
+**Ở bài học trước, chúng ta đã tìm hiểu sơ lược về hệ thống UNIX và những phiên bản của nó**
 
-### Hôm nay sẽ đi chi tiết. Hãy xoắn tay áo của bạn lên và nhúng tay vào để trải nghiệm, đừng ngại bẩn nhé.
+**Hôm nay sẽ đi chi tiết. Hãy xoắn tay áo của bạn lên và nhúng tay vào để trải nghiệm, đừng ngại bẩn nhé.**
 
 ## Lưu ý nhỏ
 
@@ -15,7 +15,7 @@ Ví dụ: `Câu_Lệnh [tùy_chọn_1] [tùy_chọn_2]`
 
 ## Hệ thống file UNIX
 
-Thư mục gốc (root) được kí hiệu bởi kí tự đơn / (bất kể bạn có bao nhiêu ổ cứng, phân vùng hay các bộ nhớ ngoài đi kèm).
+Thư mục gốc (root) được kí hiệu bởi kí tự đơn `/` (bất kể bạn có bao nhiêu ổ cứng, phân vùng hay các bộ nhớ ngoài đi kèm).
 
 File và thư mục (directories) là một trường hợp đặc biệt:
 - `hello.txt != Hello.txt`
@@ -52,7 +52,7 @@ File của bạn sẽ được tìm thấy trong thư mục `home`, thường �
 
 Bạn cũng có thể truy cập thư mục `home` thông qua một kí tự đặt biệt: `~`
 
-Những điều này có vẻ thú vị thật, nhưng làm sao để  biết ở đây nó có gì và đi đến như thế  nào? Haiz...a...
+Những điều này có vẻ thú vị thật, nhưng làm sao để  biết ở đây nó có gì và đi đến như thế  nào ?
 
 ## Tôi đang đứng ở ?
 
