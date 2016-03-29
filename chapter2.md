@@ -59,6 +59,28 @@ Những điều này có vẻ thú vị thật, nhưng làm sao để  biết �
 
 Mặc định thì shell sẽ dùng đường dẫn hiện tại ở cửa sổ dòng lệnh. Nếu không bạn hãy thử:
 **`P`rint `W`orking `D`irectory**
+`pwd`
+- in ra đầy đủ đường dẫn của thư mục hiện thời.
+- rất thuận tiện khi bạn đi lạc đâu đó.
+- một biến môi trường rất quan trọng trong scritps.
+
+## Xung quanh tôi có gì?
+
+Trước khi ta định đến một nơi nào đó, hãy xem xung quanh ta có những gì.
+**The `l`i`s`t command**
+`ls [cờ (flags)] [file]`
+- In ra nội dung của thư mục (bao gồm cả thư mục con).
+- Hành vi tương tự như lệnh `dir` của DOS.
+- Tùy chọn:
+  - `-l`: in ra chi tiết về file/thư mục (chúng ta sẽ tìm hiểu thêm về flag (cờ) sau).
+  - `-a`: hiện ra file ẩn
+  
+ 
+## Sẵn sàng đi thôi
+
+**`c`hange `d`irectory**
+`cd [tên_thư_mục]`
+- đi chuyển từ thư mục hiện tại đến [tên_thư_mục]
 
 
 
