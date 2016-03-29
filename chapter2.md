@@ -30,7 +30,7 @@ File ẩn được bắt đầu bởi dấu "." : .gimp
 
 ![](unix_filesystem.jpg)
 
-## Những thư mục đó là gì?
+### Những thư mục đó là gì?
 
 - `/dev`: có thể  truy cập các thiết bị phần cứng tại đây - thông thường bạn không cần đụng đến đống hỗn độn này.
 - `/lib`: chứa các thư viện, cùng với `/usr/lib`, `/usr/local/lib`, ...
@@ -38,14 +38,14 @@ File ẩn được bắt đầu bởi dấu "." : .gimp
 - `/usr`: lưu trữ các chương trình được cài đặt bởi người dùng và các file liên quan.
 - `/etc`: cài đặt cho tầng hệ thống.
 
-## Vậy thì những chương trình được cài đặt ở đâu?
+### Vậy thì những chương trình được cài đặt ở đâu?
 
 Thông thường là ở các thư mục "nhị phân" (binary):
 - `/bin`: các chương trình ở tầng hệ thống.
 - `/usr/bin`: các chương trình ở mức người sử dụng.
 - `/usr/local/bin`: một vài chương trình ở mức người sử dụng.
 
-## Thế  còn tư liệu của tôi?
+### Thế  còn tư liệu của tôi?
 
 File của bạn sẽ được tìm thấy trong thư mục `home`, thường ở:
 - `/home/tên_người_dùng`
@@ -54,7 +54,7 @@ Bạn cũng có thể truy cập thư mục `home` thông qua một kí tự đ�
 
 Những điều này có vẻ thú vị thật, nhưng làm sao để  biết ở đây nó có gì và đi đến như thế  nào ?
 
-## Tôi đang đứng ở ?
+### Tôi đang đứng ở ?
 
 Mặc định thì shell sẽ dùng đường dẫn hiện tại ở cửa sổ dòng lệnh. Nếu không bạn hãy thử:
 - **Print Working Directory**
@@ -63,7 +63,7 @@ Mặc định thì shell sẽ dùng đường dẫn hiện tại ở cửa sổ 
   - rất thuận tiện khi bạn đi lạc đâu đó.
   - một biến môi trường rất quan trọng trong scritps.
 
-## Xung quanh tôi có gì?
+### Xung quanh tôi có gì?
 
 Trước khi ta định đến một nơi nào đó, hãy xem xung quanh ta có những gì.
 - **The list command**
@@ -73,9 +73,8 @@ Trước khi ta định đến một nơi nào đó, hãy xem xung quanh ta có 
   - Tùy chọn:
     - `-l`: in ra chi tiết về file/thư mục (chúng ta sẽ tìm hiểu thêm về flag (cờ) sau).
     - `-a`: hiện ra file ẩn
-  
- 
-## Sẵn sàng đi thôi
+
+### Sẵn sàng đi thôi
 
 **change directory**
 - `cd [tên_thư_mục]`
@@ -83,7 +82,7 @@ Trước khi ta định đến một nơi nào đó, hãy xem xung quanh ta có 
   - nếu không đưa ra một thư mục cụ thể, mặc dịnh sẽ quay lại thư mục `/home`
   - chấp nhận cả đường dẫn tuyệt đối (`cd /home/user1/cs2043`) và tương đối (`cd cs2043`)
 
-## Khi nào đường dẫn tương đối không được chấp nhận
+### Khi nào đường dẫn tương đối không được chấp nhận
 
 **Đường dẫn tuyệt đối**
 - Vị trí của file hoặc thư mục bắt đầu ở `/`
@@ -91,7 +90,7 @@ Trước khi ta định đến một nơi nào đó, hãy xem xung quanh ta có 
 **Đường dẫn tương đối**
 - Vị trí của file hoặc thư mục bắt đầu ở thư mục hiện thời
 
-## Cách viết gọn cho đường dẫn tương đối
+### Cách viết gọn cho đường dẫn tương đối
 
 - `~`:  thư mục home của người dùng hiện tại
 - `.`:  thư mục hiện tai (cực kì hữu ích - tôi hứa đấy!)
