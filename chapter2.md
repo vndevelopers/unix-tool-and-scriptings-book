@@ -84,7 +84,13 @@ Trước khi ta định đến một nơi nào đó, hãy xem xung quanh ta có 
   - nếu không đưa ra một thư mục cụ thể, mặc dịnh sẽ quay lại thư mục `/home`
   - chấp nhận cả đường dẫn tuyệt đối (`cd /home/user1/cs2043`) và tương đối (`cd cs2043`)
 
+## Khi nào đường dẫn tương đối không được chấp nhận
 
+**Đường dẫn tuyệt đối**
+- Vị trí của file hoặc thư mục bắt đầu ở `/`
+
+**Đường dẫn tương đối**
+- Vị trí của file hoặc thư mục bắt đầu ở thư mục hiện thời
 
 
 
