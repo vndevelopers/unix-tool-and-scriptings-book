@@ -55,7 +55,7 @@ Bạn cũng có thể truy cập thư mục `home` thông qua một kí tự đ�
 
 Những điều này có vẻ thú vị thật, nhưng làm sao để  biết ở đây nó có gì và đi đến như thế  nào? Haiz...a...
 
-## Tôi đang ở đâu?
+## Tôi đang ở ?
 
 Mặc định thì shell sẽ dùng đường dẫn hiện tại ở cửa sổ dòng lệnh. Nếu không bạn hãy thử:
 **`P`rint `W`orking `D`irectory**
