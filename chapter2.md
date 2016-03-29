@@ -46,7 +46,7 @@ Thông thường là ở các thư mục "nhị phân" (binary):
 - `/usr/bin`: các chương trình ở mức người sử dụng.
 - `/usr/local/bin`: một vài chương trình ở mức người sử dụng.
 
-## Thế tư liệu của tôi đâu?
+## Thế  còn tư liệu của tôi?
 
 File của bạn sẽ được tìm thấy trong thư mục `home`, thường ở:
 - `/home/tên_người_dùng`
