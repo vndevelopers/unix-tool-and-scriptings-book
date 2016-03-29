@@ -92,6 +92,17 @@ Trước khi ta định đến một nơi nào đó, hãy xem xung quanh ta có 
 **Đường dẫn tương đối**
 - Vị trí của file hoặc thư mục bắt đầu ở thư mục hiện thời
 
+## Cách viết gọn cho đường dẫn tương đối
+
+- `~`:  thư mục home của người dùng hiện tại
+- `.`:  thư mục hiện tai (cực kì hữu ích - tôi hứa đấy!)
+- `..`: thư mục cha của thư mục hiện tại
+
+**Ví dụ**
+Nếu chúng ta bắt đầu ở `/usr/local/src`, sau đó:
+- `cd` hoặc `cd ~` => `/home/hussam`
+- `cd .` => `/usr/local/src`
+
 
 
 
