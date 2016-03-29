@@ -58,31 +58,31 @@ Những điều này có vẻ thú vị thật, nhưng làm sao để  biết �
 ## Tôi đang đứng ở ?
 
 Mặc định thì shell sẽ dùng đường dẫn hiện tại ở cửa sổ dòng lệnh. Nếu không bạn hãy thử:
-**Print Working Directory**
-`pwd`
-- in ra đầy đủ đường dẫn của thư mục hiện thời.
-- rất thuận tiện khi bạn đi lạc đâu đó.
-- một biến môi trường rất quan trọng trong scritps.
+- **Print Working Directory**
+- `pwd`
+  - in ra đầy đủ đường dẫn của thư mục hiện thời.
+  - rất thuận tiện khi bạn đi lạc đâu đó.
+  - một biến môi trường rất quan trọng trong scritps.
 
 ## Xung quanh tôi có gì?
 
 Trước khi ta định đến một nơi nào đó, hãy xem xung quanh ta có những gì.
-**The list command**
-`ls [cờ (flags)] [file]`
-- In ra nội dung của thư mục (bao gồm cả thư mục con).
-- Hành vi tương tự như lệnh `dir` của DOS.
-- Tùy chọn:
-  - `-l`: in ra chi tiết về file/thư mục (chúng ta sẽ tìm hiểu thêm về flag (cờ) sau).
-  - `-a`: hiện ra file ẩn
+- **The list command**
+- `ls [cờ (flags)] [file]`
+  - In ra nội dung của thư mục (bao gồm cả thư mục con).
+  - Hành vi tương tự như lệnh `dir` của DOS.
+  - Tùy chọn:
+    - `-l`: in ra chi tiết về file/thư mục (chúng ta sẽ tìm hiểu thêm về flag (cờ) sau).
+    - `-a`: hiện ra file ẩn
   
  
 ## Sẵn sàng đi thôi
 
 **change directory**
-`cd [tên_thư_mục]`
-- di chuyển từ thư mục hiện tại đến `[tên_thư_mục]`
-- nếu không đưa ra một thư mục cụ thể, mặc dịnh sẽ quay lại thư mục `/home`
-- chấp nhận cả đường dẫn tuyệt đối (`cd /home/user1/cs2043`) và tương đối (`cd cs2043`)
+- `cd [tên_thư_mục]`
+  - di chuyển từ thư mục hiện tại đến `[tên_thư_mục]`
+  - nếu không đưa ra một thư mục cụ thể, mặc dịnh sẽ quay lại thư mục `/home`
+  - chấp nhận cả đường dẫn tuyệt đối (`cd /home/user1/cs2043`) và tương đối (`cd cs2043`)
 
 
 
