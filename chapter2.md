@@ -102,6 +102,7 @@ Trước khi ta định đến một nơi nào đó, hãy xem xung quanh ta có 
 Nếu chúng ta bắt đầu ở `/usr/local/src`, sau đó:
 - `cd` hoặc `cd ~` => `/home/hussam`
 - `cd .` => `/usr/local/src`
+- `cd ..` => `/usr/local`
 
 
 
