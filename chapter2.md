@@ -57,7 +57,8 @@ Những điều này có vẻ thú vị thật, nhưng làm sao để  biết �
 
 ## Tôi đang ở đâu?
 
-Mặc định thì shell sẽ dùng đường dẫn hiện tai
+Mặc định thì shell sẽ dùng đường dẫn hiện tại ở cửa sổ dòng lệnh. Nếu không bạn hãy thử:
+**`P`rint `W`orking `D`irectory**
 
 
 
