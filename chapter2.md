@@ -2,7 +2,7 @@
 
 ### Ở bài học trước, chúng ta đã tìm hiểu sơ lược về hệ thống UNIX và những phiên bản của nó
 
-### Hôm nay sẽ đi chi tiết. Hãy xoắn tay áo của bạn lên và trải nghiệm, đừng ngại bẩn tay nhé.
+### Hôm nay sẽ đi chi tiết. Hãy xoắn tay áo của bạn lên và nhúng tay vào để trải nghiệm, đừng ngại bẩn nhé.
 
 
 ## Lưu ý nhỏ
@@ -30,3 +30,43 @@ File ẩn được bắt đầu bởi dấu "." : .gimp
 ## Hệ thống phân cấp file trong UNIX
 
 ![](unix_filesystem.jpg)
+
+## Những thư mục đó là gì?
+
+`/dev`: có thể  truy cập các thiết bị phần cứng tại đây - thông thường bạn không cần đụng đến đống hỗn độn này.
+`/lib`: chứa các thư viện, cùng với `/usr/lib`, `/usr/local/lib`, ...
+`/mnt`: dùng để kết nối thêm các thiết bị lưu trữ khác vào hệ thống.
+`/usr`: lưu trữ các chương trình được cài đặt bởi người dùng và các file liên quan.
+`/etc`: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
