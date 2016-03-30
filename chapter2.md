@@ -102,6 +102,16 @@ Trước khi ta định đến một nơi nào đó, hãy xem xung quanh ta có 
   - `cd .` => `/usr/local/src`
   - `cd ..` => `/usr/local`
 
+## Tạo file
+
+Cách dễ nhất để tạo một file rỗng - hãy dùng lệnh `touch`.
+
+Cách sử dụng:
+- `touch [flags] <file>`
+  - Có thể tùy chỉnh thời gian khởi tạo của một file cụ thể.
+  - Nếu không sử dụng bất kì cờ (flags) nào, hệ thống sẽ dùng thời gian hiện tại.
+  - **Nếu file chưa tồn tại**, lệnh `touch` sẽ tạo ra file đó.
+
 
 
 
