@@ -116,7 +116,34 @@ Phần đuôi file (hay còn gọi là mở rộng của file) như .exe (file t
 
 ## Tạo thư mục
 
-Đơn giản và dễ thực hiện
+Cực kì đơn giản.
+
+**M**a**k**e **dir**ectory:
+- `mkdir [flags] <thư_mục>`
+  - Tạo thư mục mới.
+  - Có thể sử dụng đường dẫn tương đối/tuyệt đối để tạo thư mục bên ngoài thư mục hiện tại.
+
+## Xóa file
+
+Không giống Window, một khi bạn đã xóa file bằng câu lệnh trong UNIX, thật không dễ dàng để bạn có thể khôi phục lại nó.
+**R**e**m**ove file:
+- `rm [flags] <tên_file>`
+  - Xóa đi file <tên_file>
+  - Sử dụng các kí hiệu (wildcards) chẳng hạn `*` để xóa nhiều file cùng lúc.
+    - `rm *`: xóa hết file trong thư mục hiện tại.
+    - `rm *.txt`: xóa hết file .txt trong thư mục hiện tại.
+  - `rm -i <tên_file>`: thông báo, nhắc nhở trước khi xóa file đó.
+
+## Xóa thư mục
+
+Vì lệnh **`rm`** không xóa được thư mục. Thay vào đó ta dùng:
+**R**e**m**ove **Dir**ectory.
+- `rmdir [flags] <thư_mục>`:
+  - Xóa một thư mục rỗng.
+  - Thông bào lỗi nếu thư mục chứa bất kì nội dung nào (khác rỗng).
+
+Xóa một thư mục và các thư mục con của nó, ta dùng lệnh **`rm`** với cờ (flag) **`-r`** (xóa một cách đệ qui (recursive)):
+- `rm -r /home/user1/oldstuff`
 
 
 
