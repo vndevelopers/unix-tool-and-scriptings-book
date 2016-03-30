@@ -140,7 +140,7 @@ Vì lệnh **`rm`** không xóa được thư mục. Thay vào đó ta dùng:
 **R**e**m**ove **Dir**ectory.
 - `rmdir [flags] <thư_mục>`:
   - Xóa một thư mục rỗng.
-  - Thông bào lỗi nếu thư mục chứa bất kì nội dung nào (khác rỗng).
+  - Thông báo lỗi nếu thư mục chứa bất kì nội dung nào (khác rỗng).
 
 Xóa một thư mục và các thư mục con của nó, ta dùng lệnh **`rm`** với cờ (flag) **`-r`** (xóa một cách đệ qui (recursive)):
 - `rm -r /home/user1/oldstuff`
