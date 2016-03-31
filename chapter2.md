@@ -204,7 +204,9 @@ Có một vài sự khác biệt nho nhỏ với các lựa chọn (options) gi�
 
 Đây là lí do tại sao manpage là sự lựa chọn trước tiên của bạn, và Web chỉ đứng thứ hai thôi.
 
+## Người dùng (Users), Nhóm (Groups)...
 
+UNIX được thiết kế cho phép nhiều người dùng trên cùng một máy tính tại một thời điểm. Điều này nảy ra một vấn đề về bảo mật. Làm thế nào để đảm bảo đồng nghiệp của tôi có thể đọc thư (email), truy cập vào tài liệu hoặc thay đổi, xóa file trong khi tôi đang sử dụng chúng.
 
 
 
