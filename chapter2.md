@@ -213,7 +213,15 @@ UNIX được thiết kế cho phép nhiều người dùng trên cùng một m�
 
 ## Giả thuyết Nhóm ...
 
+File có thể được ấn định cho một nhóm các người dùng, cho phép đọc, chỉnh sửa hay/hoặc thực thi để giới hạn với nhóm người dùng nhỏ hơn.
+- Ví dụ: mỗi thành viên của lớp học này được cấp một tài khoản trên cùng một máy chủ, bạn phải khéo léo để lưu giữ bài tập ở chế độ bí mật. Tuy nhiên nếu ta có một trang wiki chạy trên máy chủ này, mọi người có thể truy cập và chỉnh sửa một cách thuận tiện, ngoại trừ những người bên ngoài lớp.
 
+## Quyền sở hữu file
+
+- Mỗi file được gán cho một người dùng và một nhóm (thường viết dạng user:group).
+- Ví dụ file của Alice thuộc vào alice:user,  file của root root:root.
+- Phải có quyền root để thay đổi quyền sở hữu file - một người dùng bình thường không thể giành quyền sở hữu file của người khác và không thể chuyển quyền sở hữu file của họ cho người dùng khác hoặc một nhóm mà họ không tham gia.
+- Để biết bạn thuộc nhóm nào, gõ `groups`.
 
 
 
