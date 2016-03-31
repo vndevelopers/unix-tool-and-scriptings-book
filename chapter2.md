@@ -164,6 +164,17 @@ Khác với lệnh sao chép, lệnh `mv` di chuyển thư mục một cách đ�
   - Di chuyển file hoặc thư mục từ nơi này sang nơi khác.
   - Còn dùng để **đổi tên**, `mv <tên_cũ> <tên_mới>`
 
+## Cùng ôn lại một chút nhá
+
+- `ls`: hiển thị nội dung của thư mục.
+- `cd`: di chuyển sang thư mục khác.
+- `pwd`: cho biết vị trí thư mục đang đứng.
+- `rm`: xóa file.
+- `rmdir`: xóa thư mục.
+- `cp`: sao chép file.
+- `mv`: di chuyển file.
+
+## Giải thích về cờ/tùy chọn (flags/option)
 
 
 
