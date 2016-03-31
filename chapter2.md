@@ -218,11 +218,28 @@ File có thể được ấn định cho một nhóm các người dùng, cho ph
 
 ## Quyền sở hữu file
 
-- Mỗi file được gán cho một người dùng và một nhóm (thường viết dạng user:group).
-- Ví dụ file của Alice thuộc vào alice:user,  file của root root:root.
+- Mỗi file được gán cho một người dùng và một nhóm (thường viết dạng `user:group`).
+- Ví dụ file của Alice thuộc vào `alice:user`,  file của root `root:root`.
 - Phải có quyền root để thay đổi quyền sở hữu file - một người dùng bình thường không thể giành quyền sở hữu file của người khác và không thể chuyển quyền sở hữu file của họ cho người dùng khác hoặc một nhóm mà họ không tham gia.
 - Để biết bạn thuộc nhóm nào, gõ `groups`.
 
+## Tìm hiểu về quyền (Permissions)
+
+Chúng ta có thể dùng lệnh `ls -l` để biết chủ sở hữu và quyền đối với file đó.
+- `ls -l`: liệt kê file và thư mục với định dạng dài (thêm nhiều thông tin hơn).
+- Ví dụ: `-rw-r--r-- 1 hussam users 3775 2009-08-17 15:52 index.html`
+
+## Phân tích định dạng (format)
+
+**`-rwxrwxrwx`**
+- Quyền người dùng
+- Quyền của nhóm
+- Quyền của người/nhóm khác
+- R = Read (đọc), W = Write (viết, ghi), X = Execute (thực thi).
+- Thư mục bắt đầu bởi kí tự **`d`** thay vì **`-`**.
+
+Vậy  quyền của `-rw-rw-r--` có nghĩa gì?
+- Người dùng và nhóm của họ có thể đọc và ghi trên file đó, còn bất kì ai khác chỉ có thể đọc.
 
 
 
