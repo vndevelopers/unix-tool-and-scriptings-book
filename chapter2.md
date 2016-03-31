@@ -183,7 +183,10 @@ Hầu hết tất cả các lệnh đều có cờ (flags) (còn gọi là tùy 
   - `rm -fi file` => in ra thông báo khi xóa file
   - `rm -if file` => không in ra thông báo khi xóa file
 
+## Người bạn đồng hành cùng những câu lệnh
 
+Làm sao để bạn có thể mường tượng được cách mà câu lệnh hoạt động như thế nào?
+Câu lệnh **Man**ual.
 
 
 
