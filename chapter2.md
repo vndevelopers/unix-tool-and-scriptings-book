@@ -195,6 +195,14 @@ Làm sao để bạn có thể mường tượng được cách mà câu lệnh 
   - Nhấn phím `n` để tới các kết quả tìm kiếm thành công.
 
 
+## Hãy cẩn thận
+
+Có một vài sự khác biệt nho nhỏ với các lựa chọn (options) giữa các hệ thống với nhau.
+- Ví dụ với lệnh `ls -B`:
+  - BDS/OSX: ép các kí tự trong file in ra dưới dang `\xxx`, trong đó `xxx` là giá trị quy đổi ra số của các kí tự đó trong hệ cơ số 8 (octal).
+  - Debian/Ubuntu: không liệt kê các thư mục kết thúc bởi kí tự `~`
+
+
 
 
 
