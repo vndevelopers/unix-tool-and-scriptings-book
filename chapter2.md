@@ -112,7 +112,7 @@ Cách sử dụng:
   - Nếu không sử dụng bất kì cờ (flags) nào, hệ thống sẽ dùng thời gian hiện tại.
   - **Nếu file chưa tồn tại**, lệnh `touch` sẽ tạo ra file đó.
 
-Phần đuôi file (hay còn gọi là mở rộng của file) như .exe (file thực thi), .txt (file văn bản) thì rất bình thường trong hệ thống UNIX. Sử dụng lệnh `touch` để tạo một file thì ta sẽ thu được một file văn bản (text), vì vậy không cần phải thêm vào đuôi file .txt
+Phần đuôi file (hay còn gọi là mở rộng của file) như .exe (file thực thi), .txt (file văn bản) trong hệ thống UNIX cũng như Window. Sử dụng lệnh `touch` để tạo một file thì ta sẽ thu được một file văn bản (text), vì vậy không cần phải thêm vào đuôi file .txt
 
 ## Tạo thư mục
 
