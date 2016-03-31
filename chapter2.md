@@ -176,7 +176,12 @@ Khác với lệnh sao chép, lệnh `mv` di chuyển thư mục một cách đ�
 
 ## Giải thích về cờ/tùy chọn (flags/option)
 
-
+Hầu hết tất cả các lệnh đều có cờ (flags) (còn gọi là tùy chọn (options)). Thường đi trước các đối tượng cần thực thi và bắt đầu bởi kí hiệu **`-`**.
+- Một lựa chọn: `ls -l`
+- Hai lựa chọn: `ls -l -a` hoặc `ls -la`
+- Các lựa chọn được tính từ trái qua phải:
+  - `rm -fi file` => in ra thông báo khi xóa file
+  - `rm -if file` => không in ra thông báo khi xóa file
 
 
 
