@@ -207,6 +207,11 @@ Có một vài sự khác biệt nho nhỏ với các lựa chọn (options) gi�
 ## Người dùng (Users), Nhóm (Groups)...
 
 UNIX được thiết kế cho phép nhiều người dùng trên cùng một máy tính tại một thời điểm. Điều này nảy ra một vấn đề về bảo mật. Làm thế nào để đảm bảo đồng nghiệp của tôi có thể đọc thư (email), truy cập vào tài liệu hoặc thay đổi, xóa file trong khi tôi đang sử dụng chúng.
+- Truy cập vào file tùy vào tài khoản (account) người dùng (user).
+- Tất cả tài khoản được quản lí bởi **S**uper**u**ser (người dùng cấp cao), hay còn gọi tài khoản gốc (root account).
+- Mỗi tài khoản có quyền tuyệt đối đối với file mà họ sở hữu, chỉ có thể được thay thế bởi root
+
+## Giả thuyết Nhóm ...
 
 
 
