@@ -246,8 +246,9 @@ Vậy  quyền của `-rw-rw-r--` có nghĩa gì?
 
 Người dùng bình thường không thể thay đổi file hệ thống và cài đặt chương trình. Đó là một lợi thế rất lớn của UNIX mà nó có chặn được rất nhiều đoạn mã độc gây hại cho hệ thống. Với ý nghĩ đó, làm thế nào để bạn có thể thay đổi quyền đối với các file của bạn?
 - **Ch**ange **Mod**e
-  - `chmod <chế_độ (mode)> <file/thư_mục>`
-  - Thay đổi quyền dựa trên mode
+- `chmod <chế_độ (mode)> <file/thư_mục>`
+- Thay đổi quyền dựa trên mode.
+- Định dạng của mode là sự kết hợp của 3 trường (fields)
 
 
 
