@@ -186,7 +186,7 @@ Hầu hết tất cả các lệnh đều có cờ (flags) (còn gọi là tùy 
 ## Người bạn đồng hành cùng những câu lệnh
 
 Làm sao để bạn có thể mường tượng được cách mà câu lệnh hoạt động như thế nào?
-Câu lệnh **Man**ual.
+Câu lệnh **Man**ual (cho biết về cách câu lệnh thực thi).
 
 
 
