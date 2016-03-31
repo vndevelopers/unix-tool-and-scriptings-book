@@ -186,7 +186,13 @@ Hầu hết tất cả các lệnh đều có cờ (flags) (còn gọi là tùy 
 ## Người bạn đồng hành cùng những câu lệnh
 
 Làm sao để bạn có thể mường tượng được cách mà câu lệnh hoạt động như thế nào?
-Câu lệnh **Man**ual (cho biết về cách câu lệnh thực thi).
+- Câu lệnh **Man**ual (cho biết về cách câu lệnh thực thi).
+- `man <câu_lệnh>`
+  - Đưa ra một trang hướng dẫn sử dụng câu lệnh đó (manpage).
+  - Khác với tìm kiếm ở Web, đây là trang có sẵn của hệ thống UNIX.
+  - Cho biết toàn bộ danh sách các lựa chọn / tham số đầu vào (parameter) có thể có.
+  - Dùng **`/<từ_khóa(keywork)>`** để tìm kiếm `từ_khóa` trong manpage.
+  - Nhấn phím `n` để tới các kết quả tìm kiếm thành công.
 
 
 
