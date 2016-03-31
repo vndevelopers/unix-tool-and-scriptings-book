@@ -160,7 +160,9 @@ Xóa một thư mục và các thư mục con của nó, ta dùng lệnh **`rm`*
 Khác với lệnh sao chép, lệnh chuyển file di chuyển thư mục một cách đệ quy mà không cần dùng flag **`-r`** (tương tự `cut` của Window).
 
 **M**o**v**e
-
+- `mv [flag] <nguồn> <đích>`
+  - Di chuyển file hoặc thư mục từ nơi này sang nơi khác.
+  - Còn dùng để **đổi tên**, `mv <tên_cũ> <tên_mới>`
 
 
 
