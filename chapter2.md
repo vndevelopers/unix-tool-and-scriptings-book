@@ -151,7 +151,15 @@ Xóa một thư mục và các thư mục con của nó, ta dùng lệnh **`rm`*
 - `cp [flags] <file> <đích (destination)>`
   - Sao chép file từ nơi này sang nơi khác.
   - Để sao chép nhiều file cùng lúc, bạn có thể dùng các toán tử mở rộng (chẳng hạn **`*`**).
-  - Để chép toàn bộ một thư mục, dùng lệnh `cp -r <thư_mục_nguồn (source)> <đích>`
+  - Để chép toàn bộ một thư mục, dùng lệnh `cp -r <thư_mục_nguồn (source)> <đích>`.
+- Ví dụ: để sao chép toàn bộ file .mp3 vào thư mục `/Music`
+  - `cp *.mp3 /home/user1/Music/`
+
+## Di chuyển / dời file (Move)
+
+Khác với lệnh sao chép, lệnh chuyển file di chuyển thư mục một cách đệ quy mà không cần dùng flag **`-r`** (tương tự `cut` của Window).
+
+**M**o**v**e
 
 
 
