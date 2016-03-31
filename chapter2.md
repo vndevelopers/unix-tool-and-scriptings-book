@@ -145,7 +145,13 @@ Vì lệnh **`rm`** không xóa được thư mục. Thay vào đó ta dùng:
 Xóa một thư mục và các thư mục con của nó, ta dùng lệnh **`rm`** với cờ (flag) **`-r`** (xóa một cách đệ qui (recursive)):
 - `rm -r /home/user1/oldstuff`
 
+## Sao chép dữ liệu (Copy)
 
+**C**o**p**y
+- `cp [flags] <file> <đích (destination)>`
+  - Sao chép file từ nơi này sang nơi khác.
+  - Để sao chép nhiều file cùng lúc, bạn có thể dùng các toán tử mở rộng (chẳng hạn **`*`**).
+  - Để chép toàn bộ một thư mục, dùng lệnh `cp -r <thư_mục_nguồn (source)> <đích>`
 
 
 
