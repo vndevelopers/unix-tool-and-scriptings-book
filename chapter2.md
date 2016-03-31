@@ -231,7 +231,8 @@ Chúng ta có thể dùng lệnh `ls -l` để biết chủ sở hữu và quy�
 
 ## Phân tích định dạng (format)
 
-**`-rwxrwxrwx`**
+**-{% em type="red" %}rwx{% endem %}{% em type="blue" %}rwx{% endem %}{% em type="green" %}rwx{% endem %}**
+
 - Quyền người dùng
 - Quyền của nhóm
 - Quyền của người/nhóm khác
