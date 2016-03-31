@@ -233,9 +233,9 @@ Chúng ta có thể dùng lệnh `ls -l` để biết chủ sở hữu và quy�
 
 **-{% em type="red" %}rwx{% endem %}{% em type="blue" %}rwx{% endem %}{% em type="green" %}rwx{% endem %}**
 
-- Quyền người dùng
-- Quyền của nhóm
-- Quyền của người/nhóm khác
+- {% em type="red" %}Quyền người dùng{% endem %}
+- {% em type="blue" %}Quyền của nhóm{% endem %}
+- {% em type="green" %}Quyền của người/nhóm khác{% endem %}
 - R = Read (đọc), W = Write (viết, ghi), X = Execute (thực thi).
 - Thư mục bắt đầu bởi kí tự **`d`** thay vì **`-`**.
 
