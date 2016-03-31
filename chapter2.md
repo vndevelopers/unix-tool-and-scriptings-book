@@ -202,6 +202,8 @@ Có một vài sự khác biệt nho nhỏ với các lựa chọn (options) gi�
   - BDS/OSX: ép các kí tự trong file in ra dưới dang `\xxx`, trong đó `xxx` là giá trị quy đổi ra số của các kí tự đó trong hệ cơ số 8 (octal).
   - Debian/Ubuntu: không liệt kê các thư mục kết thúc bởi kí tự `~`
 
+Đây là lí do tại sao manpage là sự lựa chọn trước tiên của bạn, và Web chỉ đứng thứ hai thôi.
+
 
 
 
