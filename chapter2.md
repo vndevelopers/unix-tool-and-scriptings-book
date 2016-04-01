@@ -239,7 +239,7 @@ Chúng ta có thể dùng lệnh `ls -l` để biết chủ sở hữu và quy�
 - R = Read (đọc), W = Write (viết, ghi), X = Execute (thực thi).
 - Thư mục bắt đầu bởi kí tự **`d`** thay vì **`-`**.
 
-Vậy  quyền của `-rw-rw-r--` có nghĩa gì?
+Vậy  định dạng `-rw-rw-r--` có nghĩa gì?
 - Người dùng và nhóm của họ có thể đọc và ghi trên file đó, còn bất kì ai khác chỉ có thể đọc.
 
 ## Thay đổi quyền
@@ -248,7 +248,10 @@ Người dùng bình thường không thể thay đổi file hệ thống và c�
 - **Ch**ange **Mod**e
 - `chmod <chế_độ (mode)> <file/thư_mục>`
 - Thay đổi quyền dựa trên mode.
-- Định dạng của mode là sự kết hợp của 3 trường (fields)
+- Định dạng của mode là sự kết hợp của 3 trường (fields):
+  - Ai bị ảnh hưởng, có thể kết hợp các flags: `u`, `g`, `o` hoặc `a` (tất cả).
+  - Thêm vào hay bớt đi quyền: **`+`** hoặc **`-`**.
+  - Loại quyền nào được thêm vào hay bớt đi - kết hợp của `r`, `w` và `x`.
 
 
 
