@@ -264,8 +264,9 @@ Ví dụ:
   - 0: tắt (OFF)
 - `r` x 2^2 + `w` x 2^1 + `x` x 2^0
 Ví dụ:
-- `chmod 755`: -rwxr-xr-x
-- ``
+- `chmod 755`: rwxr-xr-x
+- `chmod 600`: rw-------
+- `chmod 777`: rwxrwxrwx
 
 
 
