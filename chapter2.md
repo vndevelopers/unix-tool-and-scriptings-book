@@ -327,6 +327,14 @@ Chỉ đọc file mà không cần phải chỉnh sửa, ta có lệnh:
 - `less <file>`
   - Cho phép cuộn lên hoặc xuống từng trang một hay dòng một.
 
+## Bắt đầu và kết thúc
+
+Đôi khi bạn chỉ cần xem đầu file (tiêu đề) hoặc kết thúc của file (kết quả).
+- `head -[số_dòng] <file>`
+- `tail -[số_dòng] <file>`
+  - In ra -[số_dòng] đầu/cuối file.
+  - Mặc định là 10 dòng.
+
 
 
 
