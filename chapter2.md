@@ -258,6 +258,11 @@ Ví dụ:
 - `chmod a-r myfile`: bỏ đi quyền đọc file với tất cả mọi người.
 - `chmod ugo-rwx myfile`: bỏ đi hết quyền của file.
 
+**Một vài tiện ích**
+- Xem các flags `r`, `w` và `x` như là các biến nhị phân.
+  - 1: bật (ON)
+  - 0: tắt (OFF)
+- `r` x $$2^2$$ + `w` x $$2^1$$ `e` x $$2^0$$
 
 
 
