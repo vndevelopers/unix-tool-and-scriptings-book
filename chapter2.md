@@ -262,7 +262,7 @@ Ví dụ:
 - Xem các flags `r`, `w` và `x` như là các biến nhị phân.
   - 1: bật (ON)
   - 0: tắt (OFF)
-- `r` x 2^2 + `w` x 2^1 + `x` x 2^0
+- $$r . 2^2 + w . 2^1 + x . 2^0$$
 - Ví dụ:
   - `chmod 755`: rwxr-xr-x
   - `chmod 600`: rw-------
