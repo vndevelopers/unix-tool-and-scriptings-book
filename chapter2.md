@@ -271,15 +271,23 @@ Ví dụ:
 ## Thay đổi quyền sở hữu
 
 Nếu bạn  muốn thay đổi nhóm của file mà bạn sở hữu, dùng lệnh **ch**ange **gr**ou**p**
-- `chgrp nhóm <mục_tiêu>`
+- `chgrp nhóm <đối_tượng>`
   - Thay đổi nhóm sở hữu của file.
 
 Nếu bạn có quyền root và bạn muốn đổi quyền sở hữu của ai đó đối với file, dùng lệnh **ch**ange **own**ership.
-- `chown người_dùng/nhóm <mục_tiêu>`
-  - Thay đổi quyền sở hữu của file <mục_tiêu>
+- `chown người_dùng/nhóm <đối_tượng>`
+  - Thay đổi quyền sở hữu của file <đối_tượng>
   - Nhóm thì có thể có hoặc không.
   - Dùng flag `-R` để thay đổi cách đệ qui đối với thư mục và các file bên trong.
 
+## Đệ qui
+
+Hầu hết các câu lệnh (mà nó có tính suy diễn, logic) có tùy chọn đệ qui. Nó dùng để gây tác động đến tất cả các file trong các thư mục con của đối tượng.
+- Dùng `-r` hoặc `-R` (kiểm tra tại manpage để rõ hơn với các lệnh khác nhau).
+- Ví dụ: `chmod -R o-r ~/Document/`
+  - Bỏ đi quyền đọc file cho đối tượng khác (other) cho các file bên trong thư mục ~/Document/
+
+## Các loại file
 
 
 
