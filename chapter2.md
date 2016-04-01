@@ -276,6 +276,9 @@ Nếu bạn  muốn thay đổi nhóm của file mà bạn sở hữu, dùng l�
 
 Nếu bạn có quyền root và bạn muốn đổi quyền sở hữu của ai đó đối với file, dùng lệnh **ch**ange **own**ership.
 - `chown người_dùng/nhóm <mục_tiêu>`
+  - Thay đổi quyền sở hữu của file <mục_tiêu>
+  - Nhóm thì có thể có hoặc không.
+  - Dùng flag `-R` để thay đổi cách đệ qui đối với thư mục và các file bên trong.
 
 
 
