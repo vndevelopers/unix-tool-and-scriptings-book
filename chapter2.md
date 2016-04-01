@@ -253,6 +253,11 @@ Người dùng bình thường không thể thay đổi file hệ thống và c�
   - Thêm vào hay bớt đi quyền: **`+`** hoặc **`-`**.
   - Loại quyền nào được thêm vào hay bớt đi - kết hợp của `r`, `w` và `x`.
 
+Ví dụ:
+- `chmod ug+rw myfile`: thêm quyền đọc và thực thi cho người dùng và nhóm.
+- `chmod a-r myfile`: bỏ đi quyền đọc file với tất cả mọi người.
+- `chmod ugo-rwx myfile`: bỏ đi hết quyền của file.
+
 
 
 
