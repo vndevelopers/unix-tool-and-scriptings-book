@@ -262,7 +262,7 @@ Ví dụ:
 - Xem các flags `r`, `w` và `x` như là các biến nhị phân.
   - 1: bật (ON)
   - 0: tắt (OFF)
-- $$`r` \over {2^2} + `w` \over {2^1} + `x` \over {2^0}$$
+- `r` x 2^2 + `w` x 2^1 + `x` x 2^0
 
 
 
