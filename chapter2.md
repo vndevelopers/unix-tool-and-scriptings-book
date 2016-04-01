@@ -289,7 +289,43 @@ Hầu hết các câu lệnh (mà nó có tính suy diễn, logic) có tùy ch�
 
 ## Các loại file
 
+Thường có hai loại. Loại thứ nhất là file văn bản thuần túy (plain text, gọi ngắn gọn là văn bản).
+- File văn bản: định dạng mà con người có thể đọc được. Thường được dùng cho các mục đích:
+  - Tài liệu
+  - Hướng dẫn cài đặt ứng dụng
+  - Mã nguồn
+  - File log (file ghi lại thông tin)
+  - Bất kì thứ gì mà con người có thể đọc được ở phiên cuối cùng.
+- Chẳng hạn những thứ mà bạn tạo bằng notepad.
+- Có thể chỉnh sửa bởi các editor (phần mềm chỉnh sửa văn bản).
 
+## File nhị phân
+
+File nhị phân dùng để viết mã máy (ngôn ngữ mà máy có thể hiểu được). 
+- Con người không thể đọc, hiểu được (không tính các trường hợp sử dụng hex editor (chương trình dịch ngược mã máy)).
+- Thường dùng cho các loại file thực thi, thư viện, file media (ví dụ: mp3, mp4...), .zip...
+- Phải cần một số chương trình có đầu ra là file nhị phân để tạo ra nó.
+
+## Thao tác với file văn bản
+
+Shell được thiết kế để người dùng có thể tương tác với file văn bản một cách toàn diện và hiệu quả. Trước khi đi chi tiết, hãy cùng tìm hiểu cơ bản:
+- Lệnh `nano <file>`
+  - Mở file> cho việc chỉnh sửa.
+  - Chỉnh sửa bằng terminal editor (các bạn đã tìm hiểu về khái niệm terminal ở chương 1).
+  - Vì bãn đang sử dụng UNIX, nên editor này sẽ tốt cho bạn trong khóa học.
+  - Những phím tắt cho việc lưu, thoát bắt đầu bởi phím Crtl.
+
+## Đọc file
+
+Chỉ đọc file mà không cần phải chỉnh sửa, ta có lệnh:
+- `cat <file>`
+  - In ra nội dung file trên cửa sổ terminal.
+- `cat <file_1> <file_2>`
+  - In ra nội dung lần lượt file_1 đến file_2
+- `more <file>`
+  - Cho phép cuộn từng trang một tại một thời điểm
+- `less <file>`
+  - Cho phép cuộn lên hoặc xuống từng trang một hay dòng một.
 
 
 
