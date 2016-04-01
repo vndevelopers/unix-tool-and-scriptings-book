@@ -335,6 +335,25 @@ Chỉ đọc file mà không cần phải chỉnh sửa, ta có lệnh:
   - In ra -[số_dòng] đầu/cuối file.
   - Mặc định là 10 dòng.
 
+## In ra terminal
+
+Chúng ta đã thấy có nhiều cách khác nhau để in một văn bản ra màn hình. Nếu bạn muốn in ra một chuỗi, sử dụng:
+- `echo <text_string>`
+  - In chuỗi đầu vào ra terminal
+  - echo This is a string
+  - echo ’This is a string’
+  - echo "This is a string"
+    - all print the same thing
+- Chúng ta sẽ nói lý do tại sao đề cập đến 3 trường hợp này ở các bài học sau.
+
+## Nội dung chương tiếp theo
+
+Thêm nhiều bài học về:
+- Phím tắt, lời khuyên và mẹo
+- Các câu lệnh hữu dụng cho mỗi ngày
+- Kĩ thuật đường ống (piping), chuyển hướng đầu vào/ đầu ra.
+- Và nhiều điều hay ho nữa! 
+
 
 
 
