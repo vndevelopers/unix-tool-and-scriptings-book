@@ -270,11 +270,12 @@ Ví dụ:
 
 ## Thay đổi quyền sở hữu
 
-Nếu bạn  muốn thay đổi nhóm của file mà bạn sở hữu, dùng lệnh sau: **`ch`**ange **`gr`**ou**`p`**
+Nếu bạn  muốn thay đổi nhóm của file mà bạn sở hữu, dùng lệnh **`ch`**ange **`gr`**ou**`p`**
 - `chgrp nhóm <mục_tiêu>`
   - Thay đổi nhóm sở hữu của file.
 
-Nếu bạn có quyền root
+Nếu bạn có quyền root và bạn muốn đổi quyền sở hữu của ai đó đối với file, dùng lệnh **`ch`**ange **`own`**ership.
+- `chown người_dùng/nhóm <mục_tiêu>`
 
 
 
