@@ -346,7 +346,7 @@ Chúng ta đã thấy có nhiều cách khác nhau để in một văn bản ra 
     - all print the same thing
 - Chúng ta sẽ nói lý do tại sao đề cập đến 3 trường hợp này ở các bài học sau.
 
-## Nội dung chương tiếp theo
+## Nội dung các chương tiếp theo
 
 Thêm nhiều bài học về:
 - Phím tắt, lời khuyên và mẹo
