@@ -65,7 +65,11 @@ Hầu hết các câu lệnh (mà nó có tính suy diễn, logic) có tùy ch�
 - Ví dụ: `chmod -R o-w ~/Document/`
   - Bỏ đi quyền ghi vào file cho đối tượng khác (other) cho các file bên trong thư mục ~/Document/
 
+## Liên kết file
 
+Giống như Window, chúng ta có thể tạo liên kết đến file và các thư mục. Có 2 loại liên kết:
+- Liên kết thô (hard link).
+- Liên kết tượng trưng (symbolic link).
 
 
 
