@@ -13,3 +13,8 @@ Các lệnh cơ bản:
 
 ## Bảng tóm tắt - phân quyền
 Có định dạng: **-{% em type="red" %}rwx{% endem %}{% em type="blue" %}rwx{% endem %}{% em type="green" %}rwx{% endem %}**
+- {% em type="red" %}Quyền người dùng{% endem %}
+- {% em type="blue" %}Quyền của nhóm{% endem %}
+- {% em type="green" %}Quyền của người/nhóm khác{% endem %}
+- R = Read (đọc), W = Write (viết, ghi), X = Execute (thực thi).
+- Thư mục bắt đầu bởi kí tự **`d`** thay vì **`-`**.
