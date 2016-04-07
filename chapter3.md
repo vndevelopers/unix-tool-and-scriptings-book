@@ -18,3 +18,11 @@ Có định dạng: **-{% em type="red" %}rwx{% endem %}{% em type="blue" %}rwx{
 - {% em type="green" %}Quyền của người/nhóm khác{% endem %}
 - R = Read (đọc), W = Write (viết, ghi), X = Execute (thực thi).
 - Thư mục bắt đầu bởi kí tự **`d`** thay vì **`-`**.
+- Xem các flags `r`, `w` và `x` như là các biến nhị phân.
+  - 1: bật (ON)
+  - 0: tắt (OFF)
+- $$r . 2^2 + w . 2^1 + x . 2^0$$
+- Ví dụ:
+  - `chmod 755`: rwxr-xr-x
+  - `chmod 600`: rw-------
+  - `chmod 777`: rwxrwxrwx
