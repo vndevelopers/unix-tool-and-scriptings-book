@@ -75,8 +75,71 @@ Tạo liên kết:
 - `ln -[tùy_chọn] <file_mục_tiêu> [tên_liên_kết]`
   - Tạo một liên kết tới `<file_mục_tiêu>` qua `[tên_liên_kết]`, mặc định đang đứng ở thư mục hiện hành.
   - Liên kết này sẽ trỏ đến cùng một file trên hệ thống. Liên kết này không khác gì so với file gốc.
+  - Nói cách khác, file gốc và liên kết trỏ đến cùng một đối tượng bên dưới.
 
+## Liên kết tượng trưng
 
+Liên kết tượng trưng:
+- `ln -s <file_mục_tiêu> [tên_liên_kết]`
+  - Tạo một liên kết tượng trưng tới file hoặc thư mục.
+  - File liên kết chứa đường dẫn đến file gốc hoặc thư mục.
+  - Nói cách khác, liên kết tượng trưng trỏ đến một file khác.
+
+## Các loại file
+
+Thường có hai loại. Loại thứ nhất là file văn bản thuần túy (plain text, gọi ngắn gọn là văn bản).
+- File văn bản: định dạng mà con người có thể đọc được. Thường được dùng cho các mục đích:
+  - Tài liệu
+  - Hướng dẫn cài đặt ứng dụng
+  - Mã nguồn
+  - File log (file ghi lại thông tin)
+  - Bất kì thứ gì mà con người có thể đọc được ở phiên cuối cùng.
+- Chẳng hạn những thứ mà bạn tạo bằng notepad.
+- Có thể chỉnh sửa bởi các editor (phần mềm chỉnh sửa văn bản).
+
+## File nhị phân
+
+File nhị phân dùng để viết mã máy (ngôn ngữ mà máy có thể hiểu được). 
+- Con người không thể đọc, hiểu được (không tính các trường hợp sử dụng hex editor (chương trình dịch ngược mã máy)).
+- Thường dùng cho các loại file thực thi, thư viện, file media (ví dụ: mp3, mp4...), .zip...
+- Phải cần một số chương trình có đầu ra là file nhị phân để tạo ra nó.
+
+## Đây là loại file nào?
+
+Hiển thị loại file:
+- `file <tên_file>`
+
+## Đọc file
+
+Chỉ đọc file mà không cần phải chỉnh sửa, ta có lệnh:
+- `cat <file>`
+  - In ra nội dung file trên cửa sổ terminal.
+- `cat <file_1> <file_2>`
+  - In ra nội dung lần lượt file_1 đến file_2
+- `more <file>`
+  - Cho phép cuộn từng trang một tại một thời điểm
+- `less <file>`
+  - Cho phép cuộn lên hoặc xuống từng trang một hay dòng một.
+
+## Bắt đầu và kết thúc
+
+Đôi khi bạn chỉ cần xem đầu file (tiêu đề) hoặc kết thúc của file (kết quả).
+- `head -[số_dòng] <file>`
+- `tail -[số_dòng] <file>`
+  - In ra -[số_dòng] đầu/cuối file.
+  - Mặc định là 10 dòng.
+- Ví dụ: `tail /var/log/Xorg.0.log`: in ra 10 dòng cuối của file log.
+
+## In ra terminal
+
+Chúng ta đã thấy có nhiều cách khác nhau để in một văn bản ra màn hình. Nếu bạn muốn in ra một chuỗi, sử dụng:
+- `echo <text_string>`
+  - In chuỗi đầu vào ra terminal
+  - `echo This is a string`
+  - `echo ’This is a string’`
+  - `echo "This is a string"`
+    - all print the same thing
+- Chúng ta sẽ nói lý do tại sao đề cập đến 3 trường hợp này ở các bài học sau.
 
 
 
