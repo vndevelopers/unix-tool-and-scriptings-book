@@ -71,7 +71,8 @@ Giống như Window, chúng ta có thể tạo liên kết đến file và các 
 - Liên kết thô (hard link).
 - Liên kết tượng trưng (symbolic link).
 
-Tạo 
+Tạo liên kết:
+- `ln -[tùy_chọn] <file_mục_tiêu> [tên_liên_kết]`
 
 
 
