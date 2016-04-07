@@ -12,4 +12,4 @@ Các lệnh cơ bản:
 
 
 ## Bảng tóm tắt - phân quyền
-Có định dạng: 
+Có định dạng: **-{% em type="red" %}rwx{% endem %}{% em type="blue" %}rwx{% endem %}{% em type="green" %}rwx{% endem %}**
