@@ -343,7 +343,7 @@ Chúng ta đã thấy có nhiều cách khác nhau để in một văn bản ra 
   - `echo This is a string`
   - `echo ’This is a string’`
   - `echo "This is a string"`
-    - all print the same thing
+    - tất cả đều in ra giống nhau
 - Chúng ta sẽ nói lý do tại sao đề cập đến 3 trường hợp này ở các bài học sau.
 
 ## Nội dung các chương tiếp theo
