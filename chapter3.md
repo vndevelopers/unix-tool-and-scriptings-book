@@ -36,4 +36,6 @@ Câu lệnh này sẽ tác động lên quyền của tất cả các file mà b
   - `umask mode`: loại bỏ chế độ (ở đây là đọc, ghi hoặc thực thi) ra khỏi file
   - `umask` giống như một bộ lọc mà nó loại bỏ đi quyền của file hoặc thư mục đã tạo ra theo thứ tự vị trí **bit** được bật lên 1.
 - Ví dụ:
-  - `umask 077`: 
+  - `umask 077`: cấp tất cả quyền cho người dùng, không cho truy cập thừ bất kì ai
+  - `umask g-w`: kí hiệu thay thế: cho phép nhóm có quyền ghi.
+  - `umask -S`:  hiển thị các mode đã bị loại bỏ qua kí hiệu tượng trưng
