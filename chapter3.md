@@ -73,6 +73,7 @@ Giống như Window, chúng ta có thể tạo liên kết đến file và các 
 
 Tạo liên kết:
 - `ln -[tùy_chọn] <file_mục_tiêu> [tên_liên_kết]`
+  - Tạo một liên kết tới `<file_mục_tiêu>` qua `[tên_liên_kết]`, mặc định đang đứng ở thư mục hiện hành
 
 
 
