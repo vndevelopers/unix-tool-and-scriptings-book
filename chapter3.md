@@ -39,3 +39,42 @@ Câu lệnh này sẽ tác động lên quyền của tất cả các file mà b
   - `umask 077`: cấp tất cả quyền cho người dùng, không cho truy cập thừ bất kì ai
   - `umask g-w`: kí hiệu thay thế: cho phép nhóm có quyền ghi.
   - `umask -S`:  hiển thị các mode đã bị loại bỏ qua kí hiệu tượng trưng
+
+## Bảng tóm tắt - quyền sở hữu file
+
+- Mỗi file được gán cho một người dùng và một nhóm (thường viết dạng `user:group`).
+- Phải có quyền root để thay đổi quyền sở hữu file.
+- Để biết bạn thuộc nhóm nào, gõ `groups` hoặc `id`.
+
+## Thay đổi quyền sở hữu
+
+Nếu bạn  muốn thay đổi nhóm của file mà bạn sở hữu, dùng lệnh **ch**ange **gr**ou**p**
+- `chgrp nhóm <đối_tượng>`
+  - Thay đổi nhóm sở hữu của file.
+
+Nếu bạn có quyền root và bạn muốn đổi quyền sở hữu của ai đó đối với file, dùng lệnh **ch**ange **own**ership.
+- `chown người_dùng/nhóm <đối_tượng>`
+  - Thay đổi quyền sở hữu của file <đối_tượng>
+  - Nhóm thì có thể có hoặc không.
+  - Dùng flag `-R` để thay đổi cách đệ qui đối với thư mục và các file bên trong.
+
+##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
