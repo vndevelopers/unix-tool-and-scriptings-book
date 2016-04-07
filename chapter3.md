@@ -58,7 +58,12 @@ Nếu bạn có quyền root và bạn muốn đổi quyền sở hữu của ai
   - Nhóm thì có thể có hoặc không.
   - Dùng flag `-R` để thay đổi cách đệ qui đối với thư mục và các file bên trong.
 
-##
+## Đệ qui
+
+Hầu hết các câu lệnh (mà nó có tính suy diễn, logic) có tùy chọn đệ qui. Nó dùng để gây tác động đến tất cả các file trong các thư mục con của đối tượng.
+- Dùng `-r` hoặc `-R` (kiểm tra tại manpage để rõ hơn với các lệnh khác nhau).
+- Ví dụ: `chmod -R o-w ~/Document/`
+  - Bỏ đi quyền ghi vào file cho đối tượng khác (other) cho các file bên trong thư mục ~/Document/
 
 
 
