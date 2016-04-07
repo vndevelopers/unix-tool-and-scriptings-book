@@ -141,7 +141,17 @@ Chúng ta đã thấy có nhiều cách khác nhau để in một văn bản ra 
     - tất cả đều in ra giống nhau
 - Chúng ta sẽ nói lý do tại sao đề cập đến 3 trường hợp này ở các bài học sau.
 
+## Thao tác với file văn bản
 
+Shell được thiết kế để người dùng có thể tương tác với file văn bản một cách toàn diện và hiệu quả. Trước khi đến với vài thứ thú vị mới - bạn cần một viên thuốc để tỉnh táo chứ??
+
+## Thao tác với file văn bản - dành cho người mới
+
+- Lệnh `nano <file>`
+  - Mở file> cho việc chỉnh sửa.
+  - Chỉnh sửa bằng terminal editor (các bạn đã tìm hiểu về khái niệm terminal ở chương 1).
+  - Vì bãn đang sử dụng UNIX, nên editor này sẽ tốt cho bạn trong khóa học.
+  - Những phím tắt cho việc lưu, thoát bắt đầu bởi phím Crtl.
 
 
 
