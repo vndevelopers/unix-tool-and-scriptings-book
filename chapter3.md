@@ -221,6 +221,22 @@ Tôi không thể nào hướng dẫn hết tất cả các tiện ích, sức m
 - Mở file khác:
   - `:e tên_file`
 
+## Khởi động
+
+Để bắt đầu, bạn chạy Vim và làm theo bước bên dưới:
+- `:help`
+
+Bạn có thể tìm một chủ đề cụ thể:
+- `:help [chủ đề cần tìm]`
+
+## Nội dung các chương tiếp theo
+
+Thêm nhiều bài học về:
+- Phím tắt, lời khuyên và mẹo
+- Các câu lệnh hữu dụng cho mỗi ngày
+- Kĩ thuật đường ống (piping), chuyển hướng đầu vào/ đầu ra.
+- Và nhiều điều hay ho nữa!
+
 
 
 
