@@ -178,9 +178,28 @@ Chế độ chỉnh sửa (normal mode):
 - Nhấn một phím để thực hiện lệnh mong muốn hoặc chuyển sang chế độ khác.
 - Cho phép bạn xem văn bản nhưng không được chỉnh sửa.
 - Vim bắt đầu ở chế độ thông thường (normal).
-- Bạn có thể nhảy đến chế độ normal bằng cách nhấn phím Escape (Esc).
+- Bạn có thể nhảy đến chế độ normal bằng cách nhấn phím **`Escape (Esc)`**.
 
 Chế độ trực quan (visual mode):
+- Dùng làm nổi bật văn bản và thực hiện các thao tác trên văn bản được chọn.
+- Chuyển sang chế độ trực quan từ chế độ thông thường bằng cách nhấn phím **`v`**.
+
+Chế độ chèn (insert mode):
+- Dùng để chứa văn bản vào vùng nhớ đệm (buffer).
+- Có thể bạn đã sử dụng nó từ các chương trình chỉnh sửa văn bản.
+- Chuyển sang chế độ chèn bằng cách nhấn phím **`i`**.
+
+## Di chuyển xung quanh văn bản
+Nhanh:
+- Bạn có thể dùng chuột để di chuyển (giả định có một giao diện đồ họa gVim).
+
+Nhanh hơn:
+- Tuy nhiên sẽ nhanh hơn nếu bạn dùng bàn phím, chỉ với các phím mũi tên **`lên/xuống/trái/phải`**
+
+Nhanh nhất:
+- Hiệu quả hơn với việc bạn không cần phải nhấc tay ra xa khỏi khu vực chính trên bàn phím bằng việc dùng các phím **`h`** di chuyển qua trái, **`j`** di chuyển xuống, **`k`** di chuyển lên và **`l`** di chuyển qua phải.
+
+
 
 
 
