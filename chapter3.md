@@ -153,7 +153,34 @@ Shell được thiết kế để người dùng có thể tương tác với fi
   - Vì bãn đang sử dụng UNIX, nên editor này sẽ tốt cho bạn trong khóa học.
   - Những phím tắt cho việc lưu, thoát bắt đầu bởi phím Crtl.
 
+**Chuyển sang chế độ nâng cao (try hard)**
 
+## VIM = awesome!
+
+- Vim là trình chỉnh sửa văn bản gọn nhẹ và đầy sức mạnh.
+- Vim là từ viết tắt của **V**i **IM**proved.
+  - Vi là trình chỉnh sửa văn bản cũ hơn, có thể xem là tiền thân của Vim.
+- Vim được hỗ trợ cho mọi hệ thống, kể cả Window.
+- Với Vim, việc chỉnh sửa văn bản sẽ nhanh hơn rất nhiều so với hầu hết các chương trình khác.
+  - Mặc dù có những điểm cần phải nâng cấp.
+
+## Phương thức chỉnh sửa văn bản
+
+- Một trong các lí do mà Vim cho phép bạn chỉnh sửa văn bản nhanh hơn là vì nó làm việc trong các  chế độ (modes).
+- Khi không có mode, người dùng có thể tương tác bằng cách sử dụng bàn phím / chuột, hoặc một tổ hợp phím nhùng nhằng, phức tạp bởi các phím ctrl, alt, ...
+- Vim sử dụng các mode để đẩy tốc độ chỉnh sửa lên nhanh nhất có thể  mà không phụ thuộc vào các phím lệnh (command key) hoặc menu.
+
+Bạn có thể chỉnh sửa văn bản chỉ bằng bàn phím với một tốc độ không tưởng.
+
+## 3 chế độ (mode) chính của Vim
+
+Chế độ chỉnh sửa (normal mode):
+- Nhấn một phím để thực hiện lệnh mong muốn hoặc chuyển sang chế độ khác.
+- Cho phép bạn xem văn bản nhưng không được chỉnh sửa.
+- Vim bắt đầu ở chế độ thông thường (normal).
+- Bạn có thể nhảy đến chế độ normal bằng cách nhấn phím Escape (Esc).
+
+Chế độ trực quan (visual mode):
 
 
 
