@@ -199,8 +199,27 @@ Nhanh hơn:
 Nhanh nhất:
 - Hiệu quả hơn với việc bạn không cần phải nhấc tay ra xa khỏi khu vực chính trên bàn phím bằng việc dùng các phím **`h`** di chuyển qua trái, **`j`** di chuyển xuống, **`k`** di chuyển lên và **`l`** di chuyển qua phải.
 
+Bắt đầu, các bạn nên dùng các phím mũi tên là phù hợp nhất.
 
+## Các lệnh cơ bản
 
+Tôi không thể nào hướng dẫn hết tất cả các tiện ích, sức mạnh của công cụ Vim chỉ với vài phút ngắn ngủi, tuy nhiên có một vài lệnh cơ bản có thể giúp bạn khởi đầu một cách thuận lợi.
+- Tìm kiếm sự giúp đỡ:
+  - `:help`
+- Chuyển qua chế độ thông thường:
+  - `<Esc>`
+- Chuyển qua chế độ chèn:
+  - `<i>`
+- Chế độ trực quan:
+  - `<v>`
+- Lưu văn bản vào file.txt
+  - `:w file.txt`
+- Thoát khỏi Vim:
+  - `:q`
+- Thoát mà không lưu văn bản:
+  - `:q!`
+- Mở file khác:
+  - `:e tên_file`
 
 
 
