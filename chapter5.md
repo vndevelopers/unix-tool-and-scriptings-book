@@ -202,7 +202,7 @@ Nếu đầu ra dạng chữ không quan trọng, điều hướng nó tới `/d
 
 ## Quay trở lại lệnh tr
 
-### tr and sets
+### tr và sets
 
 - Nếu 2 tập hợp được truyền vào `tr` có độ dài như nhau thì ký tự đầu tiên của tập hợp thứ nhất sẽ được thay thế bằng ký tự đầu tiên của tập thứ hai và cứ như thế.
 - Nếu tập hợp thứ hai ngắn hơn thứ nhất, thì chúng cũng sẽ chạy và mọi ký tự dư ra sẽ được thay thế bằng ký tự cuối cùng của tập hợp thứ 2.
