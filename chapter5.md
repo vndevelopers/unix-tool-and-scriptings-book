@@ -110,6 +110,9 @@ $ sort numbers.txt -n
 ## Luồng dữ liệu chuẩn
 
 ![Standard Stream](images/chap5/standard_streams.png)
+Nguồn:
+- https://en.wikipedia.org/wiki/Standard_streams#/media/File:Stdstreams-notitle.svg
+
 ## Kỹ thuật đường ống
 Ngôn ngữ kịch bản Bash là việc ghép nối những dòng lệnh lại với nhau để làm một điều gì có hiệu quả. Điều đó có thể giải quyết bằng "đường ống".
 
