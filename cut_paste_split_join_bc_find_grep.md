@@ -2,7 +2,7 @@
 
 ## Cắt (cut) và dán (paste) không sử dụng chuột và cửa sổ giao diện
 
-### **Cắt chuỗi**
+## **Cắt chuỗi**
 
 Rút trích ra từng phần từ mỗi dòng của dữ liệu đầu vào.
 - `cut [-b] [-c] [-d delim] [-f list] [-s] [file]`
@@ -29,3 +29,47 @@ Ví dụ:
 - cut -d : -f 3,4 -s employee.txt: in ra địa chỉ và mã bưu điện (mã vùng)
 - cut -d : -f 2 employee.txt: in ra số điện thoại và dòng cuối cùng
 - cut -d : -c 1 employee.txt: in ra kí tự đầu tiên và kí tự đầu tiên của dòng cuối.
+
+## Dán (paste)
+
+Dán nối tiếp các file cạnh nhau
+- `paste [option] [file_1 ...]`
+
+Option:
+- `-d`: ngăn cách các trường riêng biệt bằng kí tự cụ thể (thay cho **`tab`**).
+- `-s`: dán một cách tuần tự thay vì cạnh nhau.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
