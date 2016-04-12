@@ -18,7 +18,7 @@ Options (tùy chọn):
 
 ## Ví dụ về cắt chuỗi
 
-Ta có file employee.txt với nội dung như sau:
+Ta có file **employee.txt** với nội dung như sau:
 - Alice:607-233-2464:15 Sunny Place, Ithaca, NY:14850:female
 - Bob:607-257-2884:504 Brown St, Ithaca, NY:14850:male
 - Charlie:605-987-7886:99 Berry Lane, Palo Alto, CA:94304:male
