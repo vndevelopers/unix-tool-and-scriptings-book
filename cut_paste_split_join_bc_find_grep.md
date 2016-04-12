@@ -49,6 +49,12 @@ Ví dụ về `paste` (1/3)
   - 607-257-2884
   - 605-987-7886
 
+Ví dụ:
+- `paste names.txt phones.txt`:
+- Alice 607-233-2464
+- Bob 607-257-2884
+- Charlie 605-987-7886
+
 
 
 
