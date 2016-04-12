@@ -23,3 +23,9 @@ Ta có file employee.txt với nội dung như sau:
 - Bob:607-257-2884:504 Brown St, Ithaca, NY:14850:male
 - Charlie:605-987-7886:99 Berry Lane, Palo Alto, CA:94304:male
 - This line doesn't have a demiliter
+
+Ví dụ:
+- cut -d : -f 1 -s employee.txt: in ra tên
+- cut -d : -f 3,4 -s employee.txt: in ra địa chỉ và mã bưu điện (mã vùng)
+- cut -d : -f 2 employee.txt: in ra số điện thoại và dòng cuối cùng
+- cut -d : -c 1 employee.txt: in ra kí tự đầu tiên và kí tự đầu tiên của dòng cuối.
