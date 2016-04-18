@@ -39,12 +39,14 @@ Option:
 - `-d`: ngăn cách các trường riêng biệt bằng kí tự cụ thể (thay cho **`tab`**).
 - `-s`: dán một cách tuần tự thay vì cạnh nhau.
 
-Ví dụ về `paste` (1/3)
-- names.txt
+## Ví dụ về `paste`
+
+names.txt
   - Alice
   - Bob
   - Charlie
-- phones.txt
+ 
+phones.txt
   - 607-233-2464
   - 607-257-2884
   - 605-987-7886
