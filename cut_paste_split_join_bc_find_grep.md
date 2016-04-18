@@ -39,7 +39,7 @@ Option:
 - `-d`: ngăn cách các trường riêng biệt bằng kí tự cụ thể (thay cho **`tab`**).
 - `-s`: dán một cách tuần tự thay vì cạnh nhau.
 
-## Ví dụ về `paste`
+## Ví dụ về `paste` (1/3)
 
 names.txt
   - Alice
@@ -58,7 +58,23 @@ Ví dụ:
 - Charlie 605-987-7886
 
 
+## Ví dụ về `paste` (2/3)
 
+names.txt
+  - Alice
+  - Bob
+  - Charlie
+ 
+phones.txt
+  - 607-233-2464
+  - 607-257-2884
+  - 605-987-7886
+
+Ví dụ:
+- `paste -d : names.txt phones.txt`:
+- Alice:607-233-2464
+- Bob:607-257-2884
+- Charlie:605-987-7886
 
 
 
