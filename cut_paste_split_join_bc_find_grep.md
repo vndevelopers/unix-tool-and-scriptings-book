@@ -57,7 +57,6 @@ Ví dụ:
 - Bob 607-257-2884
 - Charlie 605-987-7886
 
-
 ## Ví dụ về `paste` (2/3)
 
 names.txt
@@ -76,9 +75,22 @@ Ví dụ:
 - Bob:607-257-2884
 - Charlie:605-987-7886
 
+## Ví dụ về `paste` (3/3)
 
+names.txt
+  - Alice
+  - Bob
+  - Charlie
+ 
+phones.txt
+  - 607-233-2464
+  - 607-257-2884
+  - 605-987-7886
 
-
+Ví dụ:
+- `paste -s : names.txt phones.txt`:
+- Alice Bob Charlie
+- 607-233- 607-257-2884 605-987-7886
 
 
 
