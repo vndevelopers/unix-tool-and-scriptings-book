@@ -12,4 +12,3 @@ Thank you very much !
 
 - Nguyễn Duy Khanh : [khanhicetea](https://khanhicetea.com)
 - Trương Anh Huy : [tahuy](https://github.com/tahuy)
-- Trần Đức Vĩnh Toàn : [tdvtoan](https://github.com/tdvtoan)
