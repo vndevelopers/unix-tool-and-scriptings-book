@@ -179,6 +179,10 @@ Ví dụ:
 - `-group tên_nhóm`: file thuộc về nhóm **tên_nhóm**.
 - `-path pattern`: file khớp với mẫu **pattern**.
 - `-perm mode`: quyền của file được gán bằng **mode**.
+- ... nhiều thông tin hơn về **find** với `**man find**`.
+
+**Mở rộng về find**
+- Thông thường các bổ từ cho việc tìm kiếm được kết hợp với nhau (i.e AND).
 
 
 
