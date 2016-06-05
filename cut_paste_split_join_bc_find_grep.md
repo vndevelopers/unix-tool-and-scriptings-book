@@ -108,7 +108,18 @@ Gộp những dòng có từ khóa giống nhau giữa hai file khác nhau.
 - Tùy chọn:
   - `-1 field`: gộp theo trường (field) của file 1.
   - `-2 field`: gộp theo trường (field) của file 2.
+  - `-a xxx`: hiển thị các dòng không có cặp trùng của file xxx.
 
+## Ví dụ gộp file
+
+age.txt
+- Alice 12
+- Bob 30
+- Charlie 23
+
+salaries.txt
+- Bob 129,000
+- Charlie 75,000
 
 
 
