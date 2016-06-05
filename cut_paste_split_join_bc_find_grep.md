@@ -158,14 +158,28 @@ Ví dụ:
 - Tìm kiếm theo tên (name), người sở hữu (owner), nhóm (group), loại (type), quyền (permissions), lần chỉnh sửa, thay đổi gần nhất (last modification date), và các tiêu chí khác.
 - Tìm kiếm đệ qui (tìm tất cả các thư mục con).
 
-Cú pháp:
+**Cú pháp**:
 - `find [nơi_tìm] tiêu_chí [thực_hiện_công_việc]`
 
-Sử dụng đơn giản
+**Sử dụng đơn giản**
 - Hiển thị đường dẫn của tất cả các file trong thư mục hiện tại và thư mục con.
   - `find . -print`
   - `find -print`
   - `find .`
+  - (Các lệnh trên tương đương nhau)
+- Tìm kiếm file bằng tên
+  - `find . -name tên_file.txt`
+
+**Tùy chọn của lệnh find**
+- `-name`: tên file hoặc thư mục muốn tìm.
+- `-maxdepth num`: đi xuống sâu nhất tới bậc thứ **num** của thư mục đang tìm.
+- `-mindepth num`: đi xuống ít nhất tới bậc thứ **num** của thư mục đang tìm.
+- `-amin n`: file được truy cập lần cuối là **n** phút trước.
+- `-atime n`: file được truy cập lần cuối là **n** ngày trước.
+- `-group tên_nhóm`: file thuộc về nhóm **tên_nhóm**.
+- `-path pattern`: file khớp với mẫu **pattern**.
+- `-perm mode`: quyền của file được gán bằng **mode**.
+
 
 
 
