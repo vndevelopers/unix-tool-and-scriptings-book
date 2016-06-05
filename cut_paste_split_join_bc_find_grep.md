@@ -151,6 +151,12 @@ Ví dụ:
 - **find**: tìm kiếm file/thư mục bằng tên hoặc các thuộc tính.
 - **grep**: tìm kiếm nội dung của file.
 
+##  Lệnh find
+
+- Dùng để tìm kiếm vị trí file / thư mục.
+- Tìm kiếm tập các thư mục bất kỳ cho các file phù hợp với một tiêu chí.
+- Tìm kiếm theo tên (name), người sở hữu (owner), nhóm (group), loại (type), quyền (permissions), lần chỉnh sửa, thay đổi gần nhất (last modification date), và các tiêu chí khác.
+
 
 
 
