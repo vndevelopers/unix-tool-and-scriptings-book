@@ -158,6 +158,15 @@ Ví dụ:
 - Tìm kiếm theo tên (name), người sở hữu (owner), nhóm (group), loại (type), quyền (permissions), lần chỉnh sửa, thay đổi gần nhất (last modification date), và các tiêu chí khác.
 - Tìm kiếm đệ qui (tìm tất cả các thư mục con).
 
+Cú pháp:
+- `find [nơi_tìm] tiêu_chí [thực_hiện_công_việc]`
+
+Sử dụng đơn giản
+- Hiển thị đường dẫn của tất cả các file trong thư mục hiện tại và thư mục con.
+  - `find . -print`
+  - `find -print`
+  - `find .`
+
 
 
 
