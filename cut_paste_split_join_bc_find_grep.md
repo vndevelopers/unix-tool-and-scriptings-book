@@ -121,6 +121,15 @@ salaries.txt
 - Bob 129,000
 - Charlie 75,000
 
+`join age.txt salaries.txt`
+- Bob 30 129,000
+- Charlie 23 75,000
+
+`join -a1 age.txt salaries.txt`
+- Bob 30 129,000
+- Charlie 23 75,000
+- Alice 12
+
 
 
 
