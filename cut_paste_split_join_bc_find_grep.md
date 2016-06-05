@@ -94,7 +94,20 @@ Ví dụ:
 
 ## Chia nhỏ file (split)
 
+Chia file thành nhiều mẫu nhỏ, chẳng hạn: các file mới xaa, xab, ...
+- `split -option file_1 [prefix]`
+- Tùy chọn:
+  - `-l`: số dòng trong mỗi file.
+  - `-b`: số byte trong mỗi file.
+  - `-prefix`: tên tiền tố của các file được xử lí.
 
+## Gộp file (join)
+
+Gộp những dòng có từ khóa giống nhau giữa hai file khác nhau.
+- `join [option] file_1 file_2`
+- Tùy chọn:
+  - `-1 field`: gộp theo trường (field) của file 1.
+  - `-2 field`: gộp theo trường (field) của file 2.
 
 
 
