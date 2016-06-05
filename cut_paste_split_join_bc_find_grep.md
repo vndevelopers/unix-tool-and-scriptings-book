@@ -146,6 +146,11 @@ Ví dụ:
 - `echo "1<3" | bc -l`
   - 1
 
+## Tìm kiếm
+
+- **find**: tìm kiếm file/thư mục bằng tên hoặc các thuộc tính.
+- **grep**: tìm kiếm nội dung của file.
+
 
 
 
