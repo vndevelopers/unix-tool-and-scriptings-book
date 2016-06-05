@@ -132,7 +132,19 @@ salaries.txt
 
 ## Tính toán cơ bản (basic calculator)
 
-Thực hiện những phép toán cơ bản của số học và logic
+Thực hiện những phép toán cơ bản của số học và logic.
+- Tùy chọn:
+  - `-l field`: tăng độ chính xác lên đến 20 chữ số, mặc định là 0.
+
+Ví dụ:
+- `echo "1/3" | bc`
+  - 0
+- `echo "1/3" | bc -l`
+  - 0.33333333333333333333
+- `echo "1>3" | bc -l`
+  - 0
+- `echo "1<3" | bc -l`
+  - 1
 
 
 
