@@ -130,6 +130,10 @@ salaries.txt
 - Charlie 23 75,000
 - Alice 12
 
+## Tính toán cơ bản (basic calculator)
+
+Thực hiện những phép toán cơ bản của số học và logic
+
 
 
 
