@@ -195,8 +195,10 @@ Tìm tất cả các file được truy cập trong 10 phút gần nhất:
 Tìm tất cả các file được truy cập trong ít nhất 10 phút trước:
   - `find . -amin +10`
  
- Hiển thị nội dung của tất cả các file được truy cập trong 10 phút gần đây:
+Hiển thị nội dung của tất cả các file được truy cập trong 10 phút gần đây:
   - `find . -amin -10 -exec cat ‘{}’ +`
+
+## Tìm kiếm bằng từ khóa
 
 
 
