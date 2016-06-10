@@ -198,7 +198,22 @@ Tìm tất cả các file được truy cập trong ít nhất 10 phút trước
 Hiển thị nội dung của tất cả các file được truy cập trong 10 phút gần đây:
   - `find . -amin -10 -exec cat ‘{}’ +`
 
-## Tìm kiếm bằng từ khóa
+## Tìm kiếm bằng từ khóa `GREP`
+
+Mục đích của lệnh grep là in ra dòng có nội dung khớp với mẫu cần tìm.
+- `grep <chuỗi> [file]`
+  - Tìm kiếm tất cả các dòng trong file có chứa <chuỗi>.
+  - `grep` tìm kiếm toàn cục / biểu thức chính quy / in ra.
+
+Ví dụ:
+- `grep password file`
+  - In ra tất cả các dòng có chứa từ password trong file.
+- `grep ""chromium" /var/log/dpkg.log`
+  - Cho biết thời điểm cập nhật trình duyệt chronium.
+- `history | grep grep`
+  - Cho biết những lệnh grep đã sử dụng gần đây.
+
+## Tùy chọn của lệnh `GREP`
 
 
 
