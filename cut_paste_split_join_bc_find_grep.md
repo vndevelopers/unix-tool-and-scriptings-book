@@ -215,7 +215,12 @@ Ví dụ:
 
 ## Tùy chọn của lệnh `GREP`
 
-
+Các tùy chọn:
+- `grep -i`: bỏ qua trường hợp phân biệt chữ hoa và thường.
+- `grep -A 20 -B 10`: in ra 10 dòng phía trước và 20 phía sau dòng chứa mẫu được tìm thấy.
+- `grep -v`: đảo ngược mẫu (chữ hoa sang thường và ngược lại)
+- `grep -o`:  chỉ in ra những chuỗi con trùng với mẫu.
+- `grep -n`: hiển thị số dòng.
 
 
 
