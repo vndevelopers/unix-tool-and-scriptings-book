@@ -187,7 +187,7 @@ Ví dụ:
 - Thực hiện một câu lệnh trên file được tìm thấy bằng cách sử dụng `-exec` câu lệnh `{}` \; cờ.
 - Sự khác nhau giữa `\;` và `+` là với `\;` thì mỗi một file được tìm thấy sẽ được thực thi riêng lẽ trong khi đó `+` thì nhiều file có thể gom thành một tham số để thực thi một lần.
 
-## Ví dụ về file
+## Ví dụ về find
 
 Tìm tất cả các file được truy cập trong 10 phút gần nhất:
   - `find . -amin -10`
