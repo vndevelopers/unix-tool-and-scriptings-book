@@ -182,7 +182,19 @@ Ví dụ:
 - ... nhiều thông tin hơn về **find** với **`man find`**.
 
 **Mở rộng về find**
-- Thông thường các bổ từ cho việc tìm kiếm được kết hợp với nhau (i.e AND).
+- Thông thường các bổ từ cho việc tìm kiếm được kết hợp với nhau (i.e AND). Chúng ta có thể tìm kiếm nhiều file trùng với một mẫu hoặc các mẫu khác nhau bằng cách sử dụng cờ `-o`.
+- Thực hiện một câu lệnh trên file được tìm thấy bằng cách sử dụng `-exec` câu lệnh `{}` + cờ.
+- Thực hiện một câu lệnh trên file được tìm thấy bằng cách sử dụng `-exec` câu lệnh `{}` \; cờ.
+- Sự khác nhau giữa `\;` và `+` là với `\;` thì mỗi một file được tìm thấy sẽ được thực thi riêng lẽ trong khi đó `+` thì nhiều file có thể gom thành một tham số để thực thi một lần.
+
+## Ví dụ về file
+
+Tìm tất cả các file được truy cập trong 10 phút gần nhất:
+- `find . -amin -10`
+Tìm tất cả các file được truy cập trong ít nhất 10 phút trước:
+- `find . -amin +10`
+Hiển thị nội dung của tất cả các file được truy cập trong 10 phút gần đây:
+- `find . -amin -10 -exec cat ‘{}’ +`
 
 
 
