@@ -9,4 +9,5 @@
 * [cut, paste, split, join, bc, find, grep](cut_paste_split_join_bc_find_grep.md)
 * [ssh, scp, processes: nice, kill, top; jobs](ssh_scp_processes_nice_kill_top_jobs.md)
 * [Regular Expressions - Biểu thức chính quy](regular_expressions.md)
+* sed, cron
 
