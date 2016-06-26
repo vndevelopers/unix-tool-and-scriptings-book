@@ -10,3 +10,11 @@
 - Chúng ta đặt chúng trong dấu nháy đơn để phân biệt với shell mở rộng.
 
 ## Quy tắc của biểu thức chính quy
+
+Một vài biểu thức chính quy (viết tắt RegExp) thực hiện cùng một nhiệm vụ theo kí tự đại diện đã được chúng ta định nghĩa trước đó.
+- Single character:
+  - Wildcard: **`?`** RegExp: **`.`**
+    - Khớp bất kì kí tự đơn nào.
+  - Wildcard: **`[a-z]`** RegExp: **`[a-z]`**
+    - Khớp một trong các kí tự đã cho biết.
+    - Không ngăn cách đa kí tự bởi dấu **`,`** trong RegExp. (e.x: **`[a,b,q-v]`** thành **`[abq-v]`**).
