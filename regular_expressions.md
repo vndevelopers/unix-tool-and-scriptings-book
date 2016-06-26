@@ -48,6 +48,16 @@ Những cách viết gọn cho các khoảng của các kí tự:
 Ví dụ:
 - `ls | grep [[:digit:]]`: liệt kê tất cả các file có chứa số trong tên file.
 
+## Các lớp viết tắt
+
+Hỗ trợ các lớp viết tắt phổ biến:
+- \d - số
+- \D - không phải số
+- \w - một phần của các kí tự chữ - từ, chẳng hạn [a-zA-Z0-9]
+- \W - không phải các kí tự chữ
+- \s - kí tự khoảng trắng
+- \S - không phải kí tự khoảng trắng
+
 
 
 
