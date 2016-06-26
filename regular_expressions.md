@@ -58,6 +58,15 @@ Hỗ trợ các lớp viết tắt phổ biến:
 - \s - kí tự khoảng trắng
 - \S - không phải kí tự khoảng trắng
 
+## Toán tử phủ định
+
+Chúng ta có thể đảo ngược lại khoảng của các kí tự:
+- `[^abc]`: khớp bất kì kí tự khác a, b và c.
+- `[^a-z]`: khớp bất kì kí tự không phải kí tự viết thường.
+
+## Khớp lặp lại nhiều lần (matching repetition)
+
+Một biểu thức chính quy (RegExp) mà theo sau nó 
 
 
 
