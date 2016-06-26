@@ -18,3 +18,11 @@ Một vài biểu thức chính quy (viết tắt RegExp) thực hiện cùng m�
   - Wildcard: **`[a-z]`** RegExp: **`[a-z]`**
     - Khớp một trong các kí tự đã cho biết.
     - Không ngăn cách đa kí tự bởi dấu **`,`** trong RegExp. (e.x: **`[a,b,q-v]`** thành **`[abq-v]`**).
+
+Ví dụ:
+- `grep 't.a'`: in ra tất cả các dòng có chứa các từ như tea, taa, and steap ...
+
+## Cảnh báo
+
+Giống như kí tự mở rộng của shell, RegExp là trường hợp nhạy cảm. Điều gì sẽ xảy ra nếu bạn muốn khớp bất kì kí tự nào theo trường hợp bên dưới?
+- `[a-Z]` sẽ khớp với các kí tự nào?
