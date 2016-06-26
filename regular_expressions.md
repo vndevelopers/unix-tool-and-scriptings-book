@@ -32,3 +32,30 @@ Phân bố, sắp xếp kí tự:
   - Có vài các kí tự không thuộc alphabet trong khoảng `[a-Z]`.
   - Để chỉ ra các từ một cách an toàn và rõ ràng chúng ta nên dùng `[a-zA-Z]`.
 - Chú ý: không phải mọi ngôn ngữ đều sắp xêp giống C. Ví dụ, một từ điển có thể sắp xếp các kí tự theo kiểu aAbBcC...
+
+## May mắn thay, chúng ta có thể lấy các khoảng này một cách dễ dàng
+
+Những cách viết gọn cho các khoảng của các kí tự:
+- Lớp các kí tự POSIX (tham khảo POSIX tại: [](https://en.wikipedia.org/wiki/POSIX))
+  - `[:alnum:]`: các kí tự số
+  - `[:alpha:]`: các kí tự alphabetic
+  - `[:digit:]`: số
+  - `[:punct:]`: các kí tự dấu chấm câu (chẳng hạn: !, ., ?...)
+  - `[:lower:]`: các kí tự viết thường
+  - `[:upper:]`: các kí tự viết hoa
+  - `[:lower:]`: các kí tự khoảng trắng (space, tab, ...)
+
+Ví dụ:
+- `ls | grep [[:digit:]]`: liệt kê tất cả các file có chứa số trong tên file.
+
+
+
+
+
+
+
+
+
+
+
+
