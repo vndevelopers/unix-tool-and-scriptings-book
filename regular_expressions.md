@@ -26,3 +26,9 @@ Ví dụ:
 
 Giống như kí tự mở rộng của shell, RegExp là trường hợp nhạy cảm. Điều gì sẽ xảy ra nếu bạn muốn khớp bất kì kí tự nào theo trường hợp bên dưới?
 - `[a-Z]` sẽ khớp với các kí tự nào?
+
+Phân bố, sắp xếp kí tự:
+- Mỗi loại ngôn ngữ, chương trình sắp xếp các kí tự theo các cách khác nhau. Trong ngôn ngữ lập trình C, các kí tự từ A-Z sẽ được ấn định bởi các số từ 65-90, trong khi đó từ a-z là 97-122. Vì vậy khoảng từ `[a-Z]` là 65-122. 
+  - Có vài các kí tự không thuộc alphabet trong khoảng `[a-Z]`.
+  - Để chỉ ra các từ một cách an toàn và rõ ràng chúng ta nên dùng `[a-zA-Z]`.
+- Chú ý: không phải mọi ngôn ngữ đều sắp xêp giống C. Ví dụ, một từ điển có thể sắp xếp các kí tự theo kiểu aAbBcC...
