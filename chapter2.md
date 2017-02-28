@@ -28,7 +28,7 @@ File ẩn được bắt đầu bởi dấu "." : .gimp
 
 ## Hệ thống phân cấp file trong UNIX
 
-![](unix_filesystem.jpg)
+![](images/chap2/unix_filesystem.jpg)
 
 ### Những thư mục đó là gì?
 
