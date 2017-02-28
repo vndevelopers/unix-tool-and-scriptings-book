@@ -291,7 +291,7 @@ Nếu bạn đang có một cái máy chạy Windows, đây là một trong các
 ### Thời gian tiếp theo
 
 * Chúng ta sẽ bắt tay vào việc
-* _Nhắc nhở: bài tập về nhà \(đúng hơn và một khảo sát\) sẽ được đăng lên trang web khóa học. Nhớ làm nhé!_
+* _Nhắc nhở: bài tập về nhà \(đúng hơn là một khảo sát\) sẽ được đăng lên trang web khóa học. Nhớ làm nhé!_
 
 
 
