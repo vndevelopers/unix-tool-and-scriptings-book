@@ -94,5 +94,137 @@ Ký tự `&` sẽ đại diện cho toàn bộ kết quả khớp:
 
 sẽ thay thế các từ bằng chính các từ nhưng trong ngoặc kép
 
+### Và còn hơn thế nữa với sed
 
+Làm sao chúng ta sử dụng sed để bỏ những từ khớp biểu thức chính quy ? `sed 's/regexp//g' file`
+
+Ví dụ: 
+
+`sed 's/[[:alnum:]]//g' Frankenstein.txt`
+
+Tiếp theo chúng ta sẽ cắt bỏ tiền tố của đường dẫn thư mục \(ví dụ chuyển từ `/usr/local/src` thành `src`\)
+
+Ví dụ:
+
+`pwd | sed 's/.*\///'`
+
+* Biến đổi tất cả những gì nằm trước dấu `/` thành không có gì
+* Chú ý là dấu `\` là để escapse dấu `/`
+
+### Mã sed
+
+sed là một ngôn ngữ lập trình hoàn chỉnh và ta có thể viết những đoạn mã sed.
+
+* Mọi file bắt đầu bởi `#!` để là một file mã
+
+Ví dụ:
+
+Tạo một file mã có tên là trim.sed
+
+```
+#! /usr/bin/sed -f
+s/^ *//
+s/ *$//
+```
+
+Bạn có thể chạy đoạn mã này từ shell như mọi chương trình khác
+
+```
+$ echo " this is a test " | ./trim.sed
+this is a test
+```
+
+Bây giờ chúng ta đã có một đoạn mã nhắm cắt bỏ khoảng trắng đầu chuỗi
+
+### Sử dụng sed trong vim
+
+Thay thế mẫu khớp với biểu thức chính quy bằng một chuỗi:
+
+`:%s/regexp/string/[options]`
+
+### Trò chơi Arkanoid bằng sed
+
+sed là một một ngữ lập trình hoàn chỉnh. Thực tế rằng có người đã viết một trò chơi chỉ bẳng mã sed.
+
+![](/images/chap9/sed-arkanoid.png)
+
+[_http://aurelio.net/soft/sedarkanoid/_](http://aurelio.net/soft/sedarkanoid/)
+
+Và còn nhiều hơn nữa về sed tại :
+
+[http://www.grymoire.com/Unix/Sed.html](http://www.grymoire.com/Unix/Sed.html)
+
+### cron
+
+cron là một chương trình cho phép những người dùng unix thực thi những câu lệnh hoặc đoạn mã một cách tự động vào một thời gian xác định.
+
+* cron là một dịch vụ chìm, nghĩa là chỉ cần chạy nó lên một lần, sau đó sẽ tự sắp xếp ngủ đông tới khi nó cần chạy
+* Được cài trên hầu hết phiên bản Linux và được chạy bởi một đoạn mã khởi động cùng hệ thống, vì thế bạn không cần phải chạy nó một cách thủ công
+  * Có thể kiểm tra bằng `ps -e | grep cron`
+  * Tùy theo hệ điều hành mà nó có thể hiển thị là **cron** hay **crond**
+* Chúng ta có thể kiểm soát và điều khiển dịch vụ cron bằng nhiều khác nhau...
+
+### cron và root
+
+Nếu bạn nhìn vào thư mục `/etc`, bạn có thể tìm thấy các thư mục con có tên
+
+* cron.hourly
+* cron.daily
+* cron.weekly
+* cron.monthly
+* Nếu bạn đặt những đoạn mã vào những thư mục này, nó sẽ được chạy mỗi phút, mỗi ngày, mỗi tuần, mỗi tháng tùy theo tên của thư mục
+
+* Chú ý: Nếu chúng ta làm thế với mã sao lưu dữ liệu thì chúng ta nên thay thế **~** thành **/home/hussam** vì đoạn mã sẽ được chạy dưới quyền root.
+
+### Sự linh động của cron
+
+Nếu bạn muốn linh động hơn trong việc đặt kế hoạch chạy thì bạn có thể chỉnh sửa file crontab
+
+* Những file crontab là những file cấu hình của cron
+* Bạn có thể tạo ra nó mà không cần quyền root !
+
+Chạy lênh `cat /etc/crontab` để có một cái nhìn vào file
+
+```
+# /etc/crontab: system-wide crontab
+# Unlike any other crontab you don’t have to run the ‘crontab’
+# command to install the new version when you edit this file
+# and files in /etc/cron.d. These files also have username fields,
+# that none of the other crontabs do.
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+# m h dom mon dow user command
+17 * * * * root cd / && run-parts --report /etc/cron.hourly
+25 6 * * * root test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+47 6 * * 7 root test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+52 6 1 * * root test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc cron.monthly )
+```
+
+### Cú pháp crontab
+
+```
+a.    b.    c.    d.    e.    [câu lệnh sẽ được chạy]
+```
+
+* a. phút \(0-59\)
+* b. giờ \(0-23\)
+* c. ngày trong tháng \(1-31\)
+* d. tháng \(1-12\)
+* e. thứ trong tuần \(0-6\) \(chủ nhật = 0\)
+
+Giá trị có thể là \* \(tất cả các giá trị hợp lệ\), một khoảng thì cách nhau bởi dấu gạch ngang, một số, một tập hợp các giá trị cách nhau bởi dấu phẩy hoặc một bước nhảy \(ví dụ \*/2 sẽ là mỗi 2 giờ\)
+
+### crontab cho nhiều người dùng
+
+* Để sửa file crontab của bạn, gõ `crontab -e`
+* Để xem file crontab của bạn, gõ `crontab -l`
+* Để xóa file crontab của bạn, gõ `crontab -r`
+
+Một file mẫu:
+
+```
+30    18    *    *    *    /home/hussam/backup.sh
+```
+
+Nó sẽ chạy mã sao lưu mỗi ngày vào lúc 6:30 chiều.
 
