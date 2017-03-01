@@ -98,7 +98,7 @@ sẽ thay thế các từ bằng chính các từ nhưng trong ngoặc kép
 
 Làm sao chúng ta sử dụng sed để bỏ những từ khớp biểu thức chính quy ? `sed 's/regexp//g' file`
 
-Ví dụ: 
+Ví dụ:
 
 `sed 's/[[:alnum:]]//g' Frankenstein.txt`
 
