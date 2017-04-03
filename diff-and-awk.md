@@ -90,5 +90,10 @@ gawk '/[Mm]onster/' Frankenstein.txt
 gawk '/[Mm]onster/ {print $0}' Frankenstein.txt
 ```
 
+* In ra tất cả các dòng trong file Frankenstein có chứa từ Monster hoặc monster
+* Nếu bạn không chỉ rõ thao tác, gawk sẽ mặc định in ra các dòng đó.
+* Tham số $0 được xem như dòng đầy đủ.
+* Gawk hiểu được các biểu thức chính quy mở rộng, vì vậy chúng ta không cần phải thêm +, ?, ...
+
 
 
