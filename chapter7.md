@@ -112,33 +112,23 @@ Truyền tải dữ liệu từ/tới máy chủ web
 
 Để có thêm thông tin về các lệnh này, tham khảo trang chủ của nó.
 
+## Processes \(tiến trình\) và Jobs \(công việc\)
 
+### Tiến trình? Tiến trình là gì?
 
-### Processes \(tiến trình\) và Jobs \(công việc\)
+Định nghĩa: tiến trình là một phần đang được thực thi \(instance\) của một chương trình đang chạy. Một chương trình có thể có nhiều instance khác nhau. Mỗi instance tương đương với một tiến trình.
 
+* Cụ thể hơn một chương trình vì nó đang được thực thi
+* Cụ thể hơn một chương trình đang chạy vì một chương trình tương tự có thể chạy đồng thời nhiều lần hoặc nhiều tiến trình 
 
+Ví dụ: nhiều người dùng có thể chạy đồng thời một chương trình trên cùng một máy tính. Mỗi instance của chương trình đang chạy là những tiến trình riêng biệt.
 
+### Định danh tiến trình
 
+Làm sao ta có thể giao tiếp với một tiến trình từ tiến trình khác?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Mỗi tiến trình được ấn định duy nhất một "process ID \(định danh tiến trình - PID\)" khi nó được khởi tạo
+* Những PID này khác nhau giữa các instance riêng biệt của cùng một chương trình.
 
 
 
