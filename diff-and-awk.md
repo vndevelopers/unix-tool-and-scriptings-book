@@ -61,5 +61,17 @@ AWK là một loại ngôn ngữ dành cho việc xử lí văn bản - cơ sở
 
   * sed -P
 
+* Rất nhiều công dụng.
+
+### Bạn đã từng biết đến gawk?
+
+* gawk là hiện thực hóa của GNU với chương trình ngôn ngữ AWK. Trên BSD/OS X nó là awk.
+* awk cho phép ta thiết lập các filters \(bộ lọc\) để xử lí văn bản dễ dàng như các con số \(và nhiều hơn nữa\)
+* Cấu trúc cơ bản của một chương trình awk
+* ```
+  pattern1 {command}
+  pattern2 {command}
+  ```
+* 
 
 
