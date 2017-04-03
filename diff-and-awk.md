@@ -45,9 +45,13 @@ diff file1 file2
 
 * &gt;: nghĩa là dòng đó không có trong file2
 
+### Giới thiệu về AWK
 
+AWK là một loại ngôn ngữ dành cho việc xử lí văn bản - cơ sở dữ liệu
 
-
+* Cho phép ta dễ dàng thao tác trên nhiều trường \(fields\) thay vì trên tất cả các dòng
+* Hoạt động theo pattern-action \(mẫu-thao tác\) giống như sed
+* Hỗ trợ các loại số \(và các phép tính\) cùng luồng điều khiển \(trạng thái if-else\)
 
 
 
