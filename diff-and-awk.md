@@ -109,5 +109,19 @@ END {print "Found " count " monsters in the book!}
 * Gawk không yêu cầu phải khởi tạo giá trị cho biến
 * Số nguyên được mặc định là 0, còn chuỗi là "" \(NULL\)
 
+### gawk gawk gawk
+
+Nếu không đưa ra mẫu, thì đoạn mã sẽ thực thi trên từng dòng một.
+
+```
+gawk '{print $2}' infile
+```
+
+In trường/từ thứ 2 trên mỗi dòng.
+
+### Mô phỏng / giả lập câu lệnh khác
+
+
+
 
 
