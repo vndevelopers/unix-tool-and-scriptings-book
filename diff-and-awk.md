@@ -39,13 +39,14 @@ sed 's/regexp/string/' file > outfile
 diff file1 file2
 ```
 
-*  n{c,a,d}m: sự thay đổi trên 1 dòng \(c\), thêm vào \(a\), xóa đi \(d\) xảy ra trên dòng n của file1 so với dòng m của file2
+* n{c,a,d}m: sự thay đổi trên 1 dòng \(c\), thêm vào \(a\), xóa đi \(d\) xảy ra trên dòng n của file1 so với dòng m của file2
 
 * &lt;: nghĩa là dòng đó không có trong file1
 
 * &gt;: nghĩa là dòng đó không có trong file2
 
-* 
+
+
 * 
 * 
 * 
