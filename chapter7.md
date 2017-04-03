@@ -152,51 +152,12 @@ ps -e | grep firefox
 
 * Hiển thị các thông tin của tất cả tiến trình firefox
 
+### Đa nhiệm \(Multitasking\)
 
+* Lưu ý rằng dù hệ thống UNIX dường như chạy hàng chục hay hàng trăm tiến trình cùng lúc, nhưng một CPU chỉ có thể chạy một tiến trình tại một thời điểm.
+* Việc chuyển đổi giữa các tiến trình làm ta nghĩ rằng chúng đang chạy đồng thời.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Độ ưu tiên \(Priority\)
 
 
 
