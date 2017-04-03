@@ -187,5 +187,15 @@ toupper($1) ∼ /FOO/ {print $2 }' infile
 
 ### Biểu thức quan hệ \(2/2\)
 
+```
+gawk '($1 > .5){print $2 }' infile
+```
+
+Other relation operators:
+
+* , &gt;=, !=, ==
+
+
+
 
 
