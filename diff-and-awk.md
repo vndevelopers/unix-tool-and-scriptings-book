@@ -121,6 +121,12 @@ In trường/từ thứ 2 trên mỗi dòng.
 
 ### Mô phỏng / giả lập câu lệnh khác
 
+Hãy hiện thực lệnh wc -l bằng awk!
+
+```
+gawk 'END{print NR}' README.txt
+```
+
 
 
 
