@@ -80,6 +80,17 @@ AWK là một loại ngôn ngữ dành cho việc xử lí văn bản - cơ sở
 * Biến số và luồng điều khiển trong các thao tác.
 * Cách tiện lợi để truy cập vào các trường bên trong các dòng.
 * Linh động trong việc in ra.
+* Có sẵn các hàm toán học và chuỗi.
+
+### Vài ví dụ đơn giản
+
+```
+gawk ’/[Mm]onster/ {print}’ Frankenstein.txt
+gawk ’/[Mm]onster/’ Frankenstein.txt
+gawk ’/[Mm]onster/ {print $0}’ Frankenstein.txt
+```
+
+
 
 
 
