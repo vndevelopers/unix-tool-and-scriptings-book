@@ -1,4 +1,4 @@
-# diff và awk
+diff và awk
 
 ### Lưu ý về lệnh sed
 
@@ -47,22 +47,9 @@ diff file1 file2
 
 
 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+
+
+
+
 
 
