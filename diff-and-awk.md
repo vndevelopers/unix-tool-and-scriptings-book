@@ -59,9 +59,7 @@ AWK là một loại ngôn ngữ dành cho việc xử lí văn bản - cơ sở
 * Được tạo ra ở Bell Lab vào năm 1970 bởi  Alfred **A**ho, Peter **W**einberger, and Brian **K**ernighan \(awk\)
 * Là tổ tiên của ngôn ngữ Perl và họ hàng với
 
-  * ```
-    sed -P
-    ```
+  * sed -P
 
 
 
