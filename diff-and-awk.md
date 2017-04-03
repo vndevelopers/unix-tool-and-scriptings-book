@@ -52,8 +52,7 @@ AWK là một loại ngôn ngữ dành cho việc xử lí văn bản - cơ sở
 * Cho phép ta dễ dàng thao tác trên nhiều trường \(fields\) thay vì trên tất cả các dòng
 * Hoạt động theo pattern-action \(mẫu-thao tác\) giống như sed
 * Hỗ trợ các loại số \(và các phép tính\) cùng luồng điều khiển \(trạng thái if-else\)
-
-
+* Mở rộng về các loại chuỗi và mảng \(tập hợp mảng\)
 
 
 
