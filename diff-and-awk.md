@@ -95,5 +95,19 @@ gawk '/[Mm]onster/ {print $0}' Frankenstein.txt
 * Tham số $0 được xem như dòng đầy đủ.
 * Gawk hiểu được các biểu thức chính quy mở rộng, vì vậy chúng ta không cần phải thêm +, ?, ...
 
+### Begin và End
+
+* Gawk cho phép một đoạn code chỉ được thực thi một lần duy nhất , tại lúc bắt đầu hoặc lúc kết thúc
+
+```
+gawk 'BEGIN {print "Starting search"}
+    /[Mm]onster/ { count++}
+END {print "Found " count " monsters in the book!}
+' Frankenstein.txt
+```
+
+* Gawk không yêu cầu phải khởi tạo giá trị cho biến
+* Số nguyên được mặc định là 0, còn chuỗi là "" \(NULL\)
+
 
 
