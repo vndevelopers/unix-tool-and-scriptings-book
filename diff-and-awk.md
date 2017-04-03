@@ -1,11 +1,4 @@
-```
-# Hệ thống file UNIX
-```
-
-```
-
-
-```
+# diff và awk
 
 
 
