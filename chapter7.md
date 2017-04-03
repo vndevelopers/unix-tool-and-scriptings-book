@@ -114,3 +114,31 @@ Truyền tải dữ liệu từ/tới máy chủ web
 
 
 
+### Processes \(tiến trình\) và Jobs \(công việc\)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
