@@ -139,5 +139,34 @@ gawk '{print $N}' file
 * $1..$9 $10.. liên hệ đến các trường
 * Dấu ngăn cách các trường mặc định là khoảng trắng
 
+### Trường ngăn cách \(Field separator\)
+
+* FS - trường ngăn cách
+* Mặc định là " "
+
+```
+gawk 'BEGIN { FS = ","} {print $2 }' infile
+```
+
+* gawk -F: cũng cho phép ta thiết lập FS.
+
+### Thống kê
+
+Hãy làm một vài phép toán thống kê dựa trên khảo sát của bạn về khóa học CS2043 bằng cách sử dụng gawk!
+
+### So khớp và gawk
+
+gawk có thể so khớp với bất kì mẫu nào dưới đây:
+
+* /biểu thức chính quy/
+* biểu thức quan hệ
+* exp && exp
+* exp \|\| exp
+* điều kiện ? câu lệnh 1 : câu lệnh 2 - if điều kiện, then câu lệnh 1, else câu lệnh 2
+* ! exp \(biểu thức phủ định\)
+* và nhiều cái khác nữa ...
+
+### Biểu thức quan hệ \(1/2\)
+
 
 
