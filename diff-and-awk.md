@@ -207,17 +207,33 @@ BEGIN {print "Beginning operation"; myval = 0}
 END { print myval}' infile
 ```
 
+### Những loại code có thể sử dụng trong gawk?
 
+gawk code tương tự như ngôn ngữ C
 
+```
+- for(i = ini; i <= end; increment i) {code}
+- if (condition) {code}
+```
 
+Trong 2 trường hợp trên, { } có thể lược bỏ nếu chỉ có một câu lệnh cần được thực thi.
 
+### Những biến khác của gawk
 
+* NF - \# số trường của dòng hiện tại.
+* NR - \# số dòng khi đọc tới
 
+```
+gawk '{for (i=1;i<=NF;i++) print $i }' infile
+```
 
+Câu lệnh này in ra tất cả các từ trong file.
 
+* Bạn không thể thay đổi NF hoặc NR
 
+### Bài học kế tiếp
 
-
+* Những tiện ích tuyệt vời của gawk. Theo dõi nhé!
 
 
 
