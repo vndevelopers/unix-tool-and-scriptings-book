@@ -159,5 +159,11 @@ ps -e | grep firefox
 
 ### Độ ưu tiên \(Priority\)
 
+* Giả sử rằng bạn muốn chạy một chương trình tính toán khoa học trong một thời gian dài có thể là vài ngày và nó ngốn hết 100% CPU. Những người dùng khác thấy vậy và nghĩ rằng bạn không tôn trọng họ \(ngốn hết tài nguyên\).
+* Có cách nào để báo cho máy chủ giảm độ ưu tiên cho tiến trình của bạn?
+*  Có cách nào để tăng độ ưu tiên cho những công việc quan trọng?
+
+* Những lập trình viên của UNIX thấy được điều này và họ ấn định cho mỗi tiến trình một giá trị ưu tiên khi nó khởi chạy.
+
 
 
