@@ -195,5 +195,29 @@ Other relation operators:
 
 * , &gt;=, !=, ==
 
+### gawk và trường đầu vào \(input fields\)
+
+Sức mạnh thật sự của gawk là khả năng tự động chia cách dòng đầu vào thành các trường rời rạc mà chúng được lên hệ bởi các con số.
+
+```
+gawk '
+BEGIN {print "Beginning operation"; myval = 0}
+/debt/ { myval -= $1}
+/asset/ { myval += $1}
+END { print myval}' infile
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
