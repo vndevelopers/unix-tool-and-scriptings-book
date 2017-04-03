@@ -85,12 +85,10 @@ AWK là một loại ngôn ngữ dành cho việc xử lí văn bản - cơ sở
 ### Vài ví dụ đơn giản
 
 ```
-gawk ’/[Mm]onster/ {print}’ Frankenstein.txt
-gawk ’/[Mm]onster/’ Frankenstein.txt
-gawk ’/[Mm]onster/ {print $0}’ Frankenstein.txt
+gawk '/[Mm]onster/ {print}' Frankenstein.txt
+gawk '/[Mm]onster/' Frankenstein.txt
+gawk '/[Mm]onster/ {print $0}' Frankenstein.txt
 ```
-
-
 
 
 
