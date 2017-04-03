@@ -88,11 +88,29 @@ Sao chép thư mục bằng việc sử dụng cờ -r
 scp -r pics/ remote_machine:
 ```
 
+### Những lệnh truyền tải dữ liệu khác
 
+#### wget
 
+```
+wget [tùy chọn] [URL]
+```
 
+Tải về tập tin từ một địa chỉ từ xa thông qua giao thức HTTP. Những tùy chọn phổ biến:
 
+* -r: sao chép đệ quy.
+* -l\[số\]: có bao nhiêu mức độ giảm xuống khi đi theo đường dẫn.
+* -c: tiếp tục tải về từng phần
 
+#### curl
+
+```
+curl [tùy chọn] [URL...]
+```
+
+Truyền tải dữ liệu từ/tới máy chủ web
+
+Để có thêm thông tin về các lệnh này, tham khảo trang chủ của nó.
 
 
 
