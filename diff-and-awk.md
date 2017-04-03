@@ -74,5 +74,12 @@ AWK là một loại ngôn ngữ dành cho việc xử lí văn bản - cơ sở
   ```
 * Mẫu có thể là các biểu thức chính quy. Gawk đến từng dòng một, kiểm tra từng mẫu một và nếu nó được tìm thấy, thì câu lệnh sẽ được thi hành.
 
+### Tại sao lại là gawk mà không phải sed?
+
+* Tiện lởi cho việc xử lí số.
+* Biến số và luồng điều khiển trong các thao tác.
+* Cách tiện lợi để truy cập vào các trường bên trong các dòng.
+* Linh động trong việc in ra.
+
 
 
