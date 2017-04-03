@@ -64,3 +64,35 @@ IdentityFile ~/.ssh/id_rsa
 
 Từ đây, lệnh `ssh office` sẽ kết nối tới `mishmish.cs.cornell.edu` và `ssh tiger` sẽ kết nối tới `tiger.cs.cornell.edu` với username là `Alice`, sử dụng file xác nhận `~/.ssh/id_rsa` và chuyển tiếp X11.
 
+### Sao chép bảo mật \(secure copy - scp\)
+
+* Sao chép tập tin một cách bảo mật qua mạng lưới bằng việc sử dụng mã hóa truyền tải ssh.
+
+Sao chép tập tin tới một máy tính từ xa
+
+```
+scp file [username]@remote_machine:
+```
+
+Sao chép tập tin từ một máy tính từ xa
+
+```
+scp [username]@remote_machine:file .
+```
+
+* Cần phải có dấu ':' sau tên/địa chỉ của máy tính từ xa. Đường dẫn trên máy tính từ xa bắt đầu từ thư mục home có thể được xác định sau dấu ':'
+
+Sao chép thư mục bằng việc sử dụng cờ -r
+
+```
+scp -r pics/ remote_machine:
+```
+
+
+
+
+
+
+
+
+
