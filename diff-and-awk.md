@@ -2,5 +2,9 @@
 
 ### Lưu ý về lệnh sed
 
-\`sed 's/regexp/string/ file'\`
+```
+sed 's/regexp/string/ file'
+```
+
+
 
