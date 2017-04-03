@@ -130,5 +130,73 @@ Làm sao ta có thể giao tiếp với một tiến trình từ tiến trình k
 * Mỗi tiến trình được ấn định duy nhất một "process ID \(định danh tiến trình - PID\)" khi nó được khởi tạo
 * Những PID này khác nhau giữa các instance riêng biệt của cùng một chương trình.
 
+Lệnh lấy thông tin của các tiến trình:
+
+```
+ps [tùy chọn]
+```
+
+* Ghi lại thông tin của các tiến trình đang chạy, gồm cả PID
+
+Mặc đinh, lệnh ps không hoàn toàn hữu ích vì nó chỉ liệt kê các tiến trình được bắt đầu bởi người dùng trong thiết bị đầu cuối \(terminal\) hiện tại. Thay vào đó ta có thể ...
+
+* ps -e: liệt kê tất cả các tiến trình đang chạy trong hệ thống
+* ps -ely: cho nhiều thông tin về tiến trình hơn những gì bạn mong đợi
+* ps -u username: liệt kê tất cả các tiến trình của người dùng có tên username.
+
+Để lấy thông tin về một tiến trình cụ thể, sử dụng kĩ thuật đường ống và lệnh grep
+
+```
+ps -e | grep firefox
+```
+
+* Hiển thị các thông tin của tất cả tiến trình firefox
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
