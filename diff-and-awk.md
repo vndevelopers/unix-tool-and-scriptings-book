@@ -35,5 +35,13 @@ sed 's/regexp/string/' file > outfile
 
 
 
+### Câu lệnh diff
+
+```
+diff file1 file2
+```
+
+
+
 
 
