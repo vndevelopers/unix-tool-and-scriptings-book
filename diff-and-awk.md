@@ -127,7 +127,17 @@ Hãy hiện thực lệnh wc -l bằng awk!
 gawk 'END{print NR}' README.txt
 ```
 
+### gawk và trường đầu vào \(input fields\)
 
+Sức mạnh thật sự của gawk là khả năng tự động chia cách dòng đầu vào thành các trường rời rạc mà chúng được lên hệ bởi các con số.
+
+```
+gawk '{print $N}' file
+```
+
+* $0 xem như toàn bộ dòng
+* $1..$9 $10.. liên hệ đến các trường
+* Dấu ngăn cách các trường mặc định là khoảng trắng
 
 
 
