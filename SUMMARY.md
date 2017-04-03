@@ -10,6 +10,5 @@
 * [ssh, scp, processes: nice, kill, top; jobs](/chapter7.md)
 * [Regular Expressions - Biểu thức chính quy](/chapter8.md)
 * [sed, cron](/chapter9.md)
-
-
+* [diff and awk](diff-and-awk.md)
 
