@@ -168,5 +168,24 @@ gawk có thể so khớp với bất kì mẫu nào dưới đây:
 
 ### Biểu thức quan hệ \(1/2\)
 
+```
+gawk 'BEGIN { FS = ":"}
+toupper($1) ∼ /FOO/ {print $2 }' infile
+```
+
+* toupper\(\), tolower\(\) - hàm có sẵn
+* ~ - gawk so khớp bắng toán tử quan hệ
+
+### Những hàm của gawk
+
+* exp\(x\): lũy thừa của x
+* rand\(\): sinh một số ngẫu nhiên nằm trong khoảng 0 và 1
+* length\(x\): trả về độ dài của x
+* log\(x\): trả về log của x
+* sin\(x\): trả về sin của x
+* int\(x\): trả về phần nguyên của x
+
+### Biểu thức quan hệ \(2/2\)
+
 
 
