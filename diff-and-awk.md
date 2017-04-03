@@ -31,5 +31,9 @@ sed 's/regexp/string/' file > outfile
   mv outfile file
   ```
 
+  Làm thế nào để kiểm tra đầu ra?
+
+
+
 
 
