@@ -190,5 +190,31 @@ Tiếp tục kéo torrent tiếp theo đoạn đã tải về với hết tài n
 
 ### Tùy chỉnh độ ưu tiên
 
+Thay đổi độ ưu tiên của một tiến trình đang chạy.
+
+Câu lệnh renice
+
+```
+renice <độ ưu tiên> -p <PID>
+```
+
+* Thay đổi độ ưu tiên của tiến trình PID về &lt;độ ưu tiên&gt;
+* Chỉ có root mới cho giá trị nhỏ hơn 0
+* Chỉ có thể thay đổi độ ưu tiên cho tiến trình mà bạn đã chạy
+
+Ví dụ:
+
+```
+renice 5 -p 10275
+```
+
+* Chỉnh độ ưu tiên của tiến trình có PID 10275 về 5 \(giả sử nhỏ hơn giá trị mặc định\)
+
+```
+renice 19 -u <username>
+```
+
+* Chỉnh tất cả các tiến trình của người dùng về 19.
+
 
 
