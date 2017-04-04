@@ -161,9 +161,40 @@ ps -e | grep firefox
 
 * Giả sử rằng bạn muốn chạy một chương trình tính toán khoa học trong một thời gian dài có thể là vài ngày và nó ngốn hết 100% CPU. Những người dùng khác thấy vậy và nghĩ rằng bạn không tôn trọng họ \(ngốn hết tài nguyên\).
 * Có cách nào để báo cho máy chủ giảm độ ưu tiên cho tiến trình của bạn?
-*  Có cách nào để tăng độ ưu tiên cho những công việc quan trọng?
+* Có cách nào để tăng độ ưu tiên cho những công việc quan trọng?
 
 * Những lập trình viên của UNIX thấy được điều này và họ ấn định cho mỗi tiến trình một giá trị ưu tiên khi nó khởi chạy.
+
+### Trở nên thân thiện trong mắt mọi người!
+
+Bắt đầu chạy một tiến trình mà chưa có độ ưu tiên mặc định
+
+Câu lệnh nice
+
+```
+nice [tùy chọn] câu_lệnh
+```
+
+* Chạy câu lệnh với một giá trị nice cụ thể \(mặc định là 10\)
+* Giá trị nice nằm trong khoảng -20 \(độ ưu tiên cao nhất\) và 19 \(độ ưu tiên thấp nhất\)
+* Chỉ có root mới cho tiến trình một giá trị nice âm
+* Chạy câu lệnh mà không có nice thì có độ ưu tiên 0
+
+Ví dụ
+
+```
+nice -n 10 azureus
+```
+
+Tiếp tục kéo torrent tiếp theo đoạn đã tải về với hết tài nguyên máy.
+
+### Tùy chỉnh độ ưu tiên
+
+
+
+
+
+
 
 
 
