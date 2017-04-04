@@ -165,7 +165,7 @@ ps -e | grep firefox
 
 * Những lập trình viên của UNIX thấy được điều này và họ ấn định cho mỗi tiến trình một giá trị ưu tiên khi nó khởi chạy.
 
-### Trở nên thân thiện trong mắt mọi người!
+### Trở nên thân thiện với mọi người!
 
 Bắt đầu chạy một tiến trình mà chưa có độ ưu tiên mặc định
 
@@ -189,12 +189,6 @@ nice -n 10 azureus
 Tiếp tục kéo torrent tiếp theo đoạn đã tải về với hết tài nguyên máy.
 
 ### Tùy chỉnh độ ưu tiên
-
-
-
-
-
-
 
 
 
