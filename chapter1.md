@@ -277,15 +277,15 @@ Lúc nào cũng gọi là "GNU/Linux" thì quá nhàm chán, nên cúng ta sẽ 
 
 Nếu bạn đang có một cái máy chạy Windows, đây là một trong các cách :
 
-* cygwin: một môi trường giống Linux cho Windows \([http://www.cygwin.com/](http://www.cygwin.com/\))
-* Bất kìa đĩa Linux Live \([http://www.livecdlist.com](http://www.livecdlist.com\))
+* cygwin: một môi trường giống Linux cho Windows \([http://www.cygwin.com/](http://www.cygwin.com/%29)
+* Bất kìa đĩa Linux Live \([http://www.livecdlist.com](http://www.livecdlist.com%29)
 * Linux trên USB!
 * VMWare: môi trường Unix trên máy ảo chạy trên Windows
 
 ### Apple
 
 * OSX: Cài đặt xcode và chương trình quản lý đóng gói Macports
-  \([www.macports.org](www.macports.org\))
+  \([www.macports.org](www.macports.org%29)
 * IPad hoặc IPhone: Tải app “SSH Term Pro” \(thương mại\)
 
 ### Thời gian tiếp theo
