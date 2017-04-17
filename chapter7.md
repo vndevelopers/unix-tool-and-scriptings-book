@@ -216,5 +216,26 @@ renice 19 -u <username>
 
 * Chỉnh tất cả các tiến trình của người dùng về 19.
 
+### Going rogue...
+
+Để kết thúc một tiến trình đang chạy trong một tiền cảnh \(foreground\) đơn giản chỉ cần Ctrl + C
+
+* Liệu những tiến trình chạy ngầm bên dưới có ngưng làm việc không?
+* Tổ hợp phím Ctrl + Alt + Delete trong UNIX là gì?
+
+### Câu lệnh kill
+
+```
+kill [-signal] <PID>
+```
+
+* Gửi một tín hiệu cụ thể đến tiến trình
+* Mặc định, nó sẽ chấm dứt sự thực thi.
+
+Vậy để kết thúc một tiến trình thì:
+
+* Tìm định danh của tiến trình PID bởi lệnh ps
+* Dùng PID đó để kết thúc tiến trình.
+
 
 
