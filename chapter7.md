@@ -237,5 +237,84 @@ Vậy để kết thúc một tiến trình thì:
 * Tìm định danh của tiến trình PID bởi lệnh ps
 * Dùng PID đó để kết thúc tiến trình.
 
+### Lệnh killall
+
+```
+killall [-signal] <name>
+```
+
+Kết thúc tiến trình theo tên
+
+Ví dụ:
+
+```
+killall firefox
+```
+
+### Những tín hiệu hữu ích của lệnh kill
+
+Tín hiệu dùng với lệnh kill có thể là những cái tên hay một giá trị cụ thể.
+
+* TERM hoặc 15: chấm dứt sự thực thi \(mặc định\)
+* HUP hoặc 1: treo chương trình \(khởi động lại chương trình\)
+* KILL hoặc 9: đánh bay mọi thứ \(có thể giết mọi thứ\)
+
+Nói chung TERM sẽ là tín hiệu được thực thi mặc định
+
+Ví dụ
+
+* kill 9000: kết thúc tiến trình có PID là 9000
+* kill -9 3000: ép kết thúc tiến trình 3000
+* kill -HUP 12118: khởi động lại 12118 \(tiện dụng cho server và daemon\)
+
+### Tất cả trong một: lệnh top
+
+Top là một chương trình nhỏ nhưng rất hữu ích, nó có thể liệt kê và tự động cập nhật thông tin của các chương trình đang chạy. Nó cũng cho phép người dùng để kill hoặc renice các tiến trình khác.
+
+```
+top [-option]
+```
+
+* Liệt kê nhựng tiến trình theo phần trăm tài nguyên CPU đã được nó sử dụng
+* Có thể tùy biến hiển thị, dùng tùy chọn -h để liệt kê danh sách tùy chọn
+* u: chỉ hiển thị thông tin người dùng.
+* Có thể chuyển dụng nhiều task: 'k' - kill, 'r' - renice.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
