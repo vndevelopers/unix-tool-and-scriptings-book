@@ -1,4 +1,4 @@
-# Unix Tools & Scripting
+# Giới thiệu
 
 Sách này được dịch từ khóa học **CS 2043** của **Cornell University** do tác giả **Bruno Abrahao** biên soạn. Đây là link khóa học : [https://www.cs.cornell.edu/courses/CS2043/2014sp/](https://www.cs.cornell.edu/courses/CS2043/2014sp/)
 
@@ -12,6 +12,4 @@ Thank you very much !
 
 * Nguyễn Duy Khanh : [khanhicetea](https://khanhicetea.com)
 * Trương Anh Huy : [tahuy](https://github.com/tahuy)
-
-
 

@@ -1,8 +1,8 @@
-# diff và awk
+# diff and awk
 
-### Lưu ý về lệnh sed
+## Lưu ý về lệnh sed
 
-```
+```text
 sed 's/regexp/string/ file'
 ```
 
@@ -12,13 +12,13 @@ sed 's/regexp/string/ file'
 
 Đừng bao giờ thực hiện câu lệnh này:
 
-```
+```text
 sed 's/regexp/string/ file' > file
 ```
 
 * file sẽ được thay thế bởi file rỗng trước khi sed bắt đầu xử lí
 
-```
+```text
 sed 's/regexp/string/' file > outfile
 ```
 
@@ -27,25 +27,23 @@ sed 's/regexp/string/' file > outfile
 * Không thay đổi file
 * Kiểm tra outfile cho đầu ra mong đợi.
 * Sau đó đổi tên file
-* ```
+* ```text
   mv outfile file
   ```
 
   Làm thế nào để kiểm tra đầu ra?
 
-### Câu lệnh diff
+## Câu lệnh diff
 
-```
+```text
 diff file1 file2
 ```
 
 * n{c,a,d}m: sự thay đổi trên 1 dòng \(c\), thêm vào \(a\), xóa đi \(d\) xảy ra trên dòng n của file1 so với dòng m của file2
-
 * &lt;: nghĩa là dòng đó không có trong file1
-
 * &gt;: nghĩa là dòng đó không có trong file2
 
-### Giới thiệu về AWK
+## Giới thiệu về AWK
 
 AWK là một loại ngôn ngữ dành cho việc xử lí văn bản - cơ sở dữ liệu
 
@@ -54,27 +52,25 @@ AWK là một loại ngôn ngữ dành cho việc xử lí văn bản - cơ sở
 * Hỗ trợ các loại số \(và các phép tính\) cùng luồng điều khiển \(trạng thái if-else\)
 * Mở rộng về các loại chuỗi và mảng \(tập hợp mảng\)
 
-### AWK không phải là awkward \(vụng về\)
+## AWK không phải là awkward \(vụng về\)
 
 * Được tạo ra ở Bell Lab vào năm 1970 bởi  Alfred **A**ho, Peter **W**einberger, and Brian **K**ernighan \(awk\)
 * Là tổ tiên của ngôn ngữ Perl và họ hàng với
-
   * sed -P
-
 * Rất nhiều công dụng.
 
-### Bạn đã từng biết đến gawk?
+## Bạn đã từng biết đến gawk?
 
 * gawk là hiện thực hóa của GNU với chương trình ngôn ngữ AWK. Trên BSD/OS X nó là awk.
 * awk cho phép ta thiết lập các filters \(bộ lọc\) để xử lí văn bản dễ dàng như các con số \(và nhiều hơn nữa\)
 * Cấu trúc cơ bản của một chương trình awk
-* ```
+* ```text
   pattern1 {command}
   pattern2 {command}
   ```
 * Mẫu có thể là các biểu thức chính quy. Gawk đến từng dòng một, kiểm tra từng mẫu một và nếu nó được tìm thấy, thì câu lệnh sẽ được thi hành.
 
-### Tại sao lại là gawk mà không phải sed?
+## Tại sao lại là gawk mà không phải sed?
 
 * Tiện lởi cho việc xử lí số.
 * Biến số và luồng điều khiển trong các thao tác.
@@ -82,9 +78,9 @@ AWK là một loại ngôn ngữ dành cho việc xử lí văn bản - cơ sở
 * Linh động trong việc in ra.
 * Có sẵn các hàm toán học và chuỗi.
 
-### Vài ví dụ đơn giản
+## Vài ví dụ đơn giản
 
-```
+```text
 gawk '/[Mm]onster/ {print}' Frankenstein.txt
 gawk '/[Mm]onster/' Frankenstein.txt
 gawk '/[Mm]onster/ {print $0}' Frankenstein.txt
@@ -95,11 +91,11 @@ gawk '/[Mm]onster/ {print $0}' Frankenstein.txt
 * Tham số $0 được xem như dòng đầy đủ.
 * Gawk hiểu được các biểu thức chính quy mở rộng, vì vậy chúng ta không cần phải thêm +, ?, ...
 
-### Begin và End
+## Begin và End
 
 * Gawk cho phép một đoạn code chỉ được thực thi một lần duy nhất , tại lúc bắt đầu hoặc lúc kết thúc
 
-```
+```text
 gawk 'BEGIN {print "Starting search"}
     /[Mm]onster/ { count++}
 END {print "Found " count " monsters in the book!}
@@ -109,29 +105,29 @@ END {print "Found " count " monsters in the book!}
 * Gawk không yêu cầu phải khởi tạo giá trị cho biến
 * Số nguyên được mặc định là 0, còn chuỗi là "" \(NULL\)
 
-### gawk gawk gawk
+## gawk gawk gawk
 
 Nếu không đưa ra mẫu, thì đoạn mã sẽ thực thi trên từng dòng một.
 
-```
+```text
 gawk '{print $2}' infile
 ```
 
 In trường/từ thứ 2 trên mỗi dòng.
 
-### Mô phỏng / giả lập câu lệnh khác
+## Mô phỏng / giả lập câu lệnh khác
 
 Hãy hiện thực lệnh wc -l bằng awk!
 
-```
+```text
 gawk 'END{print NR}' README.txt
 ```
 
-### gawk và trường đầu vào \(input fields\)
+## gawk và trường đầu vào \(input fields\)
 
 Sức mạnh thật sự của gawk là khả năng tự động chia cách dòng đầu vào thành các trường rời rạc mà chúng được lên hệ bởi các con số.
 
-```
+```text
 gawk '{print $N}' file
 ```
 
@@ -139,22 +135,22 @@ gawk '{print $N}' file
 * $1..$9 $10.. liên hệ đến các trường
 * Dấu ngăn cách các trường mặc định là khoảng trắng
 
-### Trường ngăn cách \(Field separator\)
+## Trường ngăn cách \(Field separator\)
 
 * FS - trường ngăn cách
 * Mặc định là " "
 
-```
+```text
 gawk 'BEGIN { FS = ","} {print $2 }' infile
 ```
 
 * gawk -F: cũng cho phép ta thiết lập FS.
 
-### Thống kê
+## Thống kê
 
 Hãy làm một vài phép toán thống kê dựa trên khảo sát của bạn về khóa học CS2043 bằng cách sử dụng gawk!
 
-### So khớp và gawk
+## So khớp và gawk
 
 gawk có thể so khớp với bất kì mẫu nào dưới đây:
 
@@ -166,9 +162,9 @@ gawk có thể so khớp với bất kì mẫu nào dưới đây:
 * ! exp \(biểu thức phủ định\)
 * và nhiều cái khác nữa ...
 
-### Biểu thức quan hệ \(1/2\)
+## Biểu thức quan hệ \(1/2\)
 
-```
+```text
 gawk 'BEGIN { FS = ":"}
 toupper($1) ∼ /FOO/ {print $2 }' infile
 ```
@@ -176,7 +172,7 @@ toupper($1) ∼ /FOO/ {print $2 }' infile
 * toupper\(\), tolower\(\) - hàm có sẵn
 * ~ - gawk so khớp bắng toán tử quan hệ
 
-### Những hàm của gawk
+## Những hàm của gawk
 
 * exp\(x\): lũy thừa của x
 * rand\(\): sinh một số ngẫu nhiên nằm trong khoảng 0 và 1
@@ -185,9 +181,9 @@ toupper($1) ∼ /FOO/ {print $2 }' infile
 * sin\(x\): trả về sin của x
 * int\(x\): trả về phần nguyên của x
 
-### Biểu thức quan hệ \(2/2\)
+## Biểu thức quan hệ \(2/2\)
 
-```
+```text
 gawk '($1 > .5){print $2 }' infile
 ```
 
@@ -195,11 +191,11 @@ Other relation operators:
 
 * , &gt;=, !=, ==
 
-### gawk và trường đầu vào \(input fields\)
+## gawk và trường đầu vào \(input fields\)
 
 Sức mạnh thật sự của gawk là khả năng tự động chia cách dòng đầu vào thành các trường rời rạc mà chúng được lên hệ bởi các con số.
 
-```
+```text
 gawk '
 BEGIN {print "Beginning operation"; myval = 0}
 /debt/ { myval -= $1}
@@ -207,23 +203,23 @@ BEGIN {print "Beginning operation"; myval = 0}
 END { print myval}' infile
 ```
 
-### Những loại code có thể sử dụng trong gawk?
+## Những loại code có thể sử dụng trong gawk?
 
 gawk code tương tự như ngôn ngữ C
 
-```
+```text
 - for(i = ini; i <= end; increment i) {code}
 - if (condition) {code}
 ```
 
 Trong 2 trường hợp trên, { } có thể lược bỏ nếu chỉ có một câu lệnh cần được thực thi.
 
-### Những biến khác của gawk
+## Những biến khác của gawk
 
 * NF - \# số trường của dòng hiện tại.
 * NR - \# số dòng khi đọc tới
 
-```
+```text
 gawk '{for (i=1;i<=NF;i++) print $i }' infile
 ```
 
@@ -231,9 +227,7 @@ Câu lệnh này in ra tất cả các từ trong file.
 
 * Bạn không thể thay đổi NF hoặc NR
 
-### Bài học kế tiếp
+## Bài học kế tiếp
 
 * Những tiện ích tuyệt vời của gawk. Theo dõi nhé!
-
-
 
